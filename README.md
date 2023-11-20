@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gimnasio los Pinos website
 
-## Getting Started
+This is the repo for storing all of the source code for the Gimnasio los Pinos
+website.
 
-First, run the development server:
+## Hosting setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project was originally deployed to Vercel. Keep in mind that the project
+was moved out from Vercel because in Vercel, once your website has more than
+2500 views monthly you have to pay $20 a month.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Since the Gimnasio los pinos has already a plan with Hosting Colombia, the
+project is now deployed with them, on a VPS.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running the project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### On localhost
 
-## Learn More
+- Clone the project from GitHub and store it somewhere on your computer
+- Go to the location where you have stored the project and run `npm run dev`
+- After running the command a window will open on your default browser with the
+  project running.
 
-To learn more about Next.js, take a look at the following resources:
+### Live
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Go to www.gimnasiolospinos.co
