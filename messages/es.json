@@ -1,0 +1,422 @@
+{
+  "header": {
+    "navbar": {
+      "home-page-link-text": "Inicio",
+      "educational-project-page-link-text": "Proyecto educativo",
+      "academy-page-link-text": "Academia",
+      "services-page-link-text": "Servicios",
+      "international-baccalaureate-page-link-text": "Bachillerato internacional",
+      "admissions-page-link-text": "Admisiones"
+    }
+  },
+  "footer": {
+    "upper-section": {
+      "title": "¿Ya decidiste? Sé parte de nuestra familia gimnapina",
+      "admissions-link-text": "Admisiones"
+    },
+    "mid-section": {
+      "about-us-link-text": "Sobre nosotros",
+      "gallery-link-text": "Galería",
+      "academy-directory-link-text": "Directorio de la academia",
+      "extracurricular-link-text": "Extracurriculares",
+      "classroom-link-text": "Aula",
+      "coexistence-link-text": "Convivencia",
+      "con-papi-link-text": "ConPapi",
+      "contact-us-section": {
+        "title-text": "Contáctenos",
+        "landline-text": "<notable>Teléfono fijo:</notable> PBX (057)(1) 670 00 08",
+        "mobile-phone-text": "<notable>Teléfono móvil:</notable> (057) 300 896 04 75",
+        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia 🇨🇴"
+      }
+    },
+    "lower-section": {
+      "legal-notes-text": "© 2023 Todos los derechos reservados | Gimnasio los Pinos"
+    }
+  },
+  "home-page": {
+    "section-1": {
+      "title": "Educación <meaningful>virtual</meaningful>",
+      "subtitle": "en Gimnasio los pinos",
+      "description": "Ofrecemos a nuestros estudiantes procesos de educación virtual."
+    },
+    "section-2": {
+      "title": "Bienvenido a Gimnasio los Pinos",
+      "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
+      "navbar": {
+        "platforms-link-text": "Plataformas",
+        "strategic-allies-link-text": "Aliados estratégicos",
+        "school-newspaper-link-text": "Periódico escolar",
+        "classroom-link-text": "Aula"
+      }
+    },
+    "section-3": {
+      "title": "¡En Gimnasio los Pinos desarrollamos tu potencial!",
+      "description": "Practicamos la educación a través de la potencialización de los talentos de los estudiantes en deportes, artes, humanidades, ciencias aplicadas con un componente clave: la felicidad del estudiante.",
+      "navbar": {
+        "platforms-link-text": "Plataformas",
+        "strategic-allies-link-text": "Aliados estratégicos",
+        "school-newspaper-link-text": "Periódico escolar",
+        "classroom-link-text": "Aula"
+      }
+    },
+    "section-4": {
+      "title": "Tenemos actividades extracurriculares que desarrollarán el verdadero potencial del estudiante.",
+      "description": "Espacios campestres. Todas nuestras aulas son 100% tecnológicas. Profesores cualificados.",
+      "navbar": {
+        "extracurricular-activities-link-text": "Actividades extracurriculares",
+        "our-campus-link-text": "Nuestro campus"
+      }
+    },
+    "section-5": {
+      "title": "Aliados estratégicos"
+    },
+    "section-6": {
+      "title": "Gimnasio los Pinos",
+      "contact-info-section": {
+        "title": "Información de contacto",
+        "landline-text": "<notable>Teléfono fijo:</notable> PBX (057)(1) 670 00 08",
+        "mobile-phone-text": "<notable>Teléfono móvil:</notable> (057) 300 896 04 75",
+        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia 🇨🇴"
+      },
+      "attention-schedule-section": {
+        "title": "Horario de atención",
+        "description": "De 7:00 a.m. a 4:00 p.m."
+      },
+      "academic-secretariat-section": {
+        "title": "Secretaría académica",
+        "description": "Sara Fuquen <notable>secretaria_academica@gimnasiolospinos.edu.co</notable>"
+      },
+      "billing-section": {
+        "title": "Sección de facturación",
+        "description": "Nazly Díaz <notable>facturacionycartera@gimnasiolospinos.edu.co</notable>"
+      },
+      "human-talent-section": {
+        "title": "Talento humano",
+        "description": "Malorik Sanabria <notable>talentohumano@gimnasiolospinos.edu.co</notable>"
+      },
+      "work-with-us-button-text": "Trabaja con nosotros",
+      "work-with-us-modal": {
+        "description": "En Gimnasio los Pinos seleccionamos y vinculamos talento humano competente enmarcado en valores cooperativos, nos esforzamos por la mejor educación en el país al vincular el mejor talento laboral al servicio de la educación de nuestros niños y niñas de nuestra institución. Si quieres ser parte de nuestro equipo de trabajo, envíanos tu currículum llenando el siguiente formulario.",
+        "teachers-link-text": "Personal docente",
+        "administrative-staff-link-text": "Personal administrativo",
+        "restaurant-staff-link-text": "Personal de restaurante"
+      }
+    }
+  },
+  "educational-project-page": {
+    "section-1": {
+      "title": "Proyecto educativo",
+      "constructivism-collapse": {
+        "title": "Constructivismo",
+        "description": "Considera el aprendizaje como una construcción de cada persona basada en la interacción con el entorno físico y social."
+      },
+      "multiple-intelligences-collapse": {
+        "title": "Múltiples inteligencias",
+        "description": "Te invita a explorar los gustos y pasiones de un estudiante, desde su inteligencia particular hasta el desarrollo de su talento."
+      },
+      "teaching-for-understanding-collapse": {
+        "title": "Enseñanza para la comprensión",
+        "description": "Busca generar aprendizaje en contextos de aplicación y no como ideas teóricas. Por esta razón, utiliza una metodología basada en proyectos de síntesis."
+      },
+      "bilingualism-collapse": {
+        "title": "Bilingüismo",
+        "list": {
+          "item-1-text": "Somos una escuela bilingüe, certificada por pruebas internacionales.",
+          "item-2-text": "Somos un centro preparatorio y examinador de Cambridge.",
+          "item-3-text": "Realizamos evaluaciones en los grados 3 y 8. Certificación oficial en los grados 5 y 11.",
+          "item-4-text": "Los estudiantes de grado 11 realizan el examen académico oficial IELTS con resultados en bandas B2 y C1.",
+          "item-5-text": "Programa de doble titulación en Canadá",
+          "item-6-text": "Acuerdos para inmersiones, intercambios y campamentos de verano."
+        }
+      },
+      "international-baccalaureate-collapse": {
+        "title": "Bachillerato Internacional",
+        "description": "<meaningful>El Programa de los Años Primarios (PYP)</meaningful> se implementa desde el jardín de infancia hasta el grado 5."
+      },
+      "achievement-program-collapse": {
+        "title": "Programa de logros",
+        "list": {
+          "item-1-text": "<meaningful>HabilMente</meaningful>",
+          "item-2-text": "<meaningful>EmocionalMente</meaningful>"
+        }
+      }
+    },
+    "section-2": {
+      "title": "Programa de desarrollo de talentos",
+      "sport-emphasis-section": {
+        "title": "Énfasis en deportes",
+        "description": "Contamos con 12 profesores especializados en tenis, baloncesto, fútbol y voleibol."
+      },
+      "art-emphasis-section": {
+        "title": "Énfasis en arte",
+        "description": "Contamos con 14 profesores especializados en danza, teatro, coro, artes visuales y música."
+      },
+      "humanities-emphasis-section": {
+        "title": "Énfasis en humanidades",
+        "description": "Profesores especializados en ciencias sociales, emprendimiento, liderazgo y comunicación."
+      },
+      "applied-science-section": {
+        "title": "Ciencia aplicada",
+        "description": "Profesores especializados en astronomía, ingeniería, economía y medio ambiente."
+      }
+    },
+    "section-3": {
+      "title": "Actividades",
+      "activities-accordion": {
+        "extracurricular-activities-section": {
+          "title": "Actividades extracurriculares",
+          "description": "Tenemos una amplia gama de actividades deportivas, artísticas, tecnológicas, culturales y educativas para desarrollar las habilidades y mejorar los talentos de nuestros estudiantes. ¡Brillarás con tu potencial!",
+          "show-more-link-text": "Mostrar más"
+        },
+        "glpmun-section": {
+          "title": "GLPMUN - Gimnasio los Pinos, Modelo de Naciones Unidas"
+        },
+        "symphonic-choral-encounter": {
+          "title": "Encuentro coral sinfónico",
+          "description": "Nuestro conservatorio de música es líder en formación artística dirigida a niños y jóvenes (entre 4 y 16 años). Asimismo, estamos equipados con excelentes instalaciones físicas y contamos con 19 profesores especializados. Nuestros estudiantes tienen la posibilidad de aprender saxofón, trombón, violín, trompeta, violonchelo, guitarra, piano, coro, entre otros, para garantizar la mejor formación musical de acuerdo con sus gustos y talentos."
+        },
+        "christmas-show": {
+          "title": "Espectáculo de Navidad",
+          "description": "Como parte de nuestro programa de formación artística, cada año nuestros estudiantes preparan un espectáculo de Navidad. Este evento especial contribuye a su desarrollo psicomotor, emocional e intelectual, a través de la exploración artística de sus potenciales expresivos."
+        }
+      }
+    },
+    "section-4": {
+      "title": "Horario institucional",
+      "see-more-button-link": "Ver más"
+    }
+  },
+  "academy-page": {
+    "title": "Directorio académico",
+    "table": {
+      "head-row": {
+        "name-col-text": "Nombre",
+        "job-col-text": "Cargo",
+        "details-col-text": "Detalles"
+      },
+      "row-1": {
+        "name-col-text": "Carlos Alberto Pájaro Díaz",
+        "job-col-text": "Director académico",
+        "details-col-text": "Soy educador, Magíster en Enseñanza, graduado en ciencias religiosas con estudios en filosofía y literatura. Tengo un compromiso personal con la mejora de la calidad escolar a través del ejercicio de liderazgo educativo e investigación en el campo del desarrollo cognitivo en la educación.<br></br>A lo largo de mi carrera docente he desempeñado diversos roles, como profesor de filosofía, coordinación de convivencia y dirección académica. A nivel universitario, he sido profesor de humanidades en la Universidad De La Salle. Y en el sector financiero he sido director nacional de educación para la cooperativa financiera Progressa.<br></br>En este camino profesional he asumido apasionadamente el propósito de mejorar como seres humanos a través de la educación, que desarrollo en la dirección de proyectos educativos bajo estándares nacionales e internacionales, diseño curricular y liderazgo de equipos docentes de alto rendimiento. Pero sin duda, lo que más me gusta hacer es ingresar a las aulas, hablar con niños y jóvenes para despertar inquietudes sobre el deseo de ser más amables y honorables."
+      },
+      "row-2": {
+        "name-col-text": "Ángela Romero",
+        "job-col-text": "Directora de primera sección",
+        "details-col-text": "Mi nombre es Ángela Romero, graduada en psicología y pedagogía, especialista en neuropsicología infantil y actualmente maestría en desarrollo infantil. Durante 19 años he tenido la fortuna de compartir escenarios educativos en diferentes niveles escolares, en distintos cargos, como: docente, jefa de área, psicóloga educativa, coordinadora de ciclo y directora de sección.<br></br>Mi mayor pasión es trabajar con niños, porque gracias a las experiencias que he tenido con ellos, he reafirmado mi vocación como docente.<br></br>Decidí especializarme en la primera infancia porque los niños, para mí, son la expresión tangible de lo que significan espontaneidad, transparencia, alegría, curiosidad y resiliencia."
+      },
+      "row-3": {
+        "name-col-text": "Diana Patricia Gordillo Ballen",
+        "job-col-text": "Directora de segunda sección",
+        "details-col-text": "Para apoyar la formación integral de los estudiantes de segunda sección, aplico compromiso, dedicación, liderazgo, comunicación asertiva, escucha y trabajo en equipo.<br></br>Soy licenciada en matemáticas y mi formación académica, humana y laboral se ha centrado en el desarrollo e implementación de estrategias educativas, con las cuales he contribuido al logro de los objetivos estratégicos de nuestra escuela.<br></br>He trabajado en diversos roles desde la enseñanza hasta la jefatura de área, un recorrido que he construido de manera agradable durante más de 12 años.<br></br>He realizado estudios en Gestión Educativa, Neuropsicología y gestión de sistemas de calidad.<br></br>Mi experiencia en el aula, en primaria y secundaria, me ha permitido realizar investigaciones sobre la educación matemática, gracias a esto fui ponente en un foro internacional sobre proyectos transversales."
+      },
+      "row-4": {
+        "name-col-text": "Germán Rodolfo Barbosa",
+        "job-col-text": "Director de tercera sección",
+        "details-col-text": "La educación como referencia para el cambio y la evolución de la sociedad ha sido mi motivación desde mis primeros semestres en la Universidad Distrital, institución de la cual me gradué hace más de 20 años. En Gimnasio Los Pinos he trabajado en diversos roles, fui profesor, jefe de área, director de sección y ahora soy padre de una estudiante, ya que mi hija Gabriela ingresó a la secundaria, una etapa en la que comienzan todas las dinámicas del desarrollo estudiantil.<br></br>En un mundo globalizado y con expectativas de cambio social; es necesario que nosotros, como educadores, docentes y formadores, estemos actualizados a nivel de formación y capital cultural, razón por la cual en 2018 finalicé mi maestría en Educación con Énfasis en la Calidad de la Educación, en la Universidad Externado de Colombia."
+      },
+      "row-5": {
+        "name-col-text": "Diego Alberto Mojica Eugenio",
+        "job-col-text": "Director de cuarta sección",
+        "details-col-text": "Nací en Málaga Santander, en una familia donde Dios, la familia y los valores son la base formativa de la persona. Vivo inspirado y motivado por Juan Diego, mi hermoso hijo de 7 años.<br></br>Considero un honor dirigir la cuarta sección del Gimnasio Los Pinos, que incluye los grados noveno, décimo y undécimo. Esta es la última etapa en la escuela, en la que se sintetizan muchos de los aprendizajes para la vida y nuestros estudiantes se muestran como un ejemplo para los más pequeños. En esta sección fortalecemos la autonomía de los jóvenes, sin dejar de lado el papel fundamental de la familia y su entorno, para lograr juntos una proyección hacia la vida universitaria."
+      },
+      "row-6": {
+        "name-col-text": "Patricia González",
+        "job-col-text": "Coordinadora del Programa de Escuela Primaria (PEP)",
+        "details-col-text": "Soy Patricia González, Coordinadora del Programa de Escuela Primaria (PEP) en Gimnasio Los Pinos, y durante 15 años he tenido la fortuna de trabajar en lo que más me apasiona, la educación.<br></br>Estoy convencida de que esta es la etapa adecuada para 'Cultivar el Potencial' de niños y jóvenes, también para transformar y construir conocimiento.<br></br>Gimnasio los Pinos encontró en el Bachillerato Internacional"
+      },
+      "row-7": {
+        "name-col-text": "Gladys Arenas Molina",
+        "job-col-text": "Jefa del área social",
+        "details-col-text": "Nací en Bogotá, D.C. en una familia de educadores. Vivo inspirada y motivada por mi hijo Francisco Javier y mi querido esposo.<br></br>Es motivo de orgullo para mí dirigir el Área Social del Gimnasio Los Pinos, que incluye el Programa de Escuela Primaria (PEP) y Bachillerato desde sexto hasta undécimo grado, en las materias: Filosofía, Social, Ética-Silla para la Paz y Énfasis en Humanidades.<br></br>Intento acercar a nuestros Gimnapinos al conocimiento científico social, al desarrollo del pensamiento crítico reflexivo y al fortalecimiento de competencias ciudadanas.<br></br>En cuanto a mi formación académica, tengo una licenciatura en Ciencias Sociales y Económicas; Maestría en Educación con énfasis en investigación; especializaciones en Administración y Gestión Educativa; Pedagogía y Docencia Universitaria; 2 años de estudios doctorales en la Universidad Autónoma de Aguascalientes (México); Experiencia docente en Educación Superior por más de 10 años y en aulas escolares por más de 20 años. Colaboradora en la línea de investigación de COLCIENCIAS. He participado en conferencias, foros, coloquios, seminarios, presentaciones, conferencias y mesas redondas internacionales, nacionales, regionales y locales; Soy auditor certificado de la norma ISO 9001:2015; jurado - asesor de trabajos de pregrado y posgrado; mentor del Programa de Años Primarios (PEP)."
+      },
+      "row-8": {
+        "name-col-text": "Yuli Andrea Rodríguez ",
+        "job-col-text": "Jefa del área de matemáticas",
+        "details-col-text": "Nací en Bogotá, tengo grandes valores personales y un profundo deseo de aprender, enseñar e investigar, así como contribuir al desarrollo de nuestros estudiantes, en términos de habilidades y aprendizaje de las matemáticas. Tengo más de 10 años de experiencia en diferentes roles docentes y actualmente lidero los procesos en el área de matemáticas en el Gimnasio Los Pinos.<br></br>Mi objetivo fundamental es liderar procesos donde se favorezca el interés de los estudiantes y se promueva una amplia gama de situaciones de trabajo, haciendo uso de diversos recursos que permitan verificar los resultados obtenidos y una adecuada conceptualización.<br></br>Tengo una licenciatura en matemáticas, soy especialista en Legislación Educativa y Procedimientos Constitucionales, autora de textos de geometría analítica, con conocimientos en diseño, administración y montaje de cursos virtuales de aprendizaje en Moodle, conocimientos y gestión de programas en matemáticas y geometría interactiva. He participado en diferentes encuentros como: La reunión de Geometría y sus aplicaciones, el Congreso Iberoamericano de Cabri y el evento internacional Matecompu en Cuba."
+      },
+      "row-9": {
+        "name-col-text": "Andrés David Pérez Barrera",
+        "job-col-text": "Jefe del área de español",
+        "details-col-text": "Nací en la ciudad de Bogotá, en una familia organizada compuesta por una madre y un padre que me formaron en valores y me dieron la posibilidad de lograr la mejor educación.<br></br>He completado estudios en varios campos, como literatura, pedagogía, inglés, emprendimiento empresarial y algunos talleres del Bachillerato Internacional. Actualmente tengo diez años de experiencia trabajando en colegios en la ciudad de Bogotá.<br></br>Es motivo de orgullo para mí servir como jefe del área de idiomas en el Gimnasio Los Pinos. Considero que es una de las áreas de conocimiento más importantes, porque a través de ella se desarrollan habilidades de comunicación, habilidades de creación de textos y, sobre todo, se fortalece la forma de entender el mundo desde el contacto con el alma y la expresión.<br></br>Además de apasionarme el trabajo en equipo, disfruto escribir, leer y crear textos. Es por eso que formo parte del periódico escolar, donde tengo la oportunidad de trabajar con toda la comunidad en el desarrollo de GLPost. Este proyecto permite que nuestros estudiantes se destaquen en una comunidad globalizada en el futuro por su talento como periodistas, cronistas, fotógrafos o incluso escritores de sagas literarias."
+      },
+      "row-10": {
+        "name-col-text": "Alexander Gerena",
+        "job-col-text": "Jefe del área de artes",
+        "details-col-text": "Nací en Bogotá, he sido amante de la música desde una edad temprana, creo firmemente que el arte es una herramienta poderosa para transformar vidas de manera positiva.<br></br>La práctica y el aprendizaje de una disciplina artística tienen una capacidad formativa y también impactan en la detección y mejora de talentos, además fortalecen el desarrollo de habilidades en los campos social, emocional y cognitivo.<br></br>Dirigir el área de expresión artística del Gimnasio Los Pinos es una tarea que me llena de orgullo, dado que hay pocos colegios en América Latina que cuentan con un conservatorio musical, compuesto por 12 profesores altamente calificados.<br></br>En cuanto a mi formación, soy músico e ingeniero de sonido, con una maestría en Mercado de Arte y una maestría en Gestión Cultural. Tengo 15 años de experiencia en la enseñanza de música y en eventos artísticos desde la producción. Mis 10 años de experiencia en el conservatorio del Gimnasio Los Pinos me han permitido trabajar como profesor, ingeniero de sonido y gerente de área. Esto me inspira a consolidar y fortalecer procesos existentes, de la mano del diseño y desarrollo de proyectos de alta calidad con impacto para la comunidad del Gimnasio Los Pinos."
+      },
+      "row-11": {
+        "name-col-text": "Oscar Julián Rubio Pérez",
+        "job-col-text": "Jefe del área de tecnología e informática",
+        "details-col-text": "Nací en Guaduas, Cundinamarca, en una familia compuesta por un padre y una madre, quienes se enfocaron en inculcarme valores como el amor, el respeto y la empatía hacia los demás. De ahí nació mi amor por mi profesión docente.<br></br>Desde mi trabajo como jefe del área de tecnología en el Gimnasio Los Pinos, he construido un currículo con estándares nacionales e internacionales, enfocado en el desarrollo de habilidades de pensamiento computacional, diseño tecnológico y gestión de la información, dirigido a nuestros estudiantes.<br></br>En cuanto a mi formación académica, tengo una licenciatura en Electrónica con Especialización en Instrumentación Industrial y una maestría en E-learning y redes sociales de aprendizaje.<br></br>Tengo experiencia en la gestión de tecnologías de la información y comunicación, en procesos de apoyo pedagógico y fortalecimiento curricular en ciencia y tecnología. Soy auditor certificado de la norma ISO 9001:2015. He realizado cursos de actualización en el modelo de enseñanza IB, MYP y PYP. Tengo un uso avanzado de herramientas de oficina, programación de software, conocimientos en el diseño y administración de entornos virtuales de aprendizaje."
+      },
+      "row-12": {
+        "name-col-text": "Bibiana Fajardo Circado",
+        "job-col-text": "Jefa del área de idiomas extranjeros",
+        "details-col-text": "Mi ciudad natal es Bogotá, como nativa de Bogotá, he tenido la oportunidad de conocer y disfrutar la ciudad entendiendo que, por ser la capital, tenemos la oportunidad de compartir diferentes puntos de vista y culturas.<br></br>Me encargo de dirigir el Departamento de Inglés de la institución donde a lo largo de los años hemos obtenido triunfos académicos que permiten a nuestros graduados tener una vida universitaria con excelentes fundamentos en el idioma y resultados académicos que les permiten, según sus intereses, obtener becas en el extranjero, teniendo la facilidad de aplicar a universidades con la opción de homologar el inglés en sus carreras.<br></br>Estudié Lenguas Modernas y he tenido la experiencia de vivir en un país de habla inglesa, teniendo la oportunidad de continuar mi crecimiento profesional en Long Island University con una cátedra en estudios culturales, por otro lado, en Century College (Minnesota) profundizando en el aprendizaje de idiomas. La participación en congresos como TESOL nos da la oportunidad de fortalecer nuestras prácticas y estar a la vanguardia de la enseñanza del inglés como segundo idioma. Auditora certificada de la norma ISO 9001:2015. En la escuela he tenido la oportunidad de trabajar como profesora en grados de primaria y secundaria y ahora como jefa de área.<br></br>La mayor gratificación en nuestras vidas ocurre cuando nos encontramos con un estudiante/exalumno y recuerdan tu trabajo, es ahí donde analizamos que este trabajo va más allá del tiempo, es una marca para toda la vida."
+      },
+      "row-13": {
+        "name-col-text": "Fabián Orlando Bogotá Riveros",
+        "job-col-text": "Jefe del área de ciencias",
+        "details-col-text": "Nacido en Bogotá, me considero un emprendedor e investigador en el campo de la didáctica y la enseñanza de las matemáticas y las ciencias, con altos valores profesionales y un deseo de aprendizaje continuo.<br></br>Tengo 10 años de experiencia en la comunidad educativa en diferentes campos de enseñanza. Quiero liderar procesos que vinculen a los estudiantes para identificar la fenomenología de todo lo que nos rodea, cuidar el medio ambiente y desarrollar con los estudiantes el interés y la pasión por la ciencia.<br></br>Tengo un título en Matemáticas, con especialización en enseñanza universitaria y una maestría en la enseñanza de ciencias exactas y naturales. He desarrollado proyectos de investigación en la enseñanza de ciencias y matemáticas utilizando la astronomía, el emprendimiento y situaciones de la vida cotidiana como un medio científico. También soy profesor y gestiono proyectos de investigación en instituciones de educación superior. Actualmente lidero los procesos en el área de ciencias y educación ambiental en Gimnasio los Pinos."
+      }
+    }
+  },
+  "services-page": {
+    "title": "Gimnasio los Pinos",
+    "description": "Educamos y formamos a las personas que transformarán nuestra sociedad, a través de experiencias significativas que desarrollan sus talentos.",
+    "section-1": {
+      "title": "Psicología",
+      "description": "La misión del departamento de Psicología es generar apoyo y orientación para la comunidad educativa. El área se encarga de funciones que sirven como herramientas para facilitar los procesos de desarrollo humano en estudiantes, sus familias, el equipo docente, los directores y otros colaboradores de la institución.<br></br>Una de las funciones principales del Departamento es proporcionar un espacio de orientación para estudiantes y sus padres y/o tutores.<br></br>Los estudiantes pueden acceder al servicio de Psicología de forma voluntaria, a través de intervención en crisis, o a solicitud de sus padres y/o tutores. También pueden asistir a este espacio por remisión de compañeros de curso, directores de sección, rectoría e infirmería.<br></br>Asimismo, el Departamento de Psicología se encarga de realizar entrevistas familiares, que se llevan a cabo en el proceso de admisión escolar."
+    },
+    "section-2": {
+      "title": "Transporte",
+      "info": "Gimnasio los Pinos respalda y sugiere el servicio de transporte puerta a puerta con INTEGRATUR S.A.S, una empresa certificada con ISO 9001:2015; 14000:2015 OHSAS 18001 y RUC (Consejo Colombiano de Seguridad).<br></br>La cobertura de rutas y la moderna flota de vehículos se ajusta según el número de estudiantes, asignando un vehículo apropiado según la capacidad requerida y los tiempos de viaje.",
+      "instructions": "Para realizar pagos a través de la plataforma, por favor haga clic en el logotipo de la empresa arriba. <notable>El nombre de usuario es el código del estudiante</notable> y <notable>la contraseña es INTEGRATUR</notable>."
+    },
+    "section-3": {
+      "list": {
+        "restaurant": {
+          "title": "Restaurante",
+          "download-menu-link-text": "Descargar el menú"
+        },
+        "infirmary": {
+          "title": "Enfermería",
+          "see-more-link-text": "Ver más"
+        },
+        "uniforms": {
+          "title": "Uniformes",
+          "see-more-link-text": "Ver más"
+        }
+      },
+      "infirmary-modal": {
+        "title": "Enfermería",
+        "description": "Nuestro equipo de talento humano está altamente calificado y cuenta con los recursos necesarios para brindar atención primaria básica en caso de emergencia.<br></br>Proporcionamos a nuestros estudiantes atención de calidad, de manera ágil y oportuna, para cualquier necesidad de salud que surja y requiera atención primaria.",
+        "list-introductory-text": "Tenga en cuenta la siguiente información",
+        "list": {
+          "item-1-text": "El objetivo de Enfermería es proporcionar atención primaria inmediata y oportuna en caso de cualquier tipo de eventualidad durante el día académico. Por lo tanto, no suministramos medicamentos ni realizamos diagnósticos médicos (excepto en algunos casos, dependiendo del tipo de evento, se realizará un examen físico y se determinará el procedimiento que se ajuste a la situación de cada estudiante).",
+          "item-2-text": "No atendemos consultas de padres, ni se monitorean enfermedades crónicas o estacionales.",
+          "item-3-text": "La Enfermería no suministra ningún tipo de medicamento, a menos que esté debidamente autorizado con una orden médica emitida por el profesional de la salud (médico especialista).",
+          "item-4-text": "Autorizar la ausencia de un estudiante debido a un accidente o enfermedad requerirá una evaluación previa por parte de la Oficina de Enfermería, que se basará en hallazgos físicos y sintomáticos, y también se validará en comunicación telefónica con los padres del estudiante. Es importante enviar la incapacidad médica cuando el tipo de evento lo requiera, esto para adjuntarlo al expediente médico y respaldarlo ante los profesores. En la Enfermería del Gimnasio Los Pinos nos preocupamos por el bienestar de todos, por eso brindamos la atención necesaria al estudiante, basada en su diagnóstico y recomendación médica.",
+          "item-5-text": "En ningún caso se permitirá que estudiantes enfermos o heridos abandonen la institución sin sus padres y/o tutores, de igual manera en servicios de ambulancia no solicitados directamente por el Departamento de Enfermería, a menos que el estudiante salga con uno de sus padres o tutor legalmente registrado. Se debe tener en cuenta que esto solo ocurrirá si la condición en la que se encuentra el estudiante pone en peligro su vida o la pérdida de la misma.",
+          "item-6-text": "Los estudiantes que visiten la enfermería con recurrencia serán informados de esta situación y solo se les brindará servicio de emergencia en caso de accidente o evaluación grave.",
+          "item-7-text": "La enfermera puede informar a las directivas cualquier situación que, en su opinión, implique negligencia o abuso por parte de los padres. En estos casos, los padres serán citados de inmediato y, para que el estudiante regrese a sus deberes académicos, deben llevar un registro de la evaluación y tratamiento.",
+          "item-8-text": "Los estudiantes que asistan a la enfermería durante el horario de clase o durante los periodos de clase deben llegar con el permiso por escrito del profesor.",
+          "item-9-text": "Apoyamos las campañas epidemiológicas del Ministerio de Salud. Como parte de estas medidas, los estudiantes que tengan síntomas graves de gripe no deben asistir a la escuela hasta que mejoren. Si asisten a la institución, se les devolverá a casa."
+        },
+        "nurse-card": {
+          "name-text": "<notable>Enfermera:</notable> Leidy Martínez",
+          "email-text": "<notable>Correo electrónico:</notable> enfermeria@gimnasiolospinos.edu.co",
+          "landline-text": "<notable>Teléfono fijo:</notable> 670 0008 Ext. 117, Bogotá, Colombia 🇨🇴",
+          "mobile-phone-text": "<notable>Teléfono móvil:</notable> 300 896 07 26"
+        }
+      }
+    }
+  },
+  "international-baccalaureate-page": {
+    "section-1": {
+      "title": "Bachillerato Internacional",
+      "description": "Cada uno de los programas de IB está comprometido con el desarrollo del perfil de la comunidad de aprendizaje de IB en los estudiantes. Este perfil tiene como objetivo formar estudiantes que sean:",
+      "list": {
+        "item-1-text": "Investigadores",
+        "item-2-text": "Informados e instruidos",
+        "item-3-text": "Pensadores",
+        "item-4-text": "Buenos comunicadores",
+        "item-5-text": "Íntegros",
+        "item-6-text": "De mentalidad abierta",
+        "item-7-text": "Solidarios",
+        "item-8-text": "Audaces",
+        "item-9-text": "Equilibrados",
+        "item-10-text": "Reflexivos"
+      }
+    },
+    "section-2": {
+      "text": "Gimnasio los Pinos está implementando el Programa de Escuela Primaria (PEP) desde Jardín Infantil hasta 5º grado.<br></br>El PEP prepara a los estudiantes para ser aprendices activos, solidarios y de por vida, para demostrar respeto por sí mismos y otros, y tener la capacidad de participar en el mundo que les rodea. Se centra en el desarrollo integral del niño."
+    },
+    "section-3": {
+      "title": "El currículo del PEP",
+      "description": "Entregado en más de 109 países alrededor del mundo, el marco curricular del PEP se alinea excepcionalmente bien con los requisitos estatales y nacionales. Guiados por seis temas transdisciplinarios de importancia global, los estudiantes profundizan su aprendizaje desarrollando su comprensión conceptual, lo que les permite fortalecer sus conocimientos y habilidades en áreas disciplinarias y más allá.",
+      "image-fig-caption": "Para obtener más información, puedes consultar el sitio <link>www.ibo.org</link>"
+    }
+  },
+  "admissions-page": {
+    "section-1": {
+      "title": "Proceso de admisión",
+      "forms-section": {
+        "title": "Formularios",
+        "list": {
+          "item-1-text": "Preinscripción",
+          "item-2-text": "Inscripción",
+          "item-3-text": "Compra de formulario"
+        }
+      },
+      "supply-list-section": {
+        "title": "Lista de útiles escolares"
+      },
+      "uniforms": {
+        "title": "Uniformes"
+      }
+    },
+    "section-2": {
+      "step-1": {
+        "title": "Paso 1",
+        "description": "Llenar el formulario de preinscripción"
+      },
+      "step-2": {
+        "title": "Paso 2",
+        "description": "Comprar el formulario"
+      },
+      "step-3": {
+        "title": "Paso 3",
+        "description": "Registro virtual y envío de documentación"
+      },
+      "step-4": {
+        "title": "Paso 4",
+        "description": "Pruebas Académicas Virtuales"
+      },
+      "step-5": {
+        "title": "Paso 5",
+        "description": "Entrevista psicológica virtual"
+      },
+      "step-6": {
+        "title": "Paso 6",
+        "description": "Entrevista de inglés virtual"
+      },
+      "step-7": {
+        "title": "Paso 7",
+        "description": "Resultados"
+      },
+      "step-8": {
+        "title": "Paso 8",
+        "description": "Proceso de matriculación virtual"
+      }
+    },
+    "section-3": {
+      "title": "En Gimnasio los Pinos cultivamos tu potencial",
+      "list": {
+        "item-1-text": "Somos una escuela bilingüe",
+        "item-2-text": "Programa de doble titulación",
+        "item-3-text": "Énfasis en música y artes",
+        "item-4-text": "Énfasis en humanidades e investigación",
+        "item-5-text": "Énfasis en deportes",
+        "item-6-text": "Énfasis en ciencias aplicadas y emprendimiento"
+      }
+    },
+    "section-4": {
+      "title": "Espacios para ser felices",
+      "list": {
+        "item-1-text": "3 campos de fútbol / minifútbol",
+        "item-2-text": "3 canchas de tenis de arcilla",
+        "item-3-text": "4 coliseos cubiertos",
+        "item-4-text": "2 canchas de voleibol",
+        "item-5-text": "2 parques infantiles",
+        "item-6-text": "1 cancha de tenis taraflex",
+        "item-7-text": "1 conservatorio de música único en su tipo en América Latina",
+        "item-8-text": "Aulas tipo anfiteatro inclinadas",
+        "item-9-text": "Provisión personalizada de equipos informáticos"
+      }
+    },
+    "section-5": {
+      "title": "Nuestro campus"
+    }
+  }
+}
