@@ -138,7 +138,7 @@
         }
       },
       "international-baccalaureate-collapse": {
-        "title": "international-baccalaureate",
+        "title": "International baccalaureate",
         "description": "<meaningful>The Primary Years Programme (PYP)</meaningful> is implemented from Kindergarten to grade 5."
       },
       "achievement-program-collapse": {
@@ -151,6 +151,7 @@
     },
     "section-2": {
       "title": "Talent development program",
+      "description": "Schedule intensity over a traditional educative curriculum",
       "sport-emphasis-section": {
         "title": "Sport emphasis",
         "description": "We have 12 teachers specialized in tennis, basketball, soccer and volleyball."
