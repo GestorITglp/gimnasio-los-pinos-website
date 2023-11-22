@@ -268,7 +268,9 @@
         "job-col-text": "Jefe del área de ciencias",
         "details-col-text": "Nacido en Bogotá, me considero un emprendedor e investigador en el campo de la didáctica y la enseñanza de las matemáticas y las ciencias, con altos valores profesionales y un deseo de aprendizaje continuo.<br></br>Tengo 10 años de experiencia en la comunidad educativa en diferentes campos de enseñanza. Quiero liderar procesos que vinculen a los estudiantes para identificar la fenomenología de todo lo que nos rodea, cuidar el medio ambiente y desarrollar con los estudiantes el interés y la pasión por la ciencia.<br></br>Tengo un título en Matemáticas, con especialización en enseñanza universitaria y una maestría en la enseñanza de ciencias exactas y naturales. He desarrollado proyectos de investigación en la enseñanza de ciencias y matemáticas utilizando la astronomía, el emprendimiento y situaciones de la vida cotidiana como un medio científico. También soy profesor y gestiono proyectos de investigación en instituciones de educación superior. Actualmente lidero los procesos en el área de ciencias y educación ambiental en Gimnasio los Pinos."
       }
-    }
+    },
+    "open-modal-btn-text": "Ver detalles",
+    "close-modal-btn-text": "Cerrar"
   },
   "services-page": {
     "title": "Gimnasio los Pinos",

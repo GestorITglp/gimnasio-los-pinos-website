@@ -268,7 +268,9 @@
         "job-col-text": "Head of science",
         "details-col-text": "Born in Bogotá, I consider myself an entrepreneur and researcher in the field of didactics and the teaching of mathematics and science, with high professional values and a desire for continuous learning.<br></br>I have 10 years of experience in the educational community in different fields of teaching, I want to lead processes that link students to identify the phenomenology of everything that surrounds us, take care of the environment and develop with students the interest and passion for science.<br></br>I have a degree in Mathematics, with a specialization in university teaching and a Master's degree in the teaching of exact and natural sciences, I have developed research projects in science and mathematics teaching using astronomy, entrepreneurship and everyday life situations as a scientific medium, I am also a professor and manage research projects in higher education institutions. I currently lead the processes in the area of science and environmental education at Gimnasio los Pinos."
       }
-    }
+    },
+    "open-modal-btn-text": "See details",
+    "close-modal-btn-text": "Close"
   },
   "services-page": {
     "title": "Gimnasio los Pinos",
