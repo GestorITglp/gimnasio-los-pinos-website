@@ -285,6 +285,7 @@
       "instructions": "Para realizar pagos a través de la plataforma, por favor haga clic en el logotipo de la empresa arriba. <notable>El nombre de usuario es el código del estudiante</notable> y <notable>la contraseña es INTEGRATUR</notable>."
     },
     "section-3": {
+      "title": "Otros servicios",
       "list": {
         "restaurant": {
           "title": "Restaurante",
@@ -302,7 +303,7 @@
       "infirmary-modal": {
         "title": "Enfermería",
         "description": "Nuestro equipo de talento humano está altamente calificado y cuenta con los recursos necesarios para brindar atención primaria básica en caso de emergencia.<br></br>Proporcionamos a nuestros estudiantes atención de calidad, de manera ágil y oportuna, para cualquier necesidad de salud que surja y requiera atención primaria.",
-        "list-introductory-text": "Tenga en cuenta la siguiente información",
+        "list-introductory-text": "Tenga en cuenta la siguiente información:",
         "list": {
           "item-1-text": "El objetivo de Enfermería es proporcionar atención primaria inmediata y oportuna en caso de cualquier tipo de eventualidad durante el día académico. Por lo tanto, no suministramos medicamentos ni realizamos diagnósticos médicos (excepto en algunos casos, dependiendo del tipo de evento, se realizará un examen físico y se determinará el procedimiento que se ajuste a la situación de cada estudiante).",
           "item-2-text": "No atendemos consultas de padres, ni se monitorean enfermedades crónicas o estacionales.",
@@ -319,7 +320,8 @@
           "email-text": "<notable>Correo electrónico:</notable> enfermeria@gimnasiolospinos.edu.co",
           "landline-text": "<notable>Teléfono fijo:</notable> 670 0008 Ext. 117, Bogotá, Colombia 🇨🇴",
           "mobile-phone-text": "<notable>Teléfono móvil:</notable> 300 896 07 26"
-        }
+        },
+        "close-button-text": "Cerrar"
       }
     }
   },

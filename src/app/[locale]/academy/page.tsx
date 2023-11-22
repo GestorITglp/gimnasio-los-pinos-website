@@ -9,7 +9,7 @@ interface Props {
   };
 }
 
-const page: FC<Props> = ({ params: { locale } }) => {
+const AcademyPage: FC<Props> = ({ params: { locale } }) => {
   const t = useTranslations('academy-page');
 
   const iconSize = 50;
@@ -33,15 +33,13 @@ const page: FC<Props> = ({ params: { locale } }) => {
 
   return (
     <main className='flex flex-col gap-[50px]'>
-      <section className='px-[400px] flex flex-row justify-center items-center flex-wrap gap-10'>
-        <h1 className={`w-[300px] ${h2Classes}`}>{t('title')}</h1>
-        <Image
-          className='w-[500px]'
-          src='/academyPageSection1.png'
-          width={500}
-          height={500}
-          quality={100}
+      <section
+        className={`relative w-full px-[200px] flex flex-col justify-center gap-10 min-h-[50vh] bg-cover bg-no-repeat bg-[url("/academyPageSection1.jpeg")] bg-center`}
+      >
+        <div
+          className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
         />
+        <h2 className={`${h2Classes} text-white`}>{t('title')}</h2>
       </section>
       <div className='overflow-x-auto'>
         <table className='table'>
@@ -680,4 +678,4 @@ const page: FC<Props> = ({ params: { locale } }) => {
   );
 };
 
-export default page;
+export default AcademyPage;

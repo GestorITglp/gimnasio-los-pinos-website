@@ -1,14 +1,17 @@
 'use client';
 
-import { FC, useId } from 'react';
+import { FC, useId, ReactNode, CSSProperties } from 'react';
 
 interface Props {
-  image: string;
+  image?: string;
   title: string;
-  subtitle: string;
-  description: string;
-  openBtnText: string;
+  subtitle?: string;
+  description?: string;
+  openBtnText?: string;
   closeBtnText: string;
+  labelContent?: ReactNode;
+  additionalContent?: ReactNode;
+  styles?: CSSProperties;
 }
 
 const Modal: FC<Props> = ({
@@ -18,17 +21,21 @@ const Modal: FC<Props> = ({
   description,
   openBtnText,
   closeBtnText,
+  labelContent,
+  additionalContent,
+  styles,
 }) => {
   const id = useId();
+  const labelClasses = labelContent ? '' : 'btn';
 
   return (
     <>
       {/* The button to open modal */}
       <label
         htmlFor={id}
-        className='btn'
+        className={labelClasses}
       >
-        {openBtnText}
+        {labelContent ? labelContent : openBtnText}
       </label>
 
       {/* Put this part before </body> tag */}
@@ -38,20 +45,28 @@ const Modal: FC<Props> = ({
         className='modal-toggle'
       />
       <div
+        style={styles}
         className='modal'
         role='dialog'
       >
         <div className='modal-box flex flex-col'>
           <div className='flex flex-row justify-start items-center gap-4'>
-            <div className='mask mask-squircle w-[100px] h-[100px] bg-green-500 flex justify-center items-center'>
-              <img src={image} />
-            </div>
+            {image !== undefined && (
+              <div className='mask mask-squircle w-[100px] h-[100px] bg-green-500 flex justify-center items-center'>
+                <img src={image} />
+              </div>
+            )}
             <div className='flex flex-col gap-2'>
               <h2 className='font-bold text-lg'>{title}</h2>
-              <h3 className='opacity-40'>{subtitle}</h3>
+              {subtitle !== undefined && (
+                <h3 className='opacity-40'>{subtitle}</h3>
+              )}
             </div>
           </div>
-          <p className='py-4 font-medium'>{description}</p>
+          {description !== undefined && (
+            <p className='py-4 font-medium'>{description}</p>
+          )}
+          {additionalContent}
           <div className='modal-action'>
             <label
               htmlFor={id}

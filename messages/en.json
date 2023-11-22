@@ -285,6 +285,7 @@
       "instructions": "To make payments through the platform, please click on the company's logo above. <notable>The username is the student code</notable> and <notable>the password is INTEGRATUR</notable>."
     },
     "section-3": {
+      "title": "Other services",
       "list": {
         "restaurant": {
           "title": "Restaurant",
@@ -302,7 +303,7 @@
       "infirmary-modal": {
         "title": "Infirmary",
         "description": "Our team of human talent is highly qualified and has the necessary resources to provide basic primary care in case of emergency.<br></br>We provide our students with quality care, in an agile and timely manner, for any health need that arises and requires primary care.",
-        "list-introductory-text": "Keep in mind the info below",
+        "list-introductory-text": "Keep in mind the info below:",
         "list": {
           "item-1-text": "The objective of Nursing is to provide immediate and timely primary care in case any type of eventuality occurs during the academic day. Therefore, we do not provide medications or make medical diagnoses (except in some cases, depending on the type of event, a physical examination will be performed and the procedure that fits the situation of each student will be determined).",
           "item-2-text": "We do not attend to queries from parents, nor will chronic or seasonal illnesses be monitored.",
@@ -319,7 +320,8 @@
           "email-text": "<notable>Email:</notable> enfermeria@gimnasiolospinos.edu.co",
           "landline-text": "<notable>Landline:</notable> 670 0008 Ext. 117, Bogotá, Colombia 🇨🇴",
           "mobile-phone-text": "<notable>Mobile phone:</notable> 300 896 07 26"
-        }
+        },
+        "close-button-text": "Close"
       }
     }
   },

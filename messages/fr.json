@@ -285,6 +285,7 @@
       "instructions": "Pour effectuer des paiements via la plateforme, veuillez cliquer sur le logo de l'entreprise ci-dessus. <notable>Le nom d'utilisateur est le code de l'élève</notable> et <notable>le mot de passe est INTEGRATUR</notable>."
     },
     "section-3": {
+      "title": "Autres services",
       "list": {
         "restaurant": {
           "title": "Restaurant",
@@ -302,7 +303,7 @@
       "infirmary-modal": {
         "title": "Infirmerie",
         "description": "Notre équipe de personnel qualifié dispose des ressources nécessaires pour assurer des soins primaires de base en cas d'urgence.<br></br>Nous offrons à nos élèves des soins de qualité, de manière agile et opportune, pour tout besoin de santé nécessitant des soins primaires.",
-        "list-introductory-text": "Gardez à l'esprit les informations suivantes",
+        "list-introductory-text": "Gardez à l'esprit les informations suivantes:",
         "list": {
           "item-1-text": "L'objectif des soins infirmiers est de fournir des soins primaires immédiats et opportuns en cas de tout type d'événement pendant la journée académique. Par conséquent, nous ne fournissons pas de médicaments ni ne posons de diagnostics médicaux (sauf dans certains cas, en fonction du type d'événement, un examen physique sera réalisé et la procédure adaptée à la situation de chaque élève sera déterminée).",
           "item-2-text": "Nous n'assistons pas aux consultations des parents, et nous ne suivons pas les maladies chroniques ou saisonnières.",
@@ -319,7 +320,8 @@
           "email-text": "<notable>Email :</notable> enfermeria@gimnasiolospinos.edu.co",
           "landline-text": "<notable>Téléphone fixe :</notable> 670 0008 Ext. 117, Bogotá, Colombie 🇨🇴",
           "mobile-phone-text": "<notable>Téléphone mobile :</notable> 300 896 07 26"
-        }
+        },
+        "close-button-text": "Fermer"
       }
     }
   },

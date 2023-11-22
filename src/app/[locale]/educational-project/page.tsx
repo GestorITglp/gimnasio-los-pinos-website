@@ -16,7 +16,7 @@ interface Props {
   };
 }
 
-const page: FC<Props> = ({ params: { locale } }) => {
+const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
   const t = useTranslations('educational-project-page');
 
   const iconSize = 50;
@@ -274,4 +274,4 @@ const page: FC<Props> = ({ params: { locale } }) => {
   );
 };
 
-export default page;
+export default EducationalProjectPage;
