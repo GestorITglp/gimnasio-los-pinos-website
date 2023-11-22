@@ -6,7 +6,15 @@
       "academy-page-link-text": "Académie",
       "services-page-link-text": "Services",
       "international-baccalaureate-page-link-text": "Baccalauréat international",
-      "admissions-page-link-text": "Admissions"
+      "admissions-page-link-text": "Admissions",
+      "language-select": {
+        "placeholder": "Language",
+        "options": {
+          "english": "Anglais 🇬🇧",
+          "spanish": "Espagnol 🇨🇴",
+          "french": "Français 🇫🇷"
+        }
+      }
     }
   },
   "footer": {
@@ -23,7 +31,7 @@
       "coexistence-link-text": "Coexistence",
       "con-papi-link-text": "Avec Papi",
       "contact-us-section": {
-        "title-text": "Contactez-nous",
+        "title": "Contactez-nous",
         "landline-text": "<notable>Téléphone fixe :</notable> PBX (057)(1) 670 00 08",
         "mobile-phone-text": "<notable>Téléphone portable :</notable> (057) 300 896 04 75",
         "address-text": "<notable>Adresse :</notable> Calle 193 n° 9-20, Bogotá, Colombie 🇨🇴"
@@ -35,8 +43,7 @@
   },
   "home-page": {
     "section-1": {
-      "title": "<meaningful>Éducation</meaningful> virtuelle",
-      "subtitle": "au Gimnasio los pinos",
+      "title": "Éducation <big>virtuelle</big> <colordiff>au Gimnasio los pinos</colordiff>",
       "description": "Nous offrons à nos étudiants des processus d'éducation virtuelle."
     },
     "section-2": {
@@ -57,7 +64,8 @@
         "strategic-allies-link-text": "Alliés stratégiques",
         "school-newspaper-link-text": "Journal scolaire",
         "classroom-link-text": "Salle de classe"
-      }
+      },
+      "see-more-link-text": "En savoir plus"
     },
     "section-4": {
       "title": "Nous proposons des activités extra-scolaires qui développeront le vrai potentiel de l'élève.",
@@ -183,7 +191,7 @@
     },
     "section-4": {
       "title": "Horaire institutionnel",
-      "see-more-button-link": "Voir plus"
+      "see-more-link-text": "Voir plus"
     }
   },
   "academy-page": {
