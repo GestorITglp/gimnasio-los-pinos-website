@@ -13,72 +13,81 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
 
   const colorfulLayerClasses =
     'absolute top-0 left-0 w-full h-full opacity-50 bg-white';
-  const h2Classes = 'text-5xl text-dark-green-100 text-center z-[10]';
-  const h3Classes = 'text-2xl font-bold text-center z-[10]';
-  const pClasses = 'text-xl text-center z-[10]';
+  const h2Classes =
+    'text-2xl sm:text-5xl font-bold text-dark-green-100 text-center z-[10]';
+  const h3Classes = 'text-lg sm:text-2xl font-bold text-center z-[10]';
+  const pClasses = 'text-md sm:text-xl text-center z-[10]';
   const sectionClasses =
-    'relative w-full px-[200px] flex flex-col justify-center items-center gap-10 min-h-[50vh] bg-cover bg-no-repeat';
+    'relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center items-center gap-10 min-h-[50vh] bg-cover bg-no-repeat';
   const section2btnClasses =
     'w-[175px] h-[175px] flex flex-col justify-evenly items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
 
   return (
-    <main className='flex flex-col gap-[50px]'>
+    <main className='flex flex-col justify-center items-center gap-[50px]'>
       <section
-        className={`py-[50px] ${sectionClasses} bg-[url("/admissionsPageSection1.jpg")]`}
+        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-4 sm:gap-10 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
       >
-        <div className={colorfulLayerClasses} />
-        <h1 className={h2Classes}>{t('section-1.title')}</h1>
-        <div className='flex flex-col gap-2 z-[10]'>
+        <div
+          className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
+        />
+        <h1
+          className={`text-2xl sm:text-5xl font-bold text-center z-[10] text-white`}
+        >
+          {t('section-1.title')}
+        </h1>
+        <div className='flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-10'>
           <Link
-            className={`${h3Classes} text-dark-green-100`}
+            className={`w-[140px] h-[140px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-full drop-shadow-lg self-end`}
             href='/'
           >
-            {t('section-1.forms-section.title')}
+            {t('section-1.supply-list-section.title')}
           </Link>
-          <ul className='flex flex-col items-center gap-2'>
-            <li>
-              <Link
-                className={`${pClasses}`}
-                href='/'
-              >
-                {t('section-1.forms-section.list.item-1-text')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={`${pClasses}`}
-                href='/'
-              >
-                {t('section-1.forms-section.list.item-2-text')}
-              </Link>
-            </li>
-            <li>
-              <Link
-                className={`${pClasses}`}
-                href='/'
-              >
-                {t('section-1.forms-section.list.item-3-text')}
-              </Link>
-            </li>
-          </ul>
+          <div className='w-[250px] h-[250px] flex flex-col justify-center items-center gap-2 z-[10] bg-dark-green-100 hover:bg-white hover:text-dark-green-100 transition-all rounded-full drop-shadow-lg text-white'>
+            <Link
+              className={`${h3Classes} hover:underline transition-all`}
+              href='/'
+            >
+              {t('section-1.forms-section.title')}
+            </Link>
+            <ul className='flex flex-col items-center gap-2 font-light'>
+              <li>
+                <Link
+                  className={`${pClasses} hover:underline transition-all`}
+                  href='/'
+                >
+                  {t('section-1.forms-section.list.item-1-text')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`${pClasses} hover:underline transition-all`}
+                  href='/'
+                >
+                  {t('section-1.forms-section.list.item-2-text')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={`${pClasses} hover:underline transition-all`}
+                  href='/'
+                >
+                  {t('section-1.forms-section.list.item-3-text')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <Link
+            className={`w-[150px] h-[150px] ${h3Classes} flex justify-center items-center text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 rounded-full drop-shadow-lg self-start`}
+            href='/'
+          >
+            {t('section-1.uniforms.title')}
+          </Link>
         </div>
-        <Link
-          className={`${h3Classes} text-dark-green-100`}
-          href='/'
-        >
-          {t('section-1.supply-list-section.title')}
-        </Link>
-        <Link
-          className={`${h3Classes} text-dark-green-100`}
-          href='/'
-        >
-          {t('section-1.uniforms.title')}
-        </Link>
       </section>
       <section className='flex flex-col gap-10 justify-center items-center'>
         <h2 className={`${h2Classes}`}>{t('section-2.title')}</h2>
         <ul className='timeline timeline-vertical lg:timeline-horizontal'>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <div className='timeline-start'>{t('section-2.step-1.title')}</div>
             <div className='timeline-middle'>
               <svg
@@ -94,12 +103,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-1.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-2.title')}</div>
             <div className='timeline-middle'>
@@ -116,12 +125,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-2.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-3.title')}</div>
             <div className='timeline-middle'>
@@ -138,12 +147,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-3.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-4.title')}</div>
             <div className='timeline-middle'>
@@ -160,14 +169,14 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-4.description')}
             </div>
             <hr />
           </li>
         </ul>
         <ul className='timeline timeline-vertical lg:timeline-horizontal'>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <div className='timeline-start'>{t('section-2.step-5.title')}</div>
             <div className='timeline-middle'>
               <svg
@@ -183,12 +192,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-5.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-6.title')}</div>
             <div className='timeline-middle'>
@@ -205,12 +214,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-6.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-7.title')}</div>
             <div className='timeline-middle'>
@@ -227,12 +236,12 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-7.description')}
             </div>
             <hr />
           </li>
-          <li className='text-dark-green-100'>
+          <li className='text-dark-green-100 w-[200px] sm:w-fit'>
             <hr />
             <div className='timeline-start'>{t('section-2.step-8.title')}</div>
             <div className='timeline-middle'>
@@ -249,7 +258,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                 />
               </svg>
             </div>
-            <div className='timeline-end timeline-box text-black'>
+            <div className='timeline-end timeline-box text-black text-sm sm:text-md w-[100px] break-words sm:w-auto'>
               {t('section-2.step-8.description')}
             </div>
             <hr />
@@ -304,7 +313,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
         />
         <h1 className={`${h2Classes} text-white`}>{t('section-4.title')}</h1>
-        <div className='w-full flex flex-row justify-evenly items-center text-white z-[10] text-xl'>
+        <div className='w-full flex flex-row flex-wrap justify-evenly items-center text-white z-[10] text-md sm:text-xl text-center gap-10'>
           <ul className='flex flex-col gap-2'>
             <li>{t('section-4.list.item-1-text')}</li>
             <li>{t('section-4.list.item-2-text')}</li>
@@ -312,6 +321,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             <li>{t('section-4.list.item-4-text')}</li>
             <li>{t('section-4.list.item-5-text')}</li>
           </ul>
+          <hr className='w-full h-1 sm:hidden' />
           <ul className='flex flex-col gap-2'>
             <li>{t('section-4.list.item-6-text')}</li>
             <li>{t('section-4.list.item-7-text')}</li>

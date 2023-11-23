@@ -10,7 +10,7 @@ interface Props {
 
 const ImageSlider: FC<Props> = ({ images }) => {
   return (
-    <div className='flex flex-row justify-center items-center'>
+    <div className='flex flex-row flex-wrap justify-center items-center'>
       {images.map((src) => {
         return (
           <Image

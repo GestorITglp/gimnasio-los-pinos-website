@@ -12,29 +12,14 @@ interface Props {
 const AcademyPage: FC<Props> = ({ params: { locale } }) => {
   const t = useTranslations('academy-page');
 
-  const iconSize = 50;
-  const h2Classes = 'text-5xl text-dark-green-100 text-center z-[10]';
-  const h3Classes = 'text-2xl font-bold text-center';
-  const normalBtnClasses =
-    'w-fit p-4 btn btn-lg btn-square text-white bg-dark-green-100 hover:bg-dark-green-200 border-0';
-  const section1btnClasses =
-    'w-[100px] h-[100px] text-[50px] text-white flex gap-2 justify-center items-center bg-light-green/25 rounded-lg border-light-green hover:bg-light-green/75 transition-all';
-  const section2btnClasses =
-    'w-[175px] h-[175px] flex justify-center items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
-  const whitishLayerClasses =
-    'absolute z-[0] left-0 top-0 w-full h-full bg-black opacity-75';
-  const pClasses = 'text-xl text-center text-black text-truncate';
-  const section2iconContainersClasses =
-    'flex flex-col items-center gap-2 z-[10] text-dark-green-100';
-  const accordionItemClasses =
-    'relative w-[0px] p-4 flex flex-col justify-evenly items-center gap-2 grow bg-cover bg-center transition-all hover:w-[500px] opacity-25 hover:opacity-100 border-4 border-white';
-  const greenishLayerClasses =
-    'absolute top-0 left-0 w-full h-full bg-dark-green-100/75 hover:bg-dark-green-100/50 transition-all';
-
+  const h2Classes =
+    'text-2xl sm:text-5xl font-bold text-dark-green-100 text-center z-[10]';
+  const jobBadgeClasses =
+    'badge badge-ghost badge-sm h-auto px-[10px] py-[5px] text-center';
   return (
     <main className='flex flex-col gap-[50px]'>
       <section
-        className={`relative w-full px-[200px] flex flex-col justify-center gap-10 min-h-[50vh] bg-cover bg-no-repeat bg-[url("/academyPageSection1.jpeg")] bg-center`}
+        className={`relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center gap-10 min-h-[50vh] bg-cover bg-no-repeat bg-[url("/academyPageSection1.jpeg")] bg-center`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
@@ -72,7 +57,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-1.job-col-text')}
                 </span>
               </td>
@@ -119,7 +104,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-2.job-col-text')}
                 </span>
               </td>
@@ -166,7 +151,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-3.job-col-text')}
                 </span>
               </td>
@@ -213,7 +198,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-4.job-col-text')}
                 </span>
               </td>
@@ -260,7 +245,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-5.job-col-text')}
                 </span>
               </td>
@@ -307,7 +292,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-6.job-col-text')}
                 </span>
               </td>
@@ -354,7 +339,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-7.job-col-text')}
                 </span>
               </td>
@@ -401,7 +386,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-8.job-col-text')}
                 </span>
               </td>
@@ -448,7 +433,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-9.job-col-text')}
                 </span>
               </td>
@@ -495,7 +480,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-10.job-col-text')}
                 </span>
               </td>
@@ -542,7 +527,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-11.job-col-text')}
                 </span>
               </td>
@@ -589,7 +574,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-12.job-col-text')}
                 </span>
               </td>
@@ -636,7 +621,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               </td>
               <td>
-                <span className='badge badge-ghost badge-sm'>
+                <span className={jobBadgeClasses}>
                   {t('table.row-13.job-col-text')}
                 </span>
               </td>

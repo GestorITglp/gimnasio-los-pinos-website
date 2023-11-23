@@ -1,16 +1,24 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { FC } from 'react';
+import { FC, HTMLProps } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link';
 
-interface Props {
+interface Props extends HTMLProps<HTMLAnchorElement> {
   icon: IconDefinition;
 }
 
-const CircleIconButton: FC<Props> = ({ icon }) => {
+const CircleIconButton: FC<Props> = (props) => {
+  const { icon, ...anchorProps } = props;
   return (
-    <button className='btn btn-sm btn-circle text-white bg-dark-green-100 hover:bg-white hover:text-dark-green-100 hover:border-white'>
-      <FontAwesomeIcon icon={icon} />
-    </button>
+    <>
+      {/* @ts-ignore */}
+      <Link
+        className='btn btn-sm btn-circle text-white bg-dark-green-100 hover:bg-white hover:text-dark-green-100 hover:border-white'
+        {...anchorProps}
+      >
+        <FontAwesomeIcon icon={icon} />
+      </Link>
+    </>
   );
 };
 

@@ -51,7 +51,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
     >
       <body className={`${comfortaa.className} text-black`}>
         <header>
-          <div className='drawer'>
+          <div className='drawer z-[100]'>
             <input
               id='my-drawer-3'
               type='checkbox'
@@ -61,17 +61,33 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               {/* Navbar */}
               <div className='w-full navbar p-0 flex flex-col'>
                 <div className='w-full px-[5px] py-[5px] flex flex-row justify-end gap-2 bg-dark-green-100'>
-                  <CircleIconButton icon={faInstagram} />
-                  <CircleIconButton icon={faFacebookF} />
-                  <CircleIconButton icon={faXTwitter} />
-                  <CircleIconButton icon={faYoutube} />
+                  <CircleIconButton
+                    icon={faInstagram}
+                    href='https://www.instagram.com/glpinos.oficial/?hl=es'
+                    target='_blank'
+                  />
+                  <CircleIconButton
+                    icon={faFacebookF}
+                    href='https://www.facebook.com/PinosOficial/?locale=es_LA'
+                    target='_blank'
+                  />
+                  <CircleIconButton
+                    icon={faXTwitter}
+                    href='/'
+                    target='_blank'
+                  />
+                  <CircleIconButton
+                    icon={faYoutube}
+                    href='https://www.youtube.com/@GimnasioPinos'
+                    target='_blank'
+                  />
                 </div>
                 <div className='w-full px-[25px] py-[10px] bg-white'>
                   <div className='flex-none lg:hidden'>
                     <label
                       htmlFor='my-drawer-3'
                       aria-label='open sidebar'
-                      className='btn btn-square btn-ghost'
+                      className='btn btn-square btn-ghost mr-4'
                     >
                       <svg
                         xmlns='http://www.w3.org/2000/svg'
@@ -88,10 +104,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                       </svg>
                     </label>
                   </div>
-                  <Link
-                    href='/'
-                    className=''
-                  >
+                  <Link href='/'>
                     <Image
                       className='w-[200px]'
                       src='/classicLogo.png'
@@ -194,7 +207,6 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                 </div>
               </div>
               {/* Page content here */}
-              {children}
             </div>
             <div className='drawer-side'>
               <label
@@ -205,72 +217,73 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               <ul className='menu p-4 w-80 min-h-full bg-base-200'>
                 {/* Sidebar content here */}
                 <li>
-                  <Link
+                  <a
                     href='/'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.home-page-link-text')}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href='/educational-project'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.educational-project-page-link-text')}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href='/academy'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.academy-page-link-text')}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href='/services'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.services-page-link-text')}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href='/international-baccalaureate'
                     className={`${linkClasses}`}
                   >
                     {t(
                       'header.navbar.international-baccalaureate-page-link-text'
                     )}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href='/admissions'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.admissions-page-link-text')}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </header>
+        {children}
         <footer className='flex flex-col'>
-          <section className='flex flex-row gap-10 justify-center items-center px-[200px] py-[25px] bg-light-green'>
+          <section className='flex flex-row flex-wrap gap-4 sm:gap-10 justify-center items-center px-[20px] lg:px-[200px] py-[25px] bg-light-green'>
             <span className='text-2xl text-white text-center'>
               {t('footer.upper-section.title')}
             </span>
             <Link
-              className='w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-light-green hover:border-white'
+              className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-light-green hover:border-white'
               href='/'
             >
               {t('footer.upper-section.admissions-link-text')}
             </Link>
           </section>
-          <section className='h-[300px] px-[200px] py-[50px] flex flex-row justify-between items-center bg-dark-green-100'>
+          <section className='min-h-[300px] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-center sm:justify-between items-center bg-dark-green-100 gap-10 text-center'>
             <Image
               className='w-[300px]'
               src='/logoOnAquamarine.png'
@@ -278,7 +291,8 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               height={400}
               quality={100}
             />
-            <div className='flex flex-col flex-wrap gap-4 text-lg text-white'>
+            <hr className='w-full h-1 sm:hidden' />
+            <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>
               <Link href='/'>{t('footer.mid-section.about-us-link-text')}</Link>
               <Link href='/'>{t('footer.mid-section.gallery-link-text')}</Link>
               <Link href='/'>
@@ -286,7 +300,8 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               </Link>
               <Link href='/'>{t('footer.mid-section.about-us-link-text')}</Link>
             </div>
-            <div className='flex flex-col flex-wrap gap-4 text-lg text-white'>
+            <hr className='w-full h-1 sm:hidden' />
+            <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>
               <Link href='/'>
                 {t('footer.mid-section.extracurricular-link-text')}
               </Link>
@@ -298,7 +313,8 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               </Link>
               <Link href='/'>{t('footer.mid-section.con-papi-link-text')}</Link>
             </div>
-            <div className='flex flex-col flex-wrap gap-4 text-lg text-white'>
+            <hr className='w-full h-1 sm:hidden' />
+            <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>
               <h3 className='text-xl font-bold'>
                 {t('footer.mid-section.contact-us-section.title')}
               </h3>

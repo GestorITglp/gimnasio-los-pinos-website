@@ -22,13 +22,14 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
 
   const colorfulLayerClasses =
     'absolute top-0 left-0 w-full h-full opacity-50 bg-black';
-  const h2Classes = 'text-5xl text-dark-green-100 text-center z-[10]';
+  const h2Classes =
+    'text-2xl sm:text-5xl font-bold text-dark-green-100 text-center z-[10]';
   const h3Classes = 'text-2xl font-bold text-center';
-  const pClasses = 'text-xl text-center z-[10]';
+  const pClasses = 'text-md sm:text-xl text-center z-[10]';
   const sectionClasses =
-    'relative w-full px-[200px] flex flex-col justify-center items-center gap-10 min-h-[50vh] bg-cover bg-no-repeat';
+    'relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center items-center gap-10 min-h-[50vh] bg-cover bg-no-repeat';
   const section2btnClasses =
-    'w-[175px] h-[175px] flex flex-col justify-evenly items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
+    'p-2 w-[175px] h-[175px] flex flex-col justify-evenly items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
   return (
     <main className='flex flex-col items-center gap-[50px]'>
       <section
@@ -41,7 +42,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
       <section className={`${sectionClasses}`}>
         <div className={`${colorfulLayerClasses} bg-transparent`} />
         <h2 className={`${h2Classes}`}>{t('section-1.title')}</h2>
-        <div className='flex flex-row justify-between items-center'>
+        <div className='flex flex-row flex-wrap sm:flex-nowrap justify-between items-center gap-10'>
           <p className={`${pClasses}`}>
             {t.rich('section-1.description', {
               br: (text) => {
@@ -56,7 +57,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
             })}
           </p>
           <Image
-            className='w-[400px] self-end'
+            className='min-w-auto sm:min-w-[400px] self-end'
             src='/servicesPageSection2.png'
             width={800}
             height={800}
@@ -115,9 +116,11 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
           })}
         </p>
       </section>
-      <section className={sectionClasses}>
+      <section
+        className={`w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center gap-10 mb-[50px]`}
+      >
         <h2 className={`${h2Classes}`}>{t('section-3.title')}</h2>
-        <ul className='w-full flex flex-row justify-evenly items-center'>
+        <ul className='w-full flex flex-row flex-wrap justify-evenly items-center gap-10'>
           <li className='flex flex-col items-center gap-2 cursor-pointer'>
             <div className={`${section2btnClasses}`}>
               <FontAwesomeIcon icon={faBowlFood} />
