@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import Modal from '@/components/Modal/Modal';
 
@@ -19,7 +18,7 @@ const AcademyPage: FC<Props> = ({ params: { locale } }) => {
   return (
     <main className='flex flex-col gap-[50px]'>
       <section
-        className={`relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center gap-10 min-h-[50vh] bg-cover bg-no-repeat bg-[url("/academyPageSection1.jpeg")] bg-center`}
+        className={`relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center gap-10 min-h-[50vh] bg-cover bg-no-repeat bg-center bg-[url("/maestros.png")] sm:bg-[position:-200%_20%]`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}

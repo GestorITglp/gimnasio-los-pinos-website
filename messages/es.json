@@ -25,11 +25,11 @@
     "mid-section": {
       "about-us-link-text": "Sobre nosotros",
       "gallery-link-text": "Galería",
-      "academy-directory-link-text": "Directorio de la academia",
+      "academy-directory-link-text": "Directorio",
       "extracurricular-link-text": "Extracurriculares",
-      "classroom-link-text": "Aula",
+      "classroom-link-text": "Classroom",
       "coexistence-link-text": "Convivencia",
-      "con-papi-link-text": "ConPapi",
+      "functionaries-link-text": "Funcionarios",
       "contact-us-section": {
         "title": "Contáctenos",
         "landline-text": "<notable>Teléfono fijo:</notable> PBX (057)(1) 670 00 08",
@@ -41,30 +41,30 @@
       "legal-notes-text": "© 2023 Todos los derechos reservados | Gimnasio los Pinos"
     }
   },
+  "floating-buttons": {
+    "classroom-button-text": "Classroom",
+    "admissions-button-text": "Admisiones",
+    "tuition-button-text": "Matricula",
+    "temporal-button-text": "Temporal"
+  },
   "home-page": {
     "section-1": {
-      "title": "Educación <big>virtual</big> <colordiff>en Gimnasio los pinos</colordiff>",
+      "title": "Educación <big>excepcional</big> <colordiff>en Gimnasio los pinos</colordiff>",
       "description": "Ofrecemos a nuestros estudiantes procesos de educación virtual."
     },
     "section-2": {
       "title": "Bienvenido a Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
-        "platforms-link-text": "Plataformas",
-        "strategic-allies-link-text": "Aliados estratégicos",
-        "school-newspaper-link-text": "Periódico escolar",
-        "classroom-link-text": "Aula"
+        "classroom-link-text": "Classroom",
+        "admissions-link-text": "Admisiones",
+        "tuition-link-text": "Matricula",
+        "strategic-allies-link-text": "Aliados estratégicos"
       }
     },
     "section-3": {
       "title": "¡En Gimnasio los Pinos desarrollamos tu potencial!",
       "description": "Practicamos la educación a través de la potencialización de los talentos de los estudiantes en deportes, artes, humanidades, ciencias aplicadas con un componente clave: la felicidad del estudiante.",
-      "navbar": {
-        "platforms-link-text": "Plataformas",
-        "strategic-allies-link-text": "Aliados estratégicos",
-        "school-newspaper-link-text": "Periódico escolar",
-        "classroom-link-text": "Aula"
-      },
       "see-more-link-text": "Ver más"
     },
     "section-4": {
@@ -290,6 +290,10 @@
         "restaurant": {
           "title": "Restaurante",
           "download-menu-link-text": "Descargar el menú"
+        },
+        "library": {
+          "title": "Biblioteca",
+          "see-more-link-text": "Ver más"
         },
         "infirmary": {
           "title": "Enfermería",

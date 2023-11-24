@@ -37,7 +37,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
         </h1>
         <div className='flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-10'>
           <Link
-            className={`w-[140px] h-[140px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-full drop-shadow-lg self-end`}
+            className={`w-[150px] h-[150px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-full drop-shadow-lg self-end`}
             href='/'
           >
             {t('section-1.supply-list-section.title')}
@@ -307,7 +307,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
         </ul>
       </section>
       <section
-        className={`${sectionClasses} py-[50px] bg-[url("/espacios.webp")] bg-cover bg-center`}
+        className={`${sectionClasses} py-[50px] bg-[url("/admissionsPageSection4.jpg")] bg-cover bg-center`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
@@ -340,7 +340,10 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
           ></iframe>
         </div>
       </section>
-      <section className={`flex flex-col h-[50vh] mb-[50px] gap-10`}>
+      <section
+        id='our-campus-section'
+        className={`flex flex-col h-[50vh] mb-[50px] gap-10`}
+      >
         <h2 className={h2Classes}>{t('section-5.title')}</h2>
         <div className='carousel w-full'>
           <div
@@ -348,7 +351,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             className='carousel-item relative w-full'
           >
             <img
-              src='/campus1.png'
+              src='/carrousel1.jpg'
               className='w-full object-contain'
             />
             <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
@@ -371,7 +374,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             className='carousel-item relative w-full'
           >
             <img
-              src='/campus2.webp'
+              src='/carrousel2.jpg'
               className='w-full object-contain'
             />
             <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
@@ -394,7 +397,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             className='carousel-item relative w-full'
           >
             <img
-              src='/campus3.webp'
+              src='/carrousel3.jpg'
               className='w-full object-contain'
             />
             <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
@@ -417,12 +420,35 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             className='carousel-item relative w-full'
           >
             <img
-              src='/campus4.webp'
+              src='/carrousel4.jpg'
               className='w-full object-contain'
             />
             <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
               <a
                 href='#slide3'
+                className='btn btn-circle'
+              >
+                ❮
+              </a>
+              <a
+                href='#slide5'
+                className='btn btn-circle'
+              >
+                ❯
+              </a>
+            </div>
+          </div>
+          <div
+            id='slide5'
+            className='carousel-item relative w-full'
+          >
+            <img
+              src='/carrousel5.jpg'
+              className='w-full object-contain'
+            />
+            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+              <a
+                href='#slide4'
                 className='btn btn-circle'
               >
                 ❮

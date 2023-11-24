@@ -25,11 +25,11 @@
     "mid-section": {
       "about-us-link-text": "À propos de nous",
       "gallery-link-text": "Galerie",
-      "academy-directory-link-text": "Répertoire de l'académie",
+      "academy-directory-link-text": "Répertoire",
       "extracurricular-link-text": "Extra-scolaire",
-      "classroom-link-text": "Salle de classe",
+      "classroom-link-text": "Classroom",
       "coexistence-link-text": "Coexistence",
-      "con-papi-link-text": "Avec Papi",
+      "functionaries-link-text": "Fonctionnaires",
       "contact-us-section": {
         "title": "Contactez-nous",
         "landline-text": "<notable>Téléphone fixe :</notable> PBX (057)(1) 670 00 08",
@@ -41,30 +41,30 @@
       "legal-notes-text": "© 2023 Tous droits réservés | Gimnasio los Pinos"
     }
   },
+  "floating-buttons": {
+    "classroom-button-text": "Classroom",
+    "admissions-button-text": "Admissions",
+    "tuition-button-text": "Frais de scolarité",
+    "temporal-button-text": "Temporaire"
+  },
   "home-page": {
     "section-1": {
-      "title": "Éducation <big>virtuelle</big> <colordiff>au Gimnasio los pinos</colordiff>",
+      "title": "Éducation <big>exceptionnelle</big> <colordiff>au Gimnasio los pinos</colordiff>",
       "description": "Nous offrons à nos étudiants des processus d'éducation virtuelle."
     },
     "section-2": {
       "title": "Bienvenue au Gimnasio los Pinos",
       "description": "Nous éduquons les futurs transformateurs de notre société et de notre monde, en tant que personnes passionnées, proactives, talentueuses et heureuses, protagonistes de la construction de leur propre connaissance.",
       "navbar": {
-        "platforms-link-text": "Plateformes",
-        "strategic-allies-link-text": "Alliés stratégiques",
-        "school-newspaper-link-text": "Journal scolaire",
-        "classroom-link-text": "Salle de classe"
+        "classroom-link-text": "Classroom",
+        "admissions-link-text": "Admissions",
+        "tuition-link-text": "Frais de scolarité",
+        "strategic-allies-link-text": "Alliés stratégiques"
       }
     },
     "section-3": {
       "title": "Au Gimnasio los Pinos, nous développons votre potentiel !",
       "description": "Nous pratiquons l'éducation par la potentialisation des talents des étudiants dans le sport, les arts, les sciences humaines, les sciences appliquées, avec un composant clé : le bonheur de l'étudiant",
-      "navbar": {
-        "platforms-link-text": "Plateformes",
-        "strategic-allies-link-text": "Alliés stratégiques",
-        "school-newspaper-link-text": "Journal scolaire",
-        "classroom-link-text": "Salle de classe"
-      },
       "see-more-link-text": "En savoir plus"
     },
     "section-4": {
@@ -290,6 +290,10 @@
         "restaurant": {
           "title": "Restaurant",
           "download-menu-link-text": "Télécharger le menu"
+        },
+        "library": {
+          "title": "Bibliothèque",
+          "see-more-link-text": "Voir plus"
         },
         "infirmary": {
           "title": "Infirmerie",

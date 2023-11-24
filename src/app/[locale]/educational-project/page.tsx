@@ -3,20 +3,13 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons/faLaptop';
 import { FC } from 'react';
-import { faCheckCircle } from '@fortawesome/free-regular-svg-icons/faCheckCircle';
-import { faNewspaper } from '@fortawesome/free-regular-svg-icons/faNewspaper';
-import { faDeskpro } from '@fortawesome/free-brands-svg-icons/faDeskpro';
 import {
-  faFile,
-  faFileArchive,
   faFlask,
   faPaintBrush,
   faPerson,
   faSoccerBall,
 } from '@fortawesome/free-solid-svg-icons';
-import { faArtstation } from '@fortawesome/free-brands-svg-icons';
 
 interface Props {
   params: {
@@ -38,10 +31,10 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
   const section2btnClasses =
     'w-[175px] h-[175px] flex justify-center items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
   const whitishLayerClasses =
-    'absolute z-[0] left-0 top-0 w-full h-full bg-black opacity-75';
+    'absolute z-[0] left-0 top-0 w-full h-full bg-black opacity-50';
   const pClasses = 'text-md sm:text-xl text-center text-black text-truncate';
   const section2iconContainersClasses =
-    'flex flex-col items-center gap-2 z-[10] text-dark-green-100';
+    'flex flex-col items-center gap-2 z-[10] text-light-green';
   const accordionItemClasses =
     'relative h-[0px] sm:h-auto sm:w-[0px] p-4 flex flex-col justify-evenly items-center gap-2 grow bg-cover bg-center transition-all sm:hover:h-auto hover:h-[500px] sm:hover:w-[500px] opacity-25 hover:opacity-100';
   const greenishLayerClasses =
@@ -133,10 +126,12 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
           </Collapse>
         </div>
       </section>
-      <section className='relative px-[20px] py-[50px] lg:px-[200px] min-h-[50vh] flex flex-col gap-10 justify-center items-center bg-[url("/educationalProjectPageSection2.jpg")] bg-cover bg-center'>
-        <div className={`${whitishLayerClasses} bg-white`} />
-        <h2 className={`${h2Classes}`}>{t('section-2.title')}</h2>
-        <p className={`${pClasses} z-[10]`}>{t('section-2.description')}</p>
+      <section className='relative px-[20px] py-[50px] lg:px-[200px] min-h-[50vh] flex flex-col gap-10 justify-center items-center bg-[url("/talentos.jpg")] bg-cover bg-center'>
+        <div className={`${whitishLayerClasses} bg-black`} />
+        <h2 className={`${h2Classes} text-white`}>{t('section-2.title')}</h2>
+        <p className={`${pClasses} text-white z-[10]`}>
+          {t('section-2.description')}
+        </p>
         <div className='w-full flex flex-row flex-wrap sm:flex-nowrap gap-10 justify-evenly items-center'>
           <div className={`${section2iconContainersClasses}`}>
             <FontAwesomeIcon
@@ -146,7 +141,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
             <h3 className={`${h3Classes}`}>
               {t('section-2.sport-emphasis-section.title')}
             </h3>
-            <p className={`${pClasses}`}>
+            <p className={`${pClasses} text-white`}>
               {t('section-2.sport-emphasis-section.description')}
             </p>
           </div>
@@ -158,7 +153,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
             <h3 className={`${h3Classes}`}>
               {t('section-2.art-emphasis-section.title')}
             </h3>
-            <p className={`${pClasses}`}>
+            <p className={`${pClasses} text-white`}>
               {t('section-2.art-emphasis-section.description')}
             </p>
           </div>
@@ -170,7 +165,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
             <h3 className={`${h3Classes}`}>
               {t('section-2.humanities-emphasis-section.title')}
             </h3>
-            <p className={`${pClasses}`}>
+            <p className={`${pClasses} text-white`}>
               {t('section-2.humanities-emphasis-section.description')}
             </p>
           </div>
@@ -182,18 +177,16 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
             <h3 className={`${h3Classes}`}>
               {t('section-2.applied-science-section.title')}
             </h3>
-            <p className={`${pClasses}`}>
+            <p className={`${pClasses} text-white`}>
               {t('section-2.applied-science-section.description')}
             </p>
           </div>
         </div>
       </section>
-      <section className='flex flex-col items-center gap-10'>
+      <section className='flex flex-col items-center gap-10 mb-[50px]'>
         <h2 className={`${h2Classes}`}>{t('section-3.title')}</h2>
         <div className='w-full h-[750px] sm:h-[430px] flex flex-col sm:flex-row gap-4'>
-          <div
-            className={`${accordionItemClasses} bg-[url("/educationalProjectPageAccordion1.jpg")]`}
-          >
+          <div className={`${accordionItemClasses} bg-[url("/extra.jpg")]`}>
             <div
               className={`${greenishLayerClasses} flex flex-col justify-evenly items-center overflow-clip`}
             >
@@ -218,9 +211,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
               </Link>
             </div>
           </div>
-          <div
-            className={`${accordionItemClasses} bg-[url("/educationalProjectPageAccordion2.jpg")]`}
-          >
+          <div className={`${accordionItemClasses} bg-[url("/modelo.jpg")]`}>
             <div
               className={`${greenishLayerClasses} flex flex-col justify-evenly items-center overflow-clip`}
             >
@@ -229,9 +220,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
               </h3>
             </div>
           </div>
-          <div
-            className={`${accordionItemClasses} bg-[url("/educationalProjectPageAccordion3.jpg")]`}
-          >
+          <div className={`${accordionItemClasses} bg-[url("/talentos.jpg")]`}>
             <div
               className={`${greenishLayerClasses} flex flex-col justify-evenly items-center overflow-clip`}
             >
@@ -248,9 +237,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
               </p>
             </div>
           </div>
-          <div
-            className={`${accordionItemClasses} bg-[url("/educationalProjectPageAccordion4.jpg")]`}
-          >
+          <div className={`${accordionItemClasses} bg-[url("/navidad.jpg")]`}>
             <div
               className={`${greenishLayerClasses} flex flex-col justify-evenly items-center overflow-clip`}
             >
@@ -265,7 +252,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
           </div>
         </div>
       </section>
-      <section className='flex flex-col items-center gap-10 mb-[50px]'>
+      {/* <section className='flex flex-col items-center gap-10 mb-[50px]'>
         <h2 className={`${h2Classes}`}>{t('section-4.title')}</h2>
         <Link
           href='/'
@@ -278,7 +265,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
             {t('section-4.see-more-link-text')}
           </span>
         </Link>
-      </section>
+      </section> */}
     </main>
   );
 };

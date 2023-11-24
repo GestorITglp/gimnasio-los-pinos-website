@@ -25,11 +25,11 @@
     "mid-section": {
       "about-us-link-text": "About us",
       "gallery-link-text": "Gallery",
-      "academy-directory-link-text": "Academy directory",
+      "academy-directory-link-text": "Directory",
       "extracurricular-link-text": "Extracurricular",
       "classroom-link-text": "Classroom",
       "coexistence-link-text": "Coexistence",
-      "con-papi-link-text": "ConPapi",
+      "functionaries-link-text": "Functionaries",
       "contact-us-section": {
         "title": "Contact us",
         "landline-text": "<notable>Landline:</notable> PBX (057)(1) 670 00 08",
@@ -41,30 +41,30 @@
       "legal-notes-text": "© 2023 All rights reserved | Gimnasio los Pinos"
     }
   },
+  "floating-buttons": {
+    "classroom-button-text": "Classroom",
+    "admissions-button-text": "Admissions",
+    "tuition-button-text": "Tuition",
+    "temporal-button-text": "Temporal"
+  },
   "home-page": {
     "section-1": {
-      "title": "Virtual <big>education</big> <colordiff>at Gimnasio los pinos</colordiff>",
+      "title": "Outstanding <big>education</big> <colordiff>at Gimnasio los pinos</colordiff>",
       "description": "We offer to our students virtual education processes."
     },
     "section-2": {
       "title": "Welcome to Gimnasio los Pinos",
       "description": "We educate the future transformers of our society and our world, as passionate, proactive, talented and happy people, protagonists of the construction of their own knowledge.",
       "navbar": {
-        "platforms-link-text": "Platforms",
-        "strategic-allies-link-text": "Strategic allies",
-        "school-newspaper-link-text": "School newspaper",
-        "classroom-link-text": "Classroom"
+        "classroom-link-text": "Classroom",
+        "admissions-link-text": "Admissions",
+        "tuition-link-text": "Tuition",
+        "strategic-allies-link-text": "Strategic allies"
       }
     },
     "section-3": {
       "title": "At Gimnasio los Pinos we grow your potential!",
       "description": "We practice education through the potentialization of students' talents in sports, arts, humanities, applied sciences with a key component: Student happiness",
-      "navbar": {
-        "platforms-link-text": "Platforms",
-        "strategic-allies-link-text": "Strategic allies",
-        "school-newspaper-link-text": "School newspaper",
-        "classroom-link-text": "Classroom"
-      },
       "see-more-link-text": "See more"
     },
     "section-4": {
@@ -290,6 +290,10 @@
         "restaurant": {
           "title": "Restaurant",
           "download-menu-link-text": "Download the menu"
+        },
+        "library": {
+          "title": "Library",
+          "see-more-link-text": "See more"
         },
         "infirmary": {
           "title": "Infirmary",

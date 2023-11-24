@@ -4,12 +4,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faBook,
   faBowlFood,
-  faCross,
   faShirt,
   faUserNurse,
 } from '@fortawesome/free-solid-svg-icons';
 import Modal from '@/components/Modal/Modal';
+import { linkBiblioteca } from '@/constants/links';
 
 interface Props {
   params: {
@@ -33,7 +34,10 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
   return (
     <main className='flex flex-col items-center gap-[50px]'>
       <section
-        className={`${sectionClasses} bg-[url("/servicesPageSection1.jpg")]`}
+        style={{
+          minHeight: '65vh',
+        }}
+        className={`${sectionClasses} bg-[url("/serviciosIntro.jpg")] bg-top`}
       >
         <div className={`${colorfulLayerClasses}`} />
         <h2 className={`${h2Classes} text-white`}>{t('title')}</h2>
@@ -66,7 +70,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
         </div>
       </section>
       <section
-        className={`py-[50px] ${sectionClasses} bg-[url("/servicesPageSection3.jpg")]`}
+        className={`py-[50px] ${sectionClasses} bg-no-repeat bg-center bg-[url("/servicesPageSection3.jpg")]`}
       >
         <div className={`${colorfulLayerClasses}`} />
         <h2 className={`${h2Classes} text-white`}>{t('section-2.title')}</h2>
@@ -130,6 +134,21 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
             </div>
             <span className='w-full text-center text-xl font-bold'>
               {t('section-3.list.restaurant.download-menu-link-text')}
+            </span>
+          </li>
+          <li className='flex flex-col items-center gap-2 cursor-pointer'>
+            <Link
+              href={linkBiblioteca}
+              target='_blank'
+              className={`${section2btnClasses}`}
+            >
+              <FontAwesomeIcon icon={faBook} />
+              <span className='text-sm font-black'>
+                {t('section-3.list.library.title').toUpperCase()}
+              </span>
+            </Link>
+            <span className='w-full text-center text-xl font-bold'>
+              {t('section-3.list.library.see-more-link-text')}
             </span>
           </li>
           <li className='flex flex-col items-center gap-2 cursor-pointer'>

@@ -52,7 +52,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
       >
         <Image
           className='w-[500px] rounded-lg'
-          src={'/internationalBaccalaureatePageSection2.jpg'}
+          src={'/jugando.jpg'}
           width={600}
           height={600}
           quality={100}

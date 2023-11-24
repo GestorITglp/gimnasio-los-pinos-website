@@ -3,11 +3,14 @@ import Image from 'next/image';
 import { FC } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons/faCheck';
-import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
-import { faDesktop } from '@fortawesome/free-solid-svg-icons/faDesktop';
+import {
+  faCheckToSlot,
+  faComputer,
+  faFileSignature,
+  faHandshake,
+} from '@fortawesome/free-solid-svg-icons';
 import ImageSlider from '@/components/ImageSlider/ImageSlider';
+import { linkClassroom, linkMatricula } from '@/constants/links';
 
 interface Props {
   params: {
@@ -31,7 +34,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
     'flex flex-col gap-2 items-start rounded-lg ';
   return (
     <main className='flex flex-col gap-[50px]'>
-      <section className='relative w-full min-h-[30vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/homePageSection1.jpg")] bg-center bg-cover'>
+      <section className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/admissionsPageSection4.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'>
         <div className={`${blackishLayerClasses} opacity-50`} />
         <h1 className='text-2xl sm:text-[50px] z-[10] font-light text-white leading-none text-center sm:text-start'>
           {t.rich('section-1.title', {
@@ -84,46 +87,50 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
         </p>
         <nav className='w-full flex flex-row flex-wrap justify-center items-center gap-10 self-center'>
           <Link
-            href='/'
+            href={linkClassroom}
+            target='_blank'
             className='flex flex-col justify-center items-center gap-2'
           >
             <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faLaptop} />
-              <span className='w-full text-center text-sm font-bold'>
-                {t('section-2.navbar.platforms-link-text').toUpperCase()}
-              </span>
-            </div>
-          </Link>
-          <Link
-            href='/'
-            className='flex flex-col justify-center items-center gap-2'
-          >
-            <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faCheck} />
-              <span className='w-full text-center text-sm font-bold'>
-                {t('section-2.navbar.strategic-allies-link-text').toUpperCase()}
-              </span>
-            </div>
-          </Link>
-          <Link
-            href='/'
-            className='flex flex-col justify-center items-center gap-2'
-          >
-            <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faNewspaper} />
-              <span className='w-full text-center text-sm font-bold'>
-                {t('section-2.navbar.school-newspaper-link-text').toUpperCase()}
-              </span>
-            </div>
-          </Link>
-          <Link
-            href='/'
-            className='flex flex-col justify-center items-center gap-2'
-          >
-            <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faDesktop} />
+              <FontAwesomeIcon icon={faComputer} />
               <span className='w-full text-center text-sm font-bold'>
                 {t('section-2.navbar.classroom-link-text').toUpperCase()}
+              </span>
+            </div>
+          </Link>
+          <Link
+            href='/admissions'
+            target='_blank'
+            className='flex flex-col justify-center items-center gap-2'
+          >
+            <div className={`${section2btnClasses}`}>
+              <FontAwesomeIcon icon={faCheckToSlot} />
+              <span className='w-full text-center text-sm font-bold'>
+                {t('section-2.navbar.admissions-link-text').toUpperCase()}
+              </span>
+            </div>
+          </Link>
+          <Link
+            href={linkMatricula}
+            target='_blank'
+            className='flex flex-col justify-center items-center gap-2'
+          >
+            <div className={`${section2btnClasses}`}>
+              <FontAwesomeIcon icon={faFileSignature} />
+              <span className='w-full text-center text-sm font-bold'>
+                {t('section-2.navbar.tuition-link-text').toUpperCase()}
+              </span>
+            </div>
+          </Link>
+          <Link
+            href='#strategic-partners-section'
+            target='_blank'
+            className='flex flex-col justify-center items-center gap-2'
+          >
+            <div className={`${section2btnClasses}`}>
+              <FontAwesomeIcon icon={faHandshake} />
+              <span className='w-full text-center text-sm font-bold'>
+                {t('section-2.navbar.strategic-allies-link-text').toUpperCase()}
               </span>
             </div>
           </Link>
@@ -153,29 +160,33 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             </button>
           </div>
         </section>
-        <section className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col justify-center items-center gap-10 bg-[url("/homePageSection4.jpg")] bg-cover bg-top'>
+        <section className='relative w-full min-h-[70vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col justify-center items-center gap-10 bg-[url("/futbol.jpg")] bg-no-repeat bg-cover bg-center sm:bg-[position:-200%_27%]'>
           <div className={`${blackishLayerClasses} opacity-50`} />
           <h2 className={`${h2Classes} text-white`}>{t('section-4.title')}</h2>
           <p className='text-md sm:text-xl z-[10] text-center text-white'>
             {t('section-4.description')}
           </p>
           <nav className='w-full z-[10] flex flex-row flex-wrap justify-center gap-10 items-center'>
-            <button
+            <Link
+              href='/'
               type='button'
               className={`${normalBtnClasses}`}
             >
               {t('section-4.navbar.extracurricular-activities-link-text')}
-            </button>
-            <button
-              type='button'
+            </Link>
+            <Link
+              href='/admissions#our-campus-section'
               className={`${normalBtnClasses}`}
             >
               {t('section-4.navbar.our-campus-link-text')}
-            </button>
+            </Link>
           </nav>
         </section>
       </div>
-      <section className='w-full px-[20px] lg:px-[200px] flex flex-col gap-10 items-center'>
+      <section
+        id='strategic-partners-section'
+        className='w-full px-[20px] lg:px-[200px] flex flex-col gap-10 items-center'
+      >
         <h2 className={`${h2Classes}`}>{t('section-5.title')}</h2>
         <ImageSlider
           images={[
@@ -273,15 +284,16 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
               })}
             </span>
           </section>
-          <button
-            type='button'
+          <Link
+            href='https://docs.google.com/forms/d/e/1FAIpQLScxmTpw1npApL7JLBrHmVdvAjPIUI5sj4AVM80YP3p0O95acw/viewform'
+            target='_blank'
             className={`${normalBtnClasses} self-start`}
           >
             {t('section-6.work-with-us-button-text')}
-          </button>
+          </Link>
         </div>
         <iframe
-          className='z-[10] rounded-lg flex-1'
+          className='z-[10] rounded-lg flex-1 w-[200px] sm:w-auto'
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1671.7004300943743!2d-74.03481348081753!3d4.770713316667567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f85f5d5bc22e9%3A0x2d8ebdcec6db58d9!2sGimnasio%20Los%20Pinos!5e0!3m2!1ses-419!2sco!4v1700614994799!5m2!1ses-419!2sco'
           width='600'
           height='450'
