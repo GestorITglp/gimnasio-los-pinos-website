@@ -358,6 +358,42 @@
   "admissions-page": {
     "section-1": {
       "title": "Proceso de admisión",
+      "form": {
+        "legal-responsible-name-field": {
+          "label": "Nombre del responsable legal",
+          "placeholder": "Ingrese el nombre completo"
+        },
+        "legal-responsible-number-field": {
+          "label": "Número de teléfono del responsable legal",
+          "placeholder": "Ingrese el número de teléfono"
+        },
+        "legal-responsible-email-field": {
+          "label": "Correo electrónico del responsable legal",
+          "placeholder": "Ingrese el correo electrónico"
+        },
+        "child-name-field": {
+          "label": "Nombre del niño",
+          "placeholder": "Ingrese el nombre completo"
+        },
+        "child-age-field": {
+          "label": "Edad del niño",
+          "placeholder": "Ingrese la edad"
+        },
+        "child-grade-field": {
+          "label": "¿A qué grado aplica su hijo?",
+          "placeholder": "Grado",
+          "options": {
+            "opt-1-text": "Pre Kínder - Kínder",
+            "opt-2-text": "Transición",
+            "opt-3-text": "Primaria",
+            "opt-4-text": "Bachillerato"
+          }
+        },
+        "send-button-text": "Enviar",
+        "success-message-text": "¡Hemos recibido tu solicitud! Nos pondremos en contacto contigo pronto.",
+        "error-message-text": "¡Error! Por favor, inténtalo de nuevo o envíanos un email.",
+        "close-alert-button-text": "Ok"
+      },
       "forms-section": {
         "title": "Formularios",
         "list": {

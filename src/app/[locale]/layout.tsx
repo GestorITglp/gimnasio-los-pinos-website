@@ -14,6 +14,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons/faYoutube';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCheckToSlot,
@@ -231,7 +232,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                           {t('header.navbar.admissions-page-link-text')}
                         </Link>
                       </li>
-                      <div className='dropdown dropdown-end'>
+                      {/* <div className='dropdown dropdown-end'>
                         <label
                           tabIndex={0}
                           className='btn m-1'
@@ -264,7 +265,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                             </Link>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </ul>
                   </div>
                 </div>

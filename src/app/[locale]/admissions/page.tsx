@@ -1,6 +1,15 @@
 import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import Link from 'next/link';
+import AdmissionForm, {
+  FormField,
+} from '@/components/AdmissionForm/AdmissionForm';
+import {
+  linkCompraFormulario,
+  linkFormularioInscripcion,
+  linkFormularioPreinscripcion,
+  linkUtilesEscolares,
+} from '@/constants/links';
 
 interface Props {
   params: {
@@ -21,11 +30,63 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
     'relative w-full px-[20px] lg:px-[200px] flex flex-col justify-center items-center gap-10 min-h-[50vh] bg-cover bg-no-repeat';
   const section2btnClasses =
     'w-[175px] h-[175px] flex flex-col justify-evenly items-center bg-white hover:bg-light-green text-light-green hover:text-white text-[75px] rounded-xl border-4 border-light-green transition-all';
-
+  const formFields: Array<FormField> = [
+    {
+      id: 'legalResponsibleName',
+      label: t('section-1.form.legal-responsible-name-field.label'),
+      placeholder: t('section-1.form.legal-responsible-name-field.placeholder'),
+      componentType: 'input',
+      dataType: 'text',
+    },
+    {
+      id: 'legalResponsibleNumber',
+      label: t('section-1.form.legal-responsible-number-field.label'),
+      placeholder: t(
+        'section-1.form.legal-responsible-number-field.placeholder'
+      ),
+      componentType: 'input',
+      dataType: 'tel',
+    },
+    {
+      id: 'legalResponsibleEmail',
+      label: t('section-1.form.legal-responsible-email-field.label'),
+      placeholder: t(
+        'section-1.form.legal-responsible-email-field.placeholder'
+      ),
+      componentType: 'input',
+      dataType: 'email',
+    },
+    {
+      id: 'childName',
+      label: t('section-1.form.child-name-field.label'),
+      placeholder: t('section-1.form.child-name-field.placeholder'),
+      componentType: 'input',
+      dataType: 'text',
+    },
+    {
+      id: 'childAge',
+      label: t('section-1.form.child-age-field.label'),
+      placeholder: t('section-1.form.child-age-field.placeholder'),
+      componentType: 'input',
+      dataType: 'number',
+    },
+    {
+      id: 'childGrade',
+      label: t('section-1.form.child-grade-field.label'),
+      placeholder: t('section-1.form.child-grade-field.placeholder'),
+      componentType: 'dropdown',
+      options: [
+        t('section-1.form.child-grade-field.options.opt-1-text'),
+        t('section-1.form.child-grade-field.options.opt-2-text'),
+        t('section-1.form.child-grade-field.options.opt-3-text'),
+        t('section-1.form.child-grade-field.options.opt-4-text'),
+      ],
+    },
+  ];
   return (
     <main className='flex flex-col justify-center items-center gap-[50px]'>
       <section
-        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-4 sm:gap-10 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
+        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-10 sm:gap-10 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
@@ -35,25 +96,31 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
         >
           {t('section-1.title')}
         </h1>
-        <div className='flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-10'>
+        <AdmissionForm
+          fields={formFields}
+          sendButtonText={t('section-1.form.send-button-text')}
+          successMessage={t('section-1.form.success-message-text')}
+          errorMessage={t('section-1.form.error-message-text')}
+          closeAlertBtnText={t('section-1.form.close-alert-button-text')}
+        />
+        <div className='w-full self-center flex flex-row flex-wrap justify-evenly items-center gap-10 sm:gap-10'>
           <Link
-            className={`w-[150px] h-[150px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-full drop-shadow-lg self-end`}
-            href='/'
+            className={`p-4 w-[150px] h-[150px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-lg drop-shadow-lg self-end`}
+            href={linkUtilesEscolares}
+            target='_blank'
           >
             {t('section-1.supply-list-section.title')}
           </Link>
-          <div className='w-[250px] h-[250px] flex flex-col justify-center items-center gap-2 z-[10] bg-dark-green-100 hover:bg-white hover:text-dark-green-100 transition-all rounded-full drop-shadow-lg text-white'>
-            <Link
-              className={`${h3Classes} hover:underline transition-all`}
-              href='/'
-            >
+          <div className='p-4 w-[250px] h-[250px] flex flex-col justify-center items-center gap-2 z-[10] bg-dark-green-100 hover:bg-white hover:text-dark-green-100 transition-all rounded-lg drop-shadow-lg text-white text-center'>
+            <h3 className={`${h3Classes} transition-all`}>
               {t('section-1.forms-section.title')}
-            </Link>
+            </h3>
             <ul className='flex flex-col items-center gap-2 font-light'>
               <li>
                 <Link
                   className={`${pClasses} hover:underline transition-all`}
-                  href='/'
+                  href={linkFormularioPreinscripcion}
+                  target='_blank'
                 >
                   {t('section-1.forms-section.list.item-1-text')}
                 </Link>
@@ -61,7 +128,8 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
               <li>
                 <Link
                   className={`${pClasses} hover:underline transition-all`}
-                  href='/'
+                  href={linkFormularioInscripcion}
+                  target='_blank'
                 >
                   {t('section-1.forms-section.list.item-2-text')}
                 </Link>
@@ -69,7 +137,8 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
               <li>
                 <Link
                   className={`${pClasses} hover:underline transition-all`}
-                  href='/'
+                  href={linkCompraFormulario}
+                  target='_blank'
                 >
                   {t('section-1.forms-section.list.item-3-text')}
                 </Link>
@@ -77,8 +146,9 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             </ul>
           </div>
           <Link
-            className={`w-[150px] h-[150px] ${h3Classes} flex justify-center items-center text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 rounded-full drop-shadow-lg self-start`}
-            href='/'
+            className={`p-4 w-[150px] h-[150px] ${h3Classes} flex justify-center items-center text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 rounded-lg drop-shadow-lg self-start`}
+            target='_blank'
+            href='/uniforms.JPG'
           >
             {t('section-1.uniforms.title')}
           </Link>

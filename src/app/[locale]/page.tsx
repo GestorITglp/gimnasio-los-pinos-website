@@ -152,12 +152,12 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             <p className='text-md sm:text-xl text-center sm:text-start'>
               {t('section-3.description')}
             </p>
-            <button
-              type='button'
+            <Link
+              href='/educational-project'
               className={`${normalBtnClasses}`}
             >
               {t('section-3.see-more-link-text')}
-            </button>
+            </Link>
           </div>
         </section>
         <section className='relative w-full min-h-[70vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col justify-center items-center gap-10 bg-[url("/futbol.jpg")] bg-no-repeat bg-cover bg-center sm:bg-[position:-200%_27%]'>
@@ -194,7 +194,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             '/bk2Logo.png',
             '/studyNowLogo.png',
             '/clubDeportivoEquidadLogo.webp',
-            '/guerrerosLogo.png',
+            '/logoGuerrerosTransparente.png',
           ]}
         />
       </section>

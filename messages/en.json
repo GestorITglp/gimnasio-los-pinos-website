@@ -358,6 +358,42 @@
   "admissions-page": {
     "section-1": {
       "title": "Admission process",
+      "form": {
+        "legal-responsible-name-field": {
+          "label": "Legal responsible name",
+          "placeholder": "Enter the full name"
+        },
+        "legal-responsible-number-field": {
+          "label": "Legal responsible phone number",
+          "placeholder": "Digit the phone number"
+        },
+        "legal-responsible-email-field": {
+          "label": "Legal responsible email",
+          "placeholder": "Enter the email"
+        },
+        "child-name-field": {
+          "label": "Child's name",
+          "placeholder": "Enter the full name"
+        },
+        "child-age-field": {
+          "label": "Child's age",
+          "placeholder": "Digit the age"
+        },
+        "child-grade-field": {
+          "label": "What grade does your child apply to?",
+          "placeholder": "Grade",
+          "options": {
+            "opt-1-text": "Pre Kinder - Kinder",
+            "opt-2-text": "Transition",
+            "opt-3-text": "Primary",
+            "opt-4-text": "Secondary"
+          }
+        },
+        "send-button-text": "Send",
+        "success-message-text": "We have received your request! We will contact you soon.",
+        "error-message-text": "Error! Please try again or send us an email.",
+        "close-alert-button-text": "Ok"
+      },
       "forms-section": {
         "title": "Forms",
         "list": {

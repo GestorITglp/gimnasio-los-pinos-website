@@ -358,6 +358,42 @@
   "admissions-page": {
     "section-1": {
       "title": "Processus d'admission",
+      "form": {
+        "legal-responsible-name-field": {
+          "label": "Nom du responsable légal",
+          "placeholder": "Entrez le nom complet"
+        },
+        "legal-responsible-number-field": {
+          "label": "Numéro de téléphone du responsable légal",
+          "placeholder": "Saisissez le numéro de téléphone"
+        },
+        "legal-responsible-email-field": {
+          "label": "E-mail du responsable légal",
+          "placeholder": "Entrez l'e-mail"
+        },
+        "child-name-field": {
+          "label": "Nom de l'enfant",
+          "placeholder": "Entrez le nom complet"
+        },
+        "child-age-field": {
+          "label": "Âge de l'enfant",
+          "placeholder": "Entrez l'âge"
+        },
+        "child-grade-field": {
+          "label": "À quel niveau scolaire votre enfant postule-t-il ?",
+          "placeholder": "Niveau scolaire",
+          "options": {
+            "opt-1-text": "Pré-Kinder - Kinder",
+            "opt-2-text": "Transition",
+            "opt-3-text": "Primaire",
+            "opt-4-text": "Secondaire"
+          }
+        },
+        "send-button-text": "Envoyer",
+        "success-message-text": "Nous avons bien reçu votre demande! Nous vous contacterons bientôt.",
+        "error-message-text": "Erreur! Veuillez réessayer ou nous envoyer un e-mail.",
+        "close-alert-button-text": "Ok"
+      },
       "forms-section": {
         "title": "Formulaires",
         "list": {

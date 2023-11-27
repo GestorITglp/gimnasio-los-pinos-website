@@ -14,7 +14,7 @@ const ImageSlider: FC<Props> = ({ images }) => {
       {images.map((src) => {
         return (
           <Image
-            className='w-[300px]'
+            className='w-[200px]'
             src={src}
             width={300}
             height={300}
