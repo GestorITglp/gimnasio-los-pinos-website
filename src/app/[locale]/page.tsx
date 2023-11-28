@@ -141,6 +141,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
           <Image
             className='w-[500px]'
             src='/transparentStudents.png'
+            alt='Students'
             width={900}
             height={900}
             quality={100}

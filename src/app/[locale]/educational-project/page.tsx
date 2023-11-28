@@ -46,6 +46,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
         <Image
           className='w-[500px]'
           src='/educationalProjectPageSection1.png'
+          alt='Section 1'
           width={500}
           height={500}
           quality={100}

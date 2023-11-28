@@ -53,6 +53,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         <Image
           className='w-[500px] rounded-lg'
           src={'/jugando.jpg'}
+          alt='Kids playing'
           width={600}
           height={600}
           quality={100}
@@ -80,6 +81,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
           <Image
             className='w-[500px]'
             src='/internationalBaccalaureatePageSection3.png'
+            alt='Section 3'
             width={600}
             height={600}
             quality={100}

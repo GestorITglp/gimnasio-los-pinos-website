@@ -67,6 +67,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
           <Image
             className='min-w-auto sm:min-w-[400px] self-end'
             src='/servicesPageSection2.png'
+            alt='Section 2'
             width={800}
             height={800}
             quality={100}
@@ -102,6 +103,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
           <Image
             className='w-[400px] z-[10]'
             src='/integraturLogo.png'
+            alt='Integratur logo'
             width={400}
             height={400}
             quality={100}
@@ -230,6 +232,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
                 <Image
                   className='w-full rounded-lg'
                   src='/uniforms.JPG'
+                  alt='Uniforms'
                   width={1000}
                   height={1000}
                   quality={100}

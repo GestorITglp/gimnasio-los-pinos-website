@@ -172,6 +172,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                     <Image
                       className='w-[200px]'
                       src='/classicLogo.png'
+                      alt='Gimnasio los Pinos logo'
                       width={200}
                       height={200}
                       quality={100}
@@ -351,6 +352,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             <Image
               className='w-[300px]'
               src='/logoOnAquamarine.png'
+              alt='Gimnasio los Pinos logo'
               width={400}
               height={400}
               quality={100}

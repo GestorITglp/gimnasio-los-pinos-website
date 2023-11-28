@@ -16,6 +16,7 @@ const ImageSlider: FC<Props> = ({ images }) => {
           <Image
             className='w-[200px]'
             src={src}
+            alt={`${src} image`}
             width={300}
             height={300}
             quality={100}
