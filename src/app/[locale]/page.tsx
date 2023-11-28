@@ -298,7 +298,6 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
           width='600'
           height='450'
           loading='lazy'
-          referrerpolicy='no-referrer-when-downgrade'
         ></iframe>
       </section>
     </main>

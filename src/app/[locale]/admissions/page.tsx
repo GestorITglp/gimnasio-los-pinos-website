@@ -404,9 +404,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             className='w-full aspect-video self-center rounded-xl shadow-2xl drop-shadow-2xl'
             src='https://www.youtube.com/embed/3TicY5UfGag?si=3vEZd6bY_vocTvBi'
             title='YouTube video player'
-            frameborder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
           ></iframe>
         </div>
       </section>
