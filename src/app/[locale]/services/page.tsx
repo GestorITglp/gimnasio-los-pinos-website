@@ -10,7 +10,11 @@ import {
   faUserNurse,
 } from '@fortawesome/free-solid-svg-icons';
 import Modal from '@/components/Modal/Modal';
-import { linkBiblioteca } from '@/constants/links';
+import {
+  linkBiblioteca,
+  linkMenuRestaurante,
+  linkPagoTransporte,
+} from '@/constants/links';
 
 interface Props {
   params: {
@@ -92,7 +96,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
         </p>
         <Link
           className='z-[10]'
-          href='/'
+          href={linkPagoTransporte}
           target='_blank'
         >
           <Image
@@ -126,12 +130,16 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
         <h2 className={`${h2Classes}`}>{t('section-3.title')}</h2>
         <ul className='w-full flex flex-row flex-wrap justify-evenly items-center gap-10'>
           <li className='flex flex-col items-center gap-2 cursor-pointer'>
-            <div className={`${section2btnClasses}`}>
+            <Link
+              href={linkMenuRestaurante}
+              target='_blank'
+              className={`${section2btnClasses}`}
+            >
               <FontAwesomeIcon icon={faBowlFood} />
               <span className='text-sm font-black'>
                 {t('section-3.list.restaurant.title').toUpperCase()}
               </span>
-            </div>
+            </Link>
             <span className='w-full text-center text-xl font-bold'>
               {t('section-3.list.restaurant.download-menu-link-text')}
             </span>
