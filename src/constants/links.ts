@@ -11,7 +11,8 @@ export const linkDirectorio = '/directorio.pdf';
 export const linkPagoTransporte = '';
 export const linkMenuRestaurante = '';
 export const linkUtilesEscolares = '';
-export const linkFormularioPreinscripcion = '';
+export const linkFormularioPreinscripcion =
+  'https://webapps-classroomliveweb.com:2443/pinos/2024/Inscripcionprcita2.aspx';
 export const linkFormularioInscripcion = '';
 export const linkCompraFormulario = '';
 export const linkFuncionarios = '';
