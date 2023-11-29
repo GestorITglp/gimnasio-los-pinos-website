@@ -44,7 +44,41 @@ const comfortaa = Comfortaa({
 
 export const metadata: Metadata = {
   title: 'Gimnasio los Pinos',
-  description: 'El Gimnasio los Pinos es un colegio bilingüe',
+  description:
+    'En el Gimnasio los Pinos llevamos a cabo un proceso de formación integral para que sus hijos puedan llegar a ser los mejores profesionales del país. Todo esto gracias a nuestro Bachillerato Internacional.',
+  keywords: [
+    'colegio',
+    'primaria',
+    'secundaria',
+    'bachillerato',
+    'bachillerato internacional',
+    'educación',
+    'colegios bogotá',
+    'bogotá',
+    'school',
+    'colegios usaquén',
+    'español',
+    'inglés',
+    'francés',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Gimnasio los Pinos',
+    description:
+      'En el Gimnasio los Pinos llevamos a cabo un proceso de formación integral para que sus hijos puedan llegar a ser los mejores profesionales del país. Todo esto gracias a nuestro Bachillerato Internacional.',
+  },
 };
 
 interface Props {
