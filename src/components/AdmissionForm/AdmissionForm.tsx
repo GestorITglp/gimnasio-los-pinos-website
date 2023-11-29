@@ -70,14 +70,14 @@ const AdmissionForm: FC<Props> = ({
       const responsesCopy = { ...responses };
       delete responsesCopy[fieldKey];
       setResponses(responsesCopy);
+    } else {
+      setResponses((prevResponses) => {
+        return {
+          ...prevResponses,
+          [fieldKey]: fieldValue,
+        };
+      });
     }
-
-    setResponses((prevResponses) => {
-      return {
-        ...prevResponses,
-        [fieldKey]: fieldValue,
-      };
-    });
   };
 
   const handleClickOnCloseAlert = () => {
@@ -118,8 +118,9 @@ const AdmissionForm: FC<Props> = ({
                 {field.label}
               </label>
               <select
-                className='select select-bordered w-full '
+                className='select select-bordered w-full z-[1000]'
                 value={responses[field.id]}
+                onChange={(e) => handleChangeOnField(field.id, e.target.value)}
               >
                 <option
                   disabled
@@ -129,14 +130,7 @@ const AdmissionForm: FC<Props> = ({
                 </option>
                 {field.options !== undefined &&
                   field.options.map((opt) => {
-                    return (
-                      <option
-                        key={opt}
-                        onClick={() => handleChangeOnField(field.id, opt)}
-                      >
-                        {opt}
-                      </option>
-                    );
+                    return <option key={opt}>{opt}</option>;
                   })}
               </select>
             </div>

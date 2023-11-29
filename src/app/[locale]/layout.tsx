@@ -28,7 +28,7 @@ import {
   linkExtracurriculares,
   linkFacebook,
   linkFuncionarios,
-  linkInstragram,
+  linkInstagram,
   linkManualConvivencia,
   linkMatricula,
   linkSobreNosotros,
@@ -161,7 +161,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                 <div className='w-full px-[5px] py-[5px] flex flex-row justify-end gap-2 bg-dark-green-100'>
                   <CircleIconButton
                     icon={faInstagram}
-                    href={linkInstragram}
+                    href={linkInstagram}
                     target='_blank'
                   />
                   <CircleIconButton
