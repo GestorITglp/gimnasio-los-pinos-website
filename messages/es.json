@@ -44,7 +44,7 @@
   "floating-buttons": {
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admisiones",
-    "tuition-button-text": "Matricula",
+    "tuition-button-text": "Matrcula",
     "temporal-button-text": "Temporal"
   },
   "home-page": {
@@ -56,9 +56,9 @@
       "title": "Bienvenido a Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
-        "classroom-link-text": "Classroom",
+        "classroom-link-text": "Boletines",
         "admissions-link-text": "Admisiones",
-        "tuition-link-text": "Matricula",
+        "tuition-link-text": "Matrículas y pagos",
         "strategic-allies-link-text": "Aliados estratégicos"
       }
     },
