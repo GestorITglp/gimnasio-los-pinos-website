@@ -34,7 +34,7 @@
         "title": "Contáctenos",
         "landline-text": "<notable>Teléfono fijo:</notable> PBX (057)(1) 670 00 08",
         "mobile-phone-text": "<notable>Teléfono móvil:</notable> (057) 300 896 04 75",
-        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia 🇨🇴"
+        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia"
       }
     },
     "lower-section": {
@@ -53,7 +53,7 @@
       "description": "Ofrecemos a nuestros estudiantes procesos de educación virtual."
     },
     "section-2": {
-      "title": "Bienvenido a Gimnasio los Pinos",
+      "title": "Bienvenido al Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
         "classroom-link-text": "Boletines",
@@ -63,12 +63,12 @@
       }
     },
     "section-3": {
-      "title": "¡En Gimnasio los Pinos desarrollamos tu potencial!",
-      "description": "Practicamos la educación a través de la potencialización de los talentos de los estudiantes en deportes, artes, humanidades, ciencias aplicadas con un componente clave: la felicidad del estudiante.",
+      "title": "¡En el Gimnasio Los Pinos desarrollamos tu potencial!",
+      "description": "Practicamos la educación a través de la potencialización del talento de los estudiantes en deportes, artes, humanidades, ciencias aplicadas con un componente clave: la felicidad del estudiante.",
       "see-more-link-text": "Ver más"
     },
     "section-4": {
-      "title": "Tenemos actividades extracurriculares que desarrollarán el verdadero potencial del estudiante.",
+      "title": "Tenemos actividades extracurriculares que desarrollan el verdadero potencial del estudiante.",
       "description": "Espacios campestres. Todas nuestras aulas son 100% tecnológicas. Profesores cualificados.",
       "navbar": {
         "extracurricular-activities-link-text": "Actividades extracurriculares",
@@ -79,12 +79,12 @@
       "title": "Aliados estratégicos"
     },
     "section-6": {
-      "title": "Gimnasio los Pinos",
+      "title": "Gimnasio Los Pinos",
       "contact-info-section": {
         "title": "Información de contacto",
         "landline-text": "<notable>Teléfono fijo:</notable> PBX (057)(1) 670 00 08",
         "mobile-phone-text": "<notable>Teléfono móvil:</notable> (057) 300 896 04 75",
-        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia 🇨🇴"
+        "address-text": "<notable>Dirección:</notable> Calle 193 # 9-20, Bogotá, Colombia"
       },
       "attention-schedule-section": {
         "title": "Horario de atención",
