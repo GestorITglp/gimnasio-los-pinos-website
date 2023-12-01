@@ -4,7 +4,7 @@
 export const linkSobreNosotros = '';
 export const linkClassroom =
   'https://webapps-classroomliveweb.com:2443/pinos/2023/Login.aspx?ReturnUrl=%2fpinos%2f2023%2fSeguro%2fRep_DefActividadDocentePorc.aspx';
-export const linkMatricula = 'https://webapps-classroomliveweb.com:2443/pinos/2024/Seguro/ExtractoAlumno.aspx';
+export const linkMatricula = 'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
 export const linkTemporal = '';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
