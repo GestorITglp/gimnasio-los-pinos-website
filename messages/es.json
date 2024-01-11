@@ -44,12 +44,12 @@
   "floating-buttons": {
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admisiones",
-    "tuition-button-text": "Matrcula",
-    "temporal-button-text": "Temporal"
+    "tuition-button-text": "Matricula",
+    "temporal-button-text": "Funcionarios"
   },
   "home-page": {
     "section-1": {
-      "title": "Educación <big>excepcional</big> <colordiff>en Gimnasio los pinos</colordiff>",
+      "title": "Descubre tu <big>Talento</big> <colordiff>en el Gimnasio los pinos</colordiff>",
       "description": "Ofrecemos a nuestros estudiantes procesos de educación virtual."
     },
     "section-2": {
@@ -201,75 +201,75 @@
       "head-row": {
         "name-col-text": "Nombre",
         "job-col-text": "Cargo",
-        "details-col-text": "Detalles"
+        "details-col-text": "Contacto"
       },
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
-        "job-col-text": "Director académico",
-        "details-col-text": "Soy educador, Magíster en Enseñanza, graduado en ciencias religiosas con estudios en filosofía y literatura. Tengo un compromiso personal con la mejora de la calidad escolar a través del ejercicio de liderazgo educativo e investigación en el campo del desarrollo cognitivo en la educación.<br></br>A lo largo de mi carrera docente he desempeñado diversos roles, como profesor de filosofía, coordinación de convivencia y dirección académica. A nivel universitario, he sido profesor de humanidades en la Universidad De La Salle. Y en el sector financiero he sido director nacional de educación para la cooperativa financiera Progressa.<br></br>En este camino profesional he asumido apasionadamente el propósito de mejorar como seres humanos a través de la educación, que desarrollo en la dirección de proyectos educativos bajo estándares nacionales e internacionales, diseño curricular y liderazgo de equipos docentes de alto rendimiento. Pero sin duda, lo que más me gusta hacer es ingresar a las aulas, hablar con niños y jóvenes para despertar inquietudes sobre el deseo de ser más amables y honorables."
+        "job-col-text": "Rector",
+        "details-col-text": "3008960220"
       },
       "row-2": {
-        "name-col-text": "Ángela Romero",
-        "job-col-text": "Directora de primera sección",
-        "details-col-text": "Mi nombre es Ángela Romero, graduada en psicología y pedagogía, especialista en neuropsicología infantil y actualmente maestría en desarrollo infantil. Durante 19 años he tenido la fortuna de compartir escenarios educativos en diferentes niveles escolares, en distintos cargos, como: docente, jefa de área, psicóloga educativa, coordinadora de ciclo y directora de sección.<br></br>Mi mayor pasión es trabajar con niños, porque gracias a las experiencias que he tenido con ellos, he reafirmado mi vocación como docente.<br></br>Decidí especializarme en la primera infancia porque los niños, para mí, son la expresión tangible de lo que significan espontaneidad, transparencia, alegría, curiosidad y resiliencia."
+        "name-col-text": "Germán Rodolfo Barbosa",
+        "job-col-text": "Vicerector",
+        "details-col-text": "3013460565"
       },
       "row-3": {
-        "name-col-text": "Diana Patricia Gordillo Ballen",
-        "job-col-text": "Directora de segunda sección",
-        "details-col-text": "Para apoyar la formación integral de los estudiantes de segunda sección, aplico compromiso, dedicación, liderazgo, comunicación asertiva, escucha y trabajo en equipo.<br></br>Soy licenciada en matemáticas y mi formación académica, humana y laboral se ha centrado en el desarrollo e implementación de estrategias educativas, con las cuales he contribuido al logro de los objetivos estratégicos de nuestra escuela.<br></br>He trabajado en diversos roles desde la enseñanza hasta la jefatura de área, un recorrido que he construido de manera agradable durante más de 12 años.<br></br>He realizado estudios en Gestión Educativa, Neuropsicología y gestión de sistemas de calidad.<br></br>Mi experiencia en el aula, en primaria y secundaria, me ha permitido realizar investigaciones sobre la educación matemática, gracias a esto fui ponente en un foro internacional sobre proyectos transversales."
+        "name-col-text": "María Angélica González Ovalle",
+        "job-col-text": "Directora de primera sección",
+        "details-col-text": "3008960234"
       },
       "row-4": {
-        "name-col-text": "Germán Rodolfo Barbosa",
-        "job-col-text": "Director de tercera sección",
-        "details-col-text": "La educación como referencia para el cambio y la evolución de la sociedad ha sido mi motivación desde mis primeros semestres en la Universidad Distrital, institución de la cual me gradué hace más de 20 años. En Gimnasio Los Pinos he trabajado en diversos roles, fui profesor, jefe de área, director de sección y ahora soy padre de una estudiante, ya que mi hija Gabriela ingresó a la secundaria, una etapa en la que comienzan todas las dinámicas del desarrollo estudiantil.<br></br>En un mundo globalizado y con expectativas de cambio social; es necesario que nosotros, como educadores, docentes y formadores, estemos actualizados a nivel de formación y capital cultural, razón por la cual en 2018 finalicé mi maestría en Educación con Énfasis en la Calidad de la Educación, en la Universidad Externado de Colombia."
+        "name-col-text": "Gloria Inés Prada Ramírez",
+        "job-col-text": "Coordinadora PAI",
+        "details-col-text": "3022542519"
       },
       "row-5": {
-        "name-col-text": "Diego Alberto Mojica Eugenio",
-        "job-col-text": "Director de cuarta sección",
-        "details-col-text": "Nací en Málaga Santander, en una familia donde Dios, la familia y los valores son la base formativa de la persona. Vivo inspirado y motivado por Juan Diego, mi hermoso hijo de 7 años.<br></br>Considero un honor dirigir la cuarta sección del Gimnasio Los Pinos, que incluye los grados noveno, décimo y undécimo. Esta es la última etapa en la escuela, en la que se sintetizan muchos de los aprendizajes para la vida y nuestros estudiantes se muestran como un ejemplo para los más pequeños. En esta sección fortalecemos la autonomía de los jóvenes, sin dejar de lado el papel fundamental de la familia y su entorno, para lograr juntos una proyección hacia la vida universitaria."
+        "name-col-text": "Andrés Felipe Palomino",
+        "job-col-text": "Coordinador IB",
+        "details-col-text": "3022906579"
       },
       "row-6": {
-        "name-col-text": "Patricia González",
-        "job-col-text": "Coordinadora del Programa de Escuela Primaria (PEP)",
-        "details-col-text": "Soy Patricia González, Coordinadora del Programa de Escuela Primaria (PEP) en Gimnasio Los Pinos, y durante 15 años he tenido la fortuna de trabajar en lo que más me apasiona, la educación.<br></br>Estoy convencida de que esta es la etapa adecuada para 'Cultivar el Potencial' de niños y jóvenes, también para transformar y construir conocimiento.<br></br>Gimnasio los Pinos encontró en el Bachillerato Internacional"
+        "name-col-text": "Diana Carolina Guzmán Martínez",
+        "job-col-text": "Jefe del área de psicologia",
+        "details-col-text": "3012195165"
       },
       "row-7": {
-        "name-col-text": "Gladys Arenas Molina",
-        "job-col-text": "Jefa del área social",
-        "details-col-text": "Nací en Bogotá, D.C. en una familia de educadores. Vivo inspirada y motivada por mi hijo Francisco Javier y mi querido esposo.<br></br>Es motivo de orgullo para mí dirigir el Área Social del Gimnasio Los Pinos, que incluye el Programa de Escuela Primaria (PEP) y Bachillerato desde sexto hasta undécimo grado, en las materias: Filosofía, Social, Ética-Silla para la Paz y Énfasis en Humanidades.<br></br>Intento acercar a nuestros Gimnapinos al conocimiento científico social, al desarrollo del pensamiento crítico reflexivo y al fortalecimiento de competencias ciudadanas.<br></br>En cuanto a mi formación académica, tengo una licenciatura en Ciencias Sociales y Económicas; Maestría en Educación con énfasis en investigación; especializaciones en Administración y Gestión Educativa; Pedagogía y Docencia Universitaria; 2 años de estudios doctorales en la Universidad Autónoma de Aguascalientes (México); Experiencia docente en Educación Superior por más de 10 años y en aulas escolares por más de 20 años. Colaboradora en la línea de investigación de COLCIENCIAS. He participado en conferencias, foros, coloquios, seminarios, presentaciones, conferencias y mesas redondas internacionales, nacionales, regionales y locales; Soy auditor certificado de la norma ISO 9001:2015; jurado - asesor de trabajos de pregrado y posgrado; mentor del Programa de Años Primarios (PEP)."
+        "name-col-text": "Bibiana Fajardo Circado",
+        "job-col-text": "Jefe del área de adquisición de lenguas",
+        "details-col-text": "jefatura_ingles@gimnasiolospinos.edu.co"
       },
       "row-8": {
-        "name-col-text": "Yuli Andrea Rodríguez ",
+        "name-col-text": "Hamiz Jussef Vega Dávila",
         "job-col-text": "Jefa del área de matemáticas",
-        "details-col-text": "Nací en Bogotá, tengo grandes valores personales y un profundo deseo de aprender, enseñar e investigar, así como contribuir al desarrollo de nuestros estudiantes, en términos de habilidades y aprendizaje de las matemáticas. Tengo más de 10 años de experiencia en diferentes roles docentes y actualmente lidero los procesos en el área de matemáticas en el Gimnasio Los Pinos.<br></br>Mi objetivo fundamental es liderar procesos donde se favorezca el interés de los estudiantes y se promueva una amplia gama de situaciones de trabajo, haciendo uso de diversos recursos que permitan verificar los resultados obtenidos y una adecuada conceptualización.<br></br>Tengo una licenciatura en matemáticas, soy especialista en Legislación Educativa y Procedimientos Constitucionales, autora de textos de geometría analítica, con conocimientos en diseño, administración y montaje de cursos virtuales de aprendizaje en Moodle, conocimientos y gestión de programas en matemáticas y geometría interactiva. He participado en diferentes encuentros como: La reunión de Geometría y sus aplicaciones, el Congreso Iberoamericano de Cabri y el evento internacional Matecompu en Cuba."
+        "details-col-text": "jefatura_matematicas@gimnasiolospinos.edu.co"
       },
       "row-9": {
-        "name-col-text": "Andrés David Pérez Barrera",
-        "job-col-text": "Jefe del área de español",
-        "details-col-text": "Nací en la ciudad de Bogotá, en una familia organizada compuesta por una madre y un padre que me formaron en valores y me dieron la posibilidad de lograr la mejor educación.<br></br>He completado estudios en varios campos, como literatura, pedagogía, inglés, emprendimiento empresarial y algunos talleres del Bachillerato Internacional. Actualmente tengo diez años de experiencia trabajando en colegios en la ciudad de Bogotá.<br></br>Es motivo de orgullo para mí servir como jefe del área de idiomas en el Gimnasio Los Pinos. Considero que es una de las áreas de conocimiento más importantes, porque a través de ella se desarrollan habilidades de comunicación, habilidades de creación de textos y, sobre todo, se fortalece la forma de entender el mundo desde el contacto con el alma y la expresión.<br></br>Además de apasionarme el trabajo en equipo, disfruto escribir, leer y crear textos. Es por eso que formo parte del periódico escolar, donde tengo la oportunidad de trabajar con toda la comunidad en el desarrollo de GLPost. Este proyecto permite que nuestros estudiantes se destaquen en una comunidad globalizada en el futuro por su talento como periodistas, cronistas, fotógrafos o incluso escritores de sagas literarias."
+        "name-col-text": "Jessica Johana Díaz Morales",
+        "job-col-text": "Jefe del área de lengua y literatura",
+        "details-col-text": "jefatura_espanol@gimnasiolospinos.edu.co"
       },
       "row-10": {
-        "name-col-text": "Alexander Gerena",
-        "job-col-text": "Jefe del área de artes",
-        "details-col-text": "Nací en Bogotá, he sido amante de la música desde una edad temprana, creo firmemente que el arte es una herramienta poderosa para transformar vidas de manera positiva.<br></br>La práctica y el aprendizaje de una disciplina artística tienen una capacidad formativa y también impactan en la detección y mejora de talentos, además fortalecen el desarrollo de habilidades en los campos social, emocional y cognitivo.<br></br>Dirigir el área de expresión artística del Gimnasio Los Pinos es una tarea que me llena de orgullo, dado que hay pocos colegios en América Latina que cuentan con un conservatorio musical, compuesto por 12 profesores altamente calificados.<br></br>En cuanto a mi formación, soy músico e ingeniero de sonido, con una maestría en Mercado de Arte y una maestría en Gestión Cultural. Tengo 15 años de experiencia en la enseñanza de música y en eventos artísticos desde la producción. Mis 10 años de experiencia en el conservatorio del Gimnasio Los Pinos me han permitido trabajar como profesor, ingeniero de sonido y gerente de área. Esto me inspira a consolidar y fortalecer procesos existentes, de la mano del diseño y desarrollo de proyectos de alta calidad con impacto para la comunidad del Gimnasio Los Pinos."
+        "name-col-text": "Wilder Alfredo Alarcón Montes",
+        "job-col-text": "Jefe del área de artes y música",
+        "details-col-text": "3002762355"
       },
       "row-11": {
-        "name-col-text": "Oscar Julián Rubio Pérez",
-        "job-col-text": "Jefe del área de tecnología e informática",
-        "details-col-text": "Nací en Guaduas, Cundinamarca, en una familia compuesta por un padre y una madre, quienes se enfocaron en inculcarme valores como el amor, el respeto y la empatía hacia los demás. De ahí nació mi amor por mi profesión docente.<br></br>Desde mi trabajo como jefe del área de tecnología en el Gimnasio Los Pinos, he construido un currículo con estándares nacionales e internacionales, enfocado en el desarrollo de habilidades de pensamiento computacional, diseño tecnológico y gestión de la información, dirigido a nuestros estudiantes.<br></br>En cuanto a mi formación académica, tengo una licenciatura en Electrónica con Especialización en Instrumentación Industrial y una maestría en E-learning y redes sociales de aprendizaje.<br></br>Tengo experiencia en la gestión de tecnologías de la información y comunicación, en procesos de apoyo pedagógico y fortalecimiento curricular en ciencia y tecnología. Soy auditor certificado de la norma ISO 9001:2015. He realizado cursos de actualización en el modelo de enseñanza IB, MYP y PYP. Tengo un uso avanzado de herramientas de oficina, programación de software, conocimientos en el diseño y administración de entornos virtuales de aprendizaje."
+        "name-col-text": "Katty Zorayda Díaz Gómez",
+        "job-col-text": "Jefe del área de ciencias y tecnología",
+        "details-col-text": "jefatura_ciencias@gimnasiolospinos.edu.co"
       },
       "row-12": {
-        "name-col-text": "Bibiana Fajardo Circado",
-        "job-col-text": "Jefa del área de idiomas extranjeros",
-        "details-col-text": "Mi ciudad natal es Bogotá, como nativa de Bogotá, he tenido la oportunidad de conocer y disfrutar la ciudad entendiendo que, por ser la capital, tenemos la oportunidad de compartir diferentes puntos de vista y culturas.<br></br>Me encargo de dirigir el Departamento de Inglés de la institución donde a lo largo de los años hemos obtenido triunfos académicos que permiten a nuestros graduados tener una vida universitaria con excelentes fundamentos en el idioma y resultados académicos que les permiten, según sus intereses, obtener becas en el extranjero, teniendo la facilidad de aplicar a universidades con la opción de homologar el inglés en sus carreras.<br></br>Estudié Lenguas Modernas y he tenido la experiencia de vivir en un país de habla inglesa, teniendo la oportunidad de continuar mi crecimiento profesional en Long Island University con una cátedra en estudios culturales, por otro lado, en Century College (Minnesota) profundizando en el aprendizaje de idiomas. La participación en congresos como TESOL nos da la oportunidad de fortalecer nuestras prácticas y estar a la vanguardia de la enseñanza del inglés como segundo idioma. Auditora certificada de la norma ISO 9001:2015. En la escuela he tenido la oportunidad de trabajar como profesora en grados de primaria y secundaria y ahora como jefa de área.<br></br>La mayor gratificación en nuestras vidas ocurre cuando nos encontramos con un estudiante/exalumno y recuerdan tu trabajo, es ahí donde analizamos que este trabajo va más allá del tiempo, es una marca para toda la vida."
+        "name-col-text": "Giovanny Ruiz Mateus",
+        "job-col-text": "Jefa del área de individuos y sociedades",
+        "details-col-text": "jefatura_sociales@gimnasiolospinos.edu.co"
       },
       "row-13": {
-        "name-col-text": "Fabián Orlando Bogotá Riveros",
-        "job-col-text": "Jefe del área de ciencias",
-        "details-col-text": "Nacido en Bogotá, me considero un emprendedor e investigador en el campo de la didáctica y la enseñanza de las matemáticas y las ciencias, con altos valores profesionales y un deseo de aprendizaje continuo.<br></br>Tengo 10 años de experiencia en la comunidad educativa en diferentes campos de enseñanza. Quiero liderar procesos que vinculen a los estudiantes para identificar la fenomenología de todo lo que nos rodea, cuidar el medio ambiente y desarrollar con los estudiantes el interés y la pasión por la ciencia.<br></br>Tengo un título en Matemáticas, con especialización en enseñanza universitaria y una maestría en la enseñanza de ciencias exactas y naturales. He desarrollado proyectos de investigación en la enseñanza de ciencias y matemáticas utilizando la astronomía, el emprendimiento y situaciones de la vida cotidiana como un medio científico. También soy profesor y gestiono proyectos de investigación en instituciones de educación superior. Actualmente lidero los procesos en el área de ciencias y educación ambiental en Gimnasio los Pinos."
+        "name-col-text": "Manuel Infante Patarroyo ",
+        "job-col-text": "Jefe del área de educación física y deportes",
+        "details-col-text": "3006739021"
       }
     },
-    "open-modal-btn-text": "Ver detalles",
+    "open-modal-btn-text": "Ver contacto",
     "close-modal-btn-text": "Cerrar"
   },
   "services-page": {
