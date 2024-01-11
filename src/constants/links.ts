@@ -8,7 +8,7 @@ export const linkMatricula = 'https://webapps-classroomliveweb.com:2443/pinos/20
 export const linkTemporal = '';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
-export const linkDirectorio = '/directorio.pdf';
+export const linkDirectorio = '';
 export const linkPagoTransporte = '';
 export const linkMenuRestaurante = '';
 export const linkUtilesEscolares = '';
@@ -16,7 +16,7 @@ export const linkFormularioPreinscripcion =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Inscripcionprcita2.aspx';
 export const linkFormularioInscripcion = '';
 export const linkCompraFormulario = '';
-export const linkFuncionarios = '';
+export const linkFuncionarios = 'http://45.163.28.92:8080/KioscoDesignerRHN-war/?grupo=GrupoEmpresarial1';
 export const linkInstagram = 'https://www.instagram.com/glpinos.oficial/?hl=es';
 export const linkFacebook =
   'https://www.facebook.com/PinosOficial/?locale=es_LA';
