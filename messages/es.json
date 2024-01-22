@@ -44,7 +44,7 @@
   "floating-buttons": {
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admisiones",
-    "tuition-button-text": "Matricula",
+    "tuition-button-text": "Matrícula",
     "temporal-button-text": "Funcionarios"
   },
   "home-page": {
@@ -210,7 +210,7 @@
       },
       "row-2": {
         "name-col-text": "Germán Rodolfo Barbosa",
-        "job-col-text": "Vicerector",
+        "job-col-text": "Vicerrector",
         "details-col-text": "3013460565"
       },
       "row-3": {
