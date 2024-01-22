@@ -56,10 +56,10 @@
       "title": "Bienvenido al Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
-        "classroom-link-text": "Boletines",
+        "classroom-link-text": "Classroom",
         "admissions-link-text": "Admisiones",
         "tuition-link-text": "Matrículas y pagos",
-        "strategic-allies-link-text": "Aliados estratégicos"
+        "strategic-allies-link-text": "Galeria"
       }
     },
     "section-3": {
