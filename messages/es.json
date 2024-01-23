@@ -206,32 +206,32 @@
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
         "job-col-text": "Rector",
-        "details-col-text": "3008960220"
+        "details-col-text": "rectoria@gimnasiolospinos.edu.co"
       },
       "row-2": {
         "name-col-text": "Germán Rodolfo Barbosa",
         "job-col-text": "Vicerrector",
-        "details-col-text": "3013460565"
+        "details-col-text": "vicerrectoria@gimnasiolospinos.edu.co"
       },
       "row-3": {
         "name-col-text": "María Angélica González Ovalle",
         "job-col-text": "Directora de primera sección",
-        "details-col-text": "3008960234"
+        "details-col-text": "dirseccion1@gimnasiolospinos.edu.co"
       },
       "row-4": {
         "name-col-text": "Gloria Inés Prada Ramírez",
         "job-col-text": "Coordinadora PAI",
-        "details-col-text": "3022542519"
+        "details-col-text": "dirseccion3@gimnasiolospinos.edu.co"
       },
       "row-5": {
         "name-col-text": "Andrés Felipe Palomino",
         "job-col-text": "Coordinador IB",
-        "details-col-text": "3022906579"
+        "details-col-text": "dirseccion4@gimnasiolospinos.edu.co"
       },
       "row-6": {
         "name-col-text": "Diana Carolina Guzmán Martínez",
         "job-col-text": "Jefe del área de psicologia",
-        "details-col-text": "3012195165"
+        "details-col-text": "jefatura_psicologia@gimnasiolospinos.edu.co"
       },
       "row-7": {
         "name-col-text": "Bibiana Fajardo Circado",
@@ -251,7 +251,7 @@
       "row-10": {
         "name-col-text": "Wilder Alfredo Alarcón Montes",
         "job-col-text": "Jefe del área de artes y música",
-        "details-col-text": "3002762355"
+        "details-col-text": "jefatura_artes@gimnasiolospinos.edu.co"
       },
       "row-11": {
         "name-col-text": "Katty Zorayda Díaz Gómez",
@@ -266,7 +266,7 @@
       "row-13": {
         "name-col-text": "Manuel Infante Patarroyo ",
         "job-col-text": "Jefe del área de educación física y deportes",
-        "details-col-text": "3006739021"
+        "details-col-text": "jefatura_deportes@gimnasiolospinos.edu.co"
       }
     },
     "open-modal-btn-text": "Ver contacto",
