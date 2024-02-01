@@ -10,7 +10,7 @@ export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
 export const linkDirectorio = '';
 export const linkPagoTransporte = '';
-export const linkMenuRestaurante = '/Minuta febrero 2024';
+export const linkMenuRestaurante = '/Minuta febrero 2024.pdf';
 export const linkUtilesEscolares = '';
 export const linkFormularioPreinscripcion =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Inscripcionprcita2.aspx';
