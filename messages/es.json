@@ -45,7 +45,7 @@
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admisiones",
     "tuition-button-text": "Matrícula",
-    "temporal-button-text": "Funcionarios"
+    "temporal-button-text": "Calendario Académico"
   },
   "home-page": {
     "section-1": {
@@ -59,7 +59,7 @@
         "classroom-link-text": "Classroom",
         "admissions-link-text": "Admisiones",
         "tuition-link-text": "Matrículas y pagos",
-        "strategic-allies-link-text": "Calendario Académico"
+        "strategic-allies-link-text": "Galería"
       }
     },
     "section-3": {
