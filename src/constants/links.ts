@@ -5,7 +5,7 @@ export const linkSobreNosotros = '';
 export const linkClassroom =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
 export const linkMatricula = 'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
-export const linkTemporal = 'http://45.163.28.92:8080/KioscoDesignerRHN-war/?grupo=GrupoEmpresarial1';
+export const linkTemporal = 'CALENDARIO ACADEMICO.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
 export const linkDirectorio = '';
