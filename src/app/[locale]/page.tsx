@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { linkClassroom, linkMatricula } from '@/constants/links';
 import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScroll';
+import BannerSlideshow from '@/components/BannerSlideshow/BannerSlideshow';
 
 interface Props {
   params: {
@@ -34,7 +35,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
     'flex flex-col gap-2 items-start rounded-lg ';
   return (
     <main className='flex flex-col gap-[50px]'>
-      <section className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/admissionsPageSection4.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'>
+      {/* <section className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/admissionsPageSection4.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'>
         <div className={`${blackishLayerClasses} opacity-50`} />
         <h1 className='text-2xl sm:text-[50px] z-[10] font-light text-white leading-none text-center sm:text-start'>
           {t.rich('section-1.title', {
@@ -56,30 +57,45 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             },
           })}
         </h1>
-        {/* <nav className='relative h-[175px] z-[10] flex flex-row justify-center items-center gap-10'>
-          <Link
-            href='/'
-            target='_blank'
-            className={`${section1btnClasses}`}
-          >
-            <FontAwesomeIcon icon={faLock} />
-          </Link>
-          <Link
-            href='/'
-            target='_blank'
-            className={`${section1btnClasses}`}
-          >
-            <FontAwesomeIcon icon={faFileText} />
-          </Link>
-          <Link
-            href='/'
-            target='_blank'
-            className={`${section1btnClasses}`}
-          >
-            <FontAwesomeIcon icon={faDesktopAlt} />
-          </Link>
-        </nav> */}
-      </section>
+      </section> */}
+      <div className='relative'>
+        <div className='w-full h-full absolute flex justify-center items-center'>
+          <h1 className='absolute text-2xl sm:text-[50px] z-[10] font-light text-white leading-none text-center sm:text-start'>
+            {t.rich('section-1.title', {
+              big: (text) => {
+                return (
+                  <>
+                    <br />
+                    <span className={`text-[50px] sm:text-[100px]`}>
+                      {text}
+                    </span>
+                  </>
+                );
+              },
+              colordiff: (text) => {
+                return (
+                  <>
+                    <br />
+                    <span className={`text-light-green font-black`}>
+                      {text}
+                    </span>
+                  </>
+                );
+              },
+            })}
+          </h1>
+        </div>
+        <BannerSlideshow
+          banners={[
+            '/admissionsPageSection4.jpg',
+            '/campus1.png',
+            '/campus2.webp',
+            '/campus3.webp',
+            '/campus4.webp',
+            '/carrousel4.jpg',
+          ]}
+        />
+      </div>
       <section className='w-full px-[20px] lg:px-[200px] flex flex-col items-center gap-10'>
         <h2 className={`${h2Classes}`}>{t('section-2.title')}</h2>
         <p className='text-md sm:text-xl text-center'>
