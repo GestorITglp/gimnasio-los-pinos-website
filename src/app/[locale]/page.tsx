@@ -9,8 +9,8 @@ import {
   faFileSignature,
   faHandshake,
 } from '@fortawesome/free-solid-svg-icons';
-import ImageSlider from '@/components/ImageSlider/ImageSlider';
 import { linkClassroom, linkMatricula } from '@/constants/links';
+import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScroll';
 
 interface Props {
   params: {
@@ -186,16 +186,24 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
       </div>
       <section
         id='strategic-partners-section'
-        className='w-full px-[20px] lg:px-[200px] flex flex-col gap-10 items-center'
+        className='w-[100vw] px-[20px] lg:px-[200px] flex flex-col gap-10 items-center'
       >
         <h2 className={`${h2Classes}`}>{t('section-5.title')}</h2>
-        <ImageSlider
-          images={[
-            '/myOnLogo.png',
+        <InfiniteLogoScroll
+          logos={[
             '/bk2Logo.png',
             '/studyNowLogo.png',
             '/clubDeportivoEquidadLogo.webp',
             '/logoGuerrerosTransparente.png',
+            '/aacbiLogo.png',
+            '/isoLogo.png',
+            '/asocoldepLogo.png',
+            '/caracolitosLogo.png',
+            '/classroomLogo.png',
+            '/continuoIbLogo.jpeg',
+            '/ibLogo.jpg',
+            '/miltonOchoaLogo.png',
+            '/richmondLogo.png',
           ]}
         />
       </section>
