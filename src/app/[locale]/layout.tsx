@@ -393,10 +393,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             />
             <hr className='w-full h-1 sm:hidden' />
             <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>
-              <Link
-                href={linkSobreNosotros}
-                target='_blank'
-              >
+              <Link href={linkSobreNosotros}>
                 {t('footer.mid-section.about-us-link-text')}
               </Link>
               <Link

@@ -472,5 +472,47 @@
     "section-5": {
       "title": "Our campus"
     }
+  },
+  "about-us-page": {
+    "section-1": {
+      "title": "About us",
+      "description": "We educate and train people who will transform our society, through significant experiences that develop their talents."
+    },
+    "section-2": {
+      "mission-section": {
+        "title": "Mission",
+        "description": "We educate and train people who will transform our society, through significant experiences that develop their talents and make them builders of their own being, their knowledge and their achievements.<br></br>Within the framework of teaching For understanding, we inspire entrepreneurship and pro-activity in the new generations to be protagonists of a supportive community, which promotes well-being in the world."
+      },
+      "vision-section": {
+        "title": "Vision",
+        "description": "In the year 2026, the Los Pinos Gymnasium will be a benchmark for educational excellence, which forms the character and cultivates the potential of people in arts, sports, sciences and humanities with an international curricular focus."
+      },
+      "quality-policy-section": {
+        "title": "Quality policy",
+        "description": "GIMNASIO LOS PINOS seeks to improve the provision of its educational service by strengthening in students the diversity of their talents and knowledge, skills and values through training in Knowing Being, Knowing How to Learn, Knowing How to Do and Knowing How to Be. To achieve this, it develops a concept of excellence in sports, artistic disciplines and academic entrepreneurship, the teaching model for understanding, bilingualism and the definition of an international profile for its students.<br></br>The GIMNASIO LOS PINOS is committed to meeting the needs and expectations of the entire academic community, as well as to continuously improve the Quality Management System through the establishment of a PEI in accordance with current and future needs, with better performance of its institutional processes and a qualified teaching team."
+      }
+    },
+    "section-3": {
+      "title": "History",
+      "description": "In 1967, a group of professionals belonging to Asmedas wanted to make the dream of founding an educational institution come true with the purpose of reaffirming cooperativism in Colombia. A year later, it began with primary school levels, under the direction of Alicia Mateus de Herrera.<br></br>In 1970, Mr. Jose Padilla assumed responsibility for the Gymnasium and started the high school section, which in 1975 would become the first promotion of the Los Pinos Gymnasium. Proclaimed by the then Rector Mr. Luis Alejandro Eslava, it is worth highlighting that for this year it already has its own headquarters located to this day at Calle 192 No 9-20.<br></br>Without a doubt, all those people who have contributed to the development, projection and training of students at the Gymnasium, have left their professional experience and human quality marked and with this have allowed the growth of each group that makes up the institution both at the level of physical structure and in the values ​​training."
+    },
+    "section-4": {
+      "title": "Student profile",
+      "description": "We believe in permanent change as a catalyst for personal and institutional advancement. Likewise, we consider that defining ourselves as essentially people is an individual and collective possibility that is based on the formation of the personal talent of children and young people at the service of the materialization of high common ethical and academic ideals. To achieve this, we are willing to permanently explore new paths and possibilities to develop skills to the maximum and it is complex thinking. Beyond a good education, we form integral people who leave a social mark. Each student at Gimnasio Los Pinos in their appreciation of reality is at least trained for",
+      "list": {
+        "item-1-text": "Be aware of the influence of your actions",
+        "item-2-text": "Find out about your local, national and global reality",
+        "item-3-text": "Develop leadership skills that you can exercise in your environment",
+        "item-4-text": "Evaluate yourself and push yourself positively to know your potential and achieve the highest performance of your talents.",
+        "item-5-text": "Take responsibility by assuming personal decisions with character and social conscience",
+        "item-6-text": "Demonstrate high performance in English as a second language",
+        "item-7-text": "Knowing, recognizing and accepting oneself in a self-esteem format based on academic, artistic and sporting skills typical of a high qualification according to the emphasis",
+        "item-8-text": "Assume attributes typical of international curricular development by being inquirers, informed and educated, thinkers, good communicators, integrity, open-minded, supportive, bold, balanced and reflective."
+      }
+    },
+    "section-5": {
+      "title": "Our values",
+      "description": "Our commitment as part of the Cooperative Sector and as providers of the Educational Service is to strive in our Management and our Institutional Educational Project to strengthen, develop and direct primarily the following values as foundations of action:<br></br><meaningful>We are Integrity</meaningful>: Our Actions define us in front of others and in front of ourselves. That is why we diligently assume what we commit to with families, school, society and the environment. We always assume the consequences of our actions and our decisions.<br></br><meaningful>We are Proactive</meaningful>: We consider that we are capable of facing difficulty by taking the initiative. We base our decisions on purpose, best interest, opportunity, context, fact and relevant information. Our common inspiration is found in our vision, mission and values<br></br><meaningful>We are Respectful</meaningful>: We owe ourselves to the people we serve well. We accept everyone from their differences, thereby recognizing their rights, duties and dignity.<br></br><meaningful>We are Passionate</meaningful>: We base our objectives and results on materializing high purposes. We believe in great personal and social transformations based on knowledge, discipline and action. We do not faint in the face of impossibility. Our personal satisfaction goes beyond the duty fulfilled.<br></br><meaningful>We are Excellent</meaningful>: We exceed the conditions and standards established in the perspective of continuous improvement and learning, through the efficient use of resources. We believe in rigor and formality."
+    }
   }
 }

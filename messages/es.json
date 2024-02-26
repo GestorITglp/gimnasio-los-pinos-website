@@ -472,5 +472,47 @@
     "section-5": {
       "title": "Nuestro campus"
     }
+  },
+  "about-us-page": {
+    "section-1": {
+      "title": "Sobre nosotros",
+      "description": "Educamos y formamos a las personas que transformaran nuestra sociedad, a través de experiencias significativas que desarrollan sus talentos."
+    },
+    "section-2": {
+      "mission-section": {
+        "title": "Misión",
+        "description": "Educamos y formamos a las personas que transformarán nuestra sociedad, a través de experiencias significativas que desarrollan sus talentos y las hacen constructoras de su propio ser, de su conocimiento y de sus logros.<br></br>Dentro del marco de la enseñanza para la comprensión, inspiramos el emprendimiento y la pro actividad en las nuevas generaciones para ser protagonistas de una comunidad solidaria, que propicia bienestar al mundo."
+      },
+      "vision-section": {
+        "title": "Visión",
+        "description": "En el año 2026, el Gimnasio Los Pinos será un referente de excelencia educativa, que forma el carácter y cultiva el potencial de Las personas en artes, deportes, ciencias y humanidades con un enfoque curricular internacional."
+      },
+      "quality-policy-section": {
+        "title": "Política de calidad",
+        "description": "EL GIMNASIO LOS PINOS busca mejorar la prestación de su servicio educativo fortaleciendo en los estudiantes la diversidad de sus talentos y conocimientos, habilidades y valores por medio de la formación en el Saber Ser, Saber Aprender, Saber Hacer y el Saber Estar. Para alcanzarto, desarrolla en un concepto de excelencia las disciplinas deportivas, artisticas y el emprendimiento academico, el modelo de enseñanza para la comprensión, el bilingüismo y la definición de un perfil internacional de sus estudiantes.<br></br>EL GIMNASIO LOS PINOS está comprometido en satisfacer las necesidades y expectativas de toda la comunidad académica, asi como de mejorar continuamente el Sistema de Gestión de la Calidad mediante el establecimiento de un PEI acorde con las necesidades actuales y futuras, con un mejor desempeño de sus procesos institucionales y un equipo docente calificado."
+      }
+    },
+    "section-3": {
+      "title": "Historia",
+      "description": "En el año 1967 un grupo de profesionales pertenecientes a Asmedas quiso hacer realidad el sueño de fundar una institución educativa con el propósito de reafirmar el cooperativismo en Colombia, un año después se inicia con los niveles de básica primaria, bajo la dirección de Alicia Mateus de Herrera.<br></br>En 1970 el Señor Jose Padilla asume la responsabilidad del Gimnasio e inicia la sección de bachillerato, que en 1975 se constituirá en la primera promoción del Gimnasio Los Pinos. Proclamada por el entonces Rector Señor Luis Alejandro Eslava, vale la pena resaltar que ya para este año se cuenta con una sede propia ubicada hasta hoy en la Calle 192 No 9-20.<br></br>Sin duda alguna, todas aquellas personas que han contribuido en el desarrollo, proyección y formación de alumnos del Gimnasio, han dejado marcada su experiencia profesional y su calidad humana y con ello han permitido el crecimiento de cada estamento que conforma la institución tanto a nivel de estructura fisica, como en la formación en valores."
+    },
+    "section-4": {
+      "title": "Perfil del estudiante",
+      "description": "Creemos en el cambio permanente como pos brutador de avance personat e institucional. Asimismo, consideramos que el defininos cono personas esencialmente, es una posibilidad individual y colectiva que se cimenta en la formación del talento personal de los niños y jóvenes al servicio de la materialización de altos ideales éticos y académicos comunes. Para ello estamos dispuestos a explorar permanentemente nuevos caminos y posibilidades para desarrollar al máximo las habilidades y es pensamiento complejo Mis allá de una buena educación, formamos personas integrales que dejan huella social Cada estudiante del Gimnasia Los Pees en su apreciación de realidad al menos es formado para",
+      "list": {
+        "item-1-text": "Ser consciente de la influencia de sus acciones",
+        "item-2-text": "Informarse de su realidad cercana, nacional y mundial",
+        "item-3-text": "Desarrollar habilidades de liderazgo que puede ejercer en su entorno",
+        "item-4-text": "Auto evaluarse y exigirse positivamente para conocer su potencial y conseguir el más alto desempeño de sus talentos",
+        "item-5-text": "Responsabilizarse asumiendo con carácter y conciencia social las decisiones personales",
+        "item-6-text": "Evidenciar alto desempeño en et inglés como segunda lengua",
+        "item-7-text": "Conocerse, reconocerse y aceptarse en una autoestima formatla desde habilidades académicas, artisticas y deportivas propias de una alta cualificación según el énfasis",
+        "item-8-text": "Asumir atributos propios del desarrollo curricular internacional siendo indagadores, informados e instruidos, pensadores, buenos comunicadores, integros, de mentalidad abierta, solidarios, audaces, equilibrados y reflexivos"
+      }
+    },
+    "section-5": {
+      "title": "Nuestros valores",
+      "description": "Nuestro compromiso como parte del Sector Cooperativo y como prestadores del Servicio Educativo es propender en nuestra Gestión y nuestro Proyecto Educativo Institucional por afianzar, desarrollar y encaminar primordialmente los siguientes valores como fundamentos de la acción:<br></br><meaningful>Somos Integros</meaningful>: Nuestras acciones nos definen frente a otros y frente a nosotros mismos. Por eso asumimos de manera diligente aquello a lo que nos comprometemos con las familias, el colegio, la sociedad y el medio ambiente. Siempre asumimos las consecuencias de nuestros actos y de nuestras decisiones.<br></br><meaningful>Somos Proactivos</meaningful>: Consideramos que somos capaces de afrontar La dificultad tomando la iniciativa. Basamos nuestras decisiones considerando la finalidad, el mayor beneficio para todos, la oportunidad, el contexto, el hecho y la información pertinente. Nuestra inspiración común la encontramos en nuestra visión, misión y valores<br></br><meaningful>Somos Respetuosos</meaningful>: Nos debemos a las personas que bien servimos. Aceptamos a todos desde la diferencia, con lo cual reconocemos sus derechos, deberes y dignidad.<br></br><meaningful>Somos Apasionados</meaningful>: Fundamentamos nuestros objetivos y resultados en materializar altos propósitos. Creemos en grandes transformaciones personales y sociales a partir del conocimiento la disciplina y la acción. No desfallecemos ante la imposibilidad. Nuestra satisfacción personal va más allá del deber cumplido.<br></br><meaningful>Somos Excelentes</meaningful>: Superamos las condiciones y estándares establecidos en la perspectiva de mejora y aprendizaje continuos, a través del uso eficiente de los recursos. Creemos en el rigor y la formalidad."
+    }
   }
 }

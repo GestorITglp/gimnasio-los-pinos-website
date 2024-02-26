@@ -472,5 +472,47 @@
     "section-5": {
       "title": "Notre campus"
     }
+  },
+  "about-us-page": {
+    "section-1": {
+      "title": "À propos de nous",
+      "description": "Nous éduquons et formons les personnes qui transformeront notre société, à travers des expériences significatives qui développent leurs talents."
+    },
+    "section-2": {
+      "mission-section": {
+        "title": "Mission",
+        "description": "Nous éduquons et formons des personnes qui transformeront notre société, à travers des expériences significatives qui développent leurs talents et font d'elles des bâtisseurs de leur propre être, de leurs savoirs et de leurs réalisations.<br></br>Dans le cadre de l'enseignement Pour la compréhension, nous inspirons l'entrepreneuriat et la proactivité des nouvelles générations pour être les protagonistes d'une communauté solidaire, qui promeut le bien-être dans le monde."
+      },
+      "vision-section": {
+        "title": "Vision",
+        "description": "En 2026, le Gymnase de Los Pinos sera une référence en matière d'excellence éducative, qui façonne le caractère et cultive le potentiel des personnes dans les domaines des arts, des sports, des sciences et des sciences humaines avec une orientation pédagogique internationale."
+      },
+      "quality-policy-section": {
+        "title": "Politique de qualité",
+        "description": "GIMNASIO LOS PINOS cherche à améliorer l'offre de son service éducatif en renforçant chez les étudiants la diversité de leurs talents et connaissances, compétences et valeurs à travers une formation en Connaître Être, Savoir Apprendre, Savoir Faire et Savoir Être. Pour y parvenir, il développe un concept d'excellence dans le sport, les disciplines artistiques et l'entrepreneuriat académique, le modèle d'enseignement pour la compréhension, le bilinguisme et la définition d'un profil international pour ses étudiants.<br></br>Le GIMNASIO LOS PINOS s'engage à répondre aux besoins et aux attentes de l'ensemble de la communauté académique, ainsi qu'à améliorer continuellement le système de gestion de la qualité à travers la mise en place d'un PEI conforme aux besoins actuels et futurs, avec une meilleure performance de ses processus institutionnels et une équipe pédagogique qualifiée."
+      }
+    },
+    "section-3": {
+      "title": "Histoire",
+      "description": "En 1967, un groupe de professionnels appartenant à Asmedas a voulu réaliser le rêve de fonder un établissement d'enseignement dans le but de réaffirmer le coopérativisme en Colombie. Un an plus tard, il a commencé avec les niveaux de l'école primaire, sous la direction d'Alicia Mateus de Herrera. .<br></br>En 1970, M. José Padilla assume la responsabilité du Gymnase et crée la section lycée, qui en 1975 deviendra la première promotion du Gymnase Los Pinos. Proclamé par le Recteur de l'époque, M. Luis Alejandro Eslava, il convient de souligner que cette année, il dispose déjà de son propre siège situé à ce jour dans la Calle 192 No 9-20.<br></br>Sans aucun doute, tous ces les personnes qui ont contribué au développement, à la projection et à la formation des étudiants du Gymnase, ont laissé marqué leur expérience professionnelle et leur qualité humaine et ont ainsi permis la croissance de chaque groupe qui compose l'institution tant au niveau de la structure physique que dans la formation aux valeurs."
+    },
+    "section-4": {
+      "title": "Profil étudiant",
+      "description": "Nous croyons au changement permanent comme catalyseur d'avancement personnel et institutionnel. De même, nous considérons que se définir comme essentiellement des personnes est une possibilité individuelle et collective qui repose sur la formation du talent personnel des enfants et des jeunes au service de la matérialisation d'idéaux éthiques et académiques communs élevés. Pour y parvenir, nous sommes disposés à explorer en permanence de nouvelles voies et possibilités pour développer au maximum les compétences et c'est une réflexion complexe. Au-delà d'une bonne éducation, nous formons des personnes intégrales qui laissent une marque sociale. Chaque étudiant de Gimnasia Los Pees dans son appréciation de la réalité est au moins formé pour",
+      "list": {
+        "item-1-text": "Soyez conscient de l'influence de vos actions",
+        "item-2-text": "Découvrez votre réalité locale, nationale et mondiale",
+        "item-3-text": "Développer des compétences en leadership que vous pourrez exercer dans votre environnement",
+        "item-4-text": "Évaluez-vous et poussez-vous positivement pour connaître votre potentiel et atteindre la plus haute performance de vos talents.",
+        "item-5-text": "Assumer ses responsabilités en assumant des décisions personnelles avec caractère et conscience sociale",
+        "item-6-text": "Démontrer de hautes performances en anglais comme langue seconde",
+        "item-7-text": "Se connaître, se reconnaître et s'accepter dans un format d'estime de soi basé sur des compétences académiques, artistiques et sportives typiques d'un diplôme élevé selon l'accent mis",
+        "item-8-text": "Assumer les attributs typiques du développement de programmes d'études internationaux en étant des chercheurs, informés et éduqués, des penseurs, de bons communicateurs, intègres, ouverts d'esprit, solidaires, audacieux, équilibrés et réfléchis."
+      }
+    },
+    "section-5": {
+      "title": "Nos valeurs",
+      "description": "Notre engagement en tant que membre du secteur coopératif et en tant que prestataires du service éducatif est de nous efforcer dans notre gestion et notre projet éducatif institutionnel de renforcer, développer et orienter principalement les valeurs suivantes comme fondements de l'action:<br></br><meaningful>Nous sommes Intégrité</meaningful>: Nos actions nous définissent devant les autres et devant nous-mêmes. C'est pourquoi nous assumons avec diligence ce que nous engageons auprès des familles, de l'école, de la société et de l'environnement. Nous assumons toujours les conséquences de nos actes et de nos décisions.<br></br><meaningful>Nous sommes Proactifs</meaningful>: Nous considérons que nous sommes capables d'affronter les difficultés en prenant des initiatives. Nous basons nos décisions sur l'objectif, le meilleur intérêt, l'opportunité, le contexte, les faits et les informations pertinentes. Notre inspiration commune se trouve dans notre vision, notre mission et nos valeurs<br></br><meaningful>Nous sommes respectueux</meaningful>: nous nous devons aux personnes que nous servons bien. Nous acceptons chacun dans ses différences, reconnaissant ainsi ses droits, ses devoirs et sa dignité.<br></br><meaningful>Nous sommes passionnés</meaningful>: nous basons nos objectifs et nos résultats sur la matérialisation de buts élevés. Nous croyons aux grandes transformations personnelles et sociales basées sur la connaissance, la discipline et l'action. Nous ne nous évanouissons pas devant l'impossible. Notre satisfaction personnelle va au-delà du devoir accompli.<br></br><meaningful>Nous sommes Excellents</meaningful>: Nous dépassons les conditions et les normes établies dans une perspective d'amélioration et d'apprentissage continus, grâce à l'utilisation efficace des ressources. Nous croyons à la rigueur et à la formalité."
+    }
   }
 }
