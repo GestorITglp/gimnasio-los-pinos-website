@@ -22,7 +22,8 @@ const BannerSlideshow: FC<Props> = ({ banners }) => {
       infinite
       autoPlay
       disableSwipe
-      slideDuration={300}
+      slideDuration={750}
+      slideInterval={4000}
       showBullets={false}
       showFullscreenButton={false}
       showIndex={false}
