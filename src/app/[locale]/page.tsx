@@ -83,14 +83,26 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
           <Link
             href={linkClassroom}
             target='_blank'
-            className='flex flex-col justify-center items-center gap-2'
+            className=''
           >
-            <div className={`${section2btnClasses}`}>
+            <Image
+              style={{
+                filter: 'drop-shadow(0px 0px 10px #009780)',
+              }}
+              className='w-[350px] hover:w-[375px] transition-all'
+              src='/classroomButtonOrg.png'
+              alt='Classroom button'
+              width={700}
+              height={700}
+              quality={100}
+              priority
+            />
+            {/* <div className={`${section2btnClasses}`}>
               <FontAwesomeIcon icon={faComputer} />
               <span className='w-full text-center text-sm font-bold'>
                 {t('section-2.navbar.classroom-link-text').toUpperCase()}
               </span>
-            </div>
+            </div> */}
           </Link>
           <Link
             href='/admissions'

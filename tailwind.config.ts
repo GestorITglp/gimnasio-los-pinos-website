@@ -25,6 +25,10 @@ const config: Config = {
         black: '#000000',
         white: '#FFFFFF',
       },
+      boxShadow: {
+        'classic-lg': '12px 10px 4px 0 rgba(0, 0, 0, 0.20)',
+        'classic-sm': '0px 0px 5px 1px rgba(0, 0, 0, 0.20)',
+      },
     },
   },
   plugins: [require('daisyui')],

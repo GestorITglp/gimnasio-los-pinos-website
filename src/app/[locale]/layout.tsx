@@ -105,7 +105,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
       lang={locale}
       data-theme='light'
     >
-      <body className={`${comfortaa.className} text-black`}>
+      <body className={`${comfortaa.className} text-black pt-[156.533px]`}>
         <nav className='z-[50] fixed right-0 bottom-0 flex flex-col text-sm'>
           <Link
             href={linkClassroom}
@@ -148,7 +148,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             </span>
           </Link>
         </nav>
-        <header>
+        <header className='w-full fixed top-0 left-0 z-[100000] shadow-classic-sm border-dark-green-100'>
           <div className='drawer z-[100]'>
             <input
               id='my-drawer-3'
