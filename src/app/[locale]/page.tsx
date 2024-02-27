@@ -130,13 +130,23 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
           </Link>
           <Link
             href='#strategic-partners-section'
-            target='_blank'
             className='flex flex-col justify-center items-center gap-2'
           >
             <div className={`${section2btnClasses}`}>
               <FontAwesomeIcon icon={faHandshake} />
               <span className='w-full text-center text-sm font-bold'>
                 {t('section-2.navbar.strategic-allies-link-text').toUpperCase()}
+              </span>
+            </div>
+          </Link>
+          <Link
+            href='#'
+            className='flex flex-col justify-center items-center gap-2'
+          >
+            <div className={`${section2btnClasses}`}>
+              <FontAwesomeIcon icon={faHandshake} />
+              <span className='w-full text-center text-sm font-bold'>
+                {t('section-2.navbar.calendar-link-text').toUpperCase()}
               </span>
             </div>
           </Link>
