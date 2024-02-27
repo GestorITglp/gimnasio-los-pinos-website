@@ -3,20 +3,20 @@
  */
 export const linkSobreNosotros = '/about-us';
 export const linkClassroom =
-  'https://webapps-classroomliveweb.com:2443/pinos/2023/Login.aspx?ReturnUrl=%2fpinos%2f2023%2fSeguro%2fRep_DefActividadDocentePorc.aspx';
-export const linkMatricula = '';
-export const linkTemporal = '';
+  'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
+export const linkMatricula = 'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
+export const linkTemporal = 'CALENDARIO ACADEMICO.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
-export const linkDirectorio = '/directorio.pdf';
+export const linkDirectorio = '';
 export const linkPagoTransporte = '';
-export const linkMenuRestaurante = '';
+export const linkMenuRestaurante = '/Minuta febrero 2024.pdf';
 export const linkUtilesEscolares = '';
 export const linkFormularioPreinscripcion =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Inscripcionprcita2.aspx';
 export const linkFormularioInscripcion = '';
 export const linkCompraFormulario = '';
-export const linkFuncionarios = '';
+export const linkFuncionarios = 'http://45.163.28.92:8080/KioscoDesignerRHN-war/?grupo=GrupoEmpresarial1';
 export const linkInstagram = 'https://www.instagram.com/glpinos.oficial/?hl=es';
 export const linkFacebook =
   'https://www.facebook.com/PinosOficial/?locale=es_LA';
