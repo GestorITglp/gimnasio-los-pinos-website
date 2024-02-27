@@ -12,6 +12,7 @@ import {
 import { linkClassroom, linkMatricula } from '@/constants/links';
 import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScroll';
 import BannerSlideshow from '@/components/BannerSlideshow/BannerSlideshow';
+import NewsCarousel from '@/components/NewsCarousel/NewsCarousel';
 
 interface Props {
   params: {
@@ -35,29 +36,6 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
     'flex flex-col gap-2 items-start rounded-lg ';
   return (
     <main className='flex flex-col gap-[50px]'>
-      {/* <section className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/admissionsPageSection4.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'>
-        <div className={`${blackishLayerClasses} opacity-50`} />
-        <h1 className='text-2xl sm:text-[50px] z-[10] font-light text-white leading-none text-center sm:text-start'>
-          {t.rich('section-1.title', {
-            big: (text) => {
-              return (
-                <>
-                  <br />
-                  <span className={`text-[50px] sm:text-[100px]`}>{text}</span>
-                </>
-              );
-            },
-            colordiff: (text) => {
-              return (
-                <>
-                  <br />
-                  <span className={`text-light-green font-black`}>{text}</span>
-                </>
-              );
-            },
-          })}
-        </h1>
-      </section> */}
       <div className='relative'>
         <div className='w-full h-full absolute flex justify-center items-center'>
           <h1 className='absolute text-2xl sm:text-[50px] z-[10] font-light text-white leading-none text-center sm:text-start'>
@@ -222,6 +200,13 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             '/richmondLogo.png',
           ]}
         />
+      </section>
+      <section
+        id='news-section'
+        className='flex flex-col gap-10'
+      >
+        <h2 className={`${h2Classes}`}>{t('news-section.title')}</h2>
+        <NewsCarousel />
       </section>
       <section className='relative min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-between items-center bg-[url("/homePageSection6.png")] bg-cover bg-center gap-4 sm:gap-10'>
         <div className={`${blackishLayerClasses} opacity-75`} />
