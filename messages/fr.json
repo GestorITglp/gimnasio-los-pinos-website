@@ -353,6 +353,22 @@
       "title": "Le curriculum du PEP",
       "description": "Dispensé dans plus de 109 pays à travers le monde, le cadre du curriculum du PYP s'aligne exceptionnellement bien sur les exigences étatiques et nationales. Guidés par six thèmes transdisciplinaires d'importance mondiale, les élèves approfondissent leur apprentissage en développant leur compréhension conceptuelle, ce qui leur permet de renforcer leurs connaissances et leurs compétences dans les domaines disciplinaires et au-delà.",
       "image-fig-caption": "Pour plus d'informations, vous pouvez consulter le site <link>www.ibo.org</link>"
+    },
+    "section-4": {
+      "list": {
+        "list-item-1-text": "Currículum international",
+        "list-item-2-text": "Nous faisons partie des meilleures écoles du monde",
+        "list-item-3-text": "Nous avons accès aux meilleures universités nationales et internationales",
+        "list-item-4-text": "Formation des citoyens du monde"
+      },
+      "button-text": "Je veux en savoir plus sur l'IB !"
+    },
+    "section-5": {
+      "title": "Nous sommes une école du monde du baccalauréat international.",
+      "description": "Nous formons des citoyens du monde, préparés selon un modèle éducatif solide qui garantit l'excellence éducative internationale.",
+      "pep-button-text": "Programme d'école primaire - PEP",
+      "pai-button-text": "Programme d'éducation intermédiaire - PAI",
+      "pd-button-text": "Programme du diplôme - PD"
     }
   },
   "admissions-page": {

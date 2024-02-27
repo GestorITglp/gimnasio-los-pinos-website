@@ -353,6 +353,22 @@
       "title": "El currículo del PEP",
       "description": "Entregado en más de 109 países alrededor del mundo, el marco curricular del PEP se alinea excepcionalmente bien con los requisitos estatales y nacionales. Guiados por seis temas transdisciplinarios de importancia global, los estudiantes profundizan su aprendizaje desarrollando su comprensión conceptual, lo que les permite fortalecer sus conocimientos y habilidades en áreas disciplinarias y más allá.",
       "image-fig-caption": "Para obtener más información, puedes consultar el sitio <link>www.ibo.org</link>"
+    },
+    "section-4": {
+      "list": {
+        "list-item-1-text": "Currículum internacional",
+        "list-item-2-text": "Somos parte de los mejores colegios del mundo",
+        "list-item-3-text": "Brindamos acceso a las mejores universidades nacionales e internacionales",
+        "list-item-4-text": "Formación de ciudadanas del mundo"
+      },
+      "button-text": "¡Quiero saber más sobre el IB!"
+    },
+    "section-5": {
+      "title": "Somos un colegio del mundo del bachillerato internacional.",
+      "description": "Formamos ciudadanos del mundo, preparados bajo un modelo educativo sólido que garantiza la excelencia educativa internacional.",
+      "pep-button-text": "Programa Escuela Primaria - PEP",
+      "pai-button-text": "Programa Años Intermedios - PAI",
+      "pd-button-text": "Programa Diploma - PD"
     }
   },
   "admissions-page": {

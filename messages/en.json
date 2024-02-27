@@ -353,6 +353,22 @@
       "title": "The PEP curriculum",
       "description": "Delivered in more than 109 countries around the world, the PYP curriculum framework aligns exceptionally well with state and national requirements. Guided by six transdisciplinary themes of global significance, students deepen their learning by developing their conceptual understanding, enabling them to strengthen their knowledge and skills across and beyond disciplinary areas.",
       "image-fig-caption": "For more information, you can consult the site <link>www.ibo.org</link>"
+    },
+    "section-4": {
+      "list": {
+        "list-item-1-text": "International curriculum",
+        "list-item-2-text": "We are part of the world's best schools",
+        "list-item-3-text": "We provide access to the best national and international universities",
+        "list-item-4-text": "Training of world citizens"
+      },
+      "button-text": "I want to know more about the IB!"
+    },
+    "section-5": {
+      "title": "We are a school from the International baccalaureate world",
+      "description": "We train world citizens, prepared under a strong educational model that guarantees international educational excellence",
+      "pep-button-text": "Primary school program - PEP",
+      "pai-button-text": "Intermediate years program - PAI",
+      "pd-button-text": "Diploma program - PD"
     }
   },
   "admissions-page": {
