@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { imagenPAI, imagenPD, imagenPEP } from '@/constants/images';
 
 interface Props {
   params: {
@@ -175,21 +176,21 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         <Link
           className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
           target='_blank'
-          href='https://raw.githubusercontent.com/Dacaramo/ramzeis-quotes/master/Imagen%20Programa%20Escuela%20Primaria%20%E2%80%93%20PEP.png?token=GHSAT0AAAAAACMZL7CG2XQMQ4MXCNGWOI2GZOU5ILQ'
+          href={imagenPEP}
         >
           {t('section-5.pep-button-text')}
         </Link>
         <Link
           className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
           target='_blank'
-          href='https://raw.githubusercontent.com/Dacaramo/ramzeis-quotes/master/Imagen%20Programa%20A%C3%B1os%20Intermedios%20%E2%80%93%20PAI.jpg?token=GHSAT0AAAAAACMZL7CGJP5FWEA6QWPLBR7QZOU5JZA'
+          href={imagenPAI}
         >
           {t('section-5.pai-button-text')}
         </Link>
         <Link
           className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
           target='_blank'
-          href='https://raw.githubusercontent.com/Dacaramo/ramzeis-quotes/master/Imagen%20Programa%20Diploma%20-%20PD.jpg?token=GHSAT0AAAAAACMZL7CGPL74SFJBZERRSY6AZOU5LBA'
+          href={imagenPD}
         >
           {t('section-5.pd-button-text')}
         </Link>

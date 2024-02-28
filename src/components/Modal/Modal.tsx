@@ -46,7 +46,7 @@ const Modal: FC<Props> = ({
       />
       <div
         style={styles}
-        className='modal'
+        className='modal z-[10000000]'
         role='dialog'
       >
         <div className='modal-box flex flex-col'>
