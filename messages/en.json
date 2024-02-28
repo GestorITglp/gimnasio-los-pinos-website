@@ -45,7 +45,7 @@
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admissions",
     "tuition-button-text": "Tuition",
-    "temporal-button-text": "Temporal"
+    "temporal-button-text": "Calendar"
   },
   "home-page": {
     "section-1": {
@@ -59,7 +59,7 @@
         "classroom-link-text": "Classroom",
         "admissions-link-text": "Admissions",
         "tuition-link-text": "Tuition",
-        "strategic-allies-link-text": "Strategic allies",
+        "gallery-link-text": "Gallery",
         "calendar-link-text": "Academic calendar"
       }
     },
@@ -209,68 +209,68 @@
       },
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
-        "job-col-text": "Academic director",
-        "details-col-text": "I am an educator, Master in Teaching, graduate in religious sciences with studies in philosophy and literature. I have a personal commitment to improving school quality through the exercise of educational leadership and research in the field of cognitive development in education.<br></br>Throughout my teaching career I have held various roles such as being a philosophy subject teacher, coexistence coordination and academic direction. At the university level, I have been a humanities teacher at De La Salle University. And in the financial sector I have served as national director of education for the Progressa financial cooperative.<br></br>In this professional path I have passionately assumed the purpose of improving ourselves as human beings through education, which I do in the direction of educational projects under national and international standards, curricular design and leadership of high-performance teaching teams. But without a doubt, what I like to do most is get into the classrooms, speaking to children and young people to raise concerns about the desire to be kinder and more honorable."
+        "job-col-text": "Rector",
+        "details-col-text": "rectoria@gimnasiolospinos.edu.co"
       },
       "row-2": {
-        "name-col-text": "Ángela Romero",
-        "job-col-text": "First section director",
-        "details-col-text": "My name is Ángela Romero, a graduate in psychology and pedagogy, a specialist in child neuropsychology and currently a master's degree in child development. For 19 years I have been fortunate to share educational scenarios at different school levels, in different positions, such as: teacher, area head, educational psychologist, cycle coordinator and section director.<br></br>My greatest passion is working with children, because thanks to the experiences I have had with them, I have reaffirmed my vocation as a teacher.<br></br>I have decided to specialize in early childhood because children, for me, are the tangible expression of what spontaneity, transparency, joy, curiosity and resilience mean."
+        "name-col-text": "Germán Rodolfo Barbosa",
+        "job-col-text": "Vicerrector",
+        "details-col-text": "vicerrectoria@gimnasiolospinos.edu.co"
       },
       "row-3": {
-        "name-col-text": "Diana Patricia Gordillo Ballen",
-        "job-col-text": "Second section director",
-        "details-col-text": "In supporting the comprehensive training of second section students, I apply commitment, dedication, leadership, assertive communication, listening and teamwork.<br></br>I have a degree in mathematics and my academic, human and work training have focused on the development and implementation of educational strategies, with which I have contributed to the achievement of the strategic goals of our school.<br></br>I have worked in various roles from teaching to area head, a journey that I have pleasantly built over 12 years.<br></br>I have completed studies in Educational Management, Neuropsychology and quality management system management.<br></br>My experience in the classroom, in primary and high school, has allowed me to carry out research on mathematics education, thanks to this I was a speaker at an international forum on transversal projects."
+        "name-col-text": "María Angélica González Ovalle",
+        "job-col-text": "Coordinadora PEP",
+        "details-col-text": "coordinacionpep@gimnasiolospinos.edu.co"
       },
       "row-4": {
-        "name-col-text": "Germán Rodolfo Barbosa",
-        "job-col-text": "Third section director",
-        "details-col-text": "Education as a reference for change and evolution of society has been my motivation since my first semesters at Universidad Distrital, an institution from which I graduated more than 20 years ago. At Gimnasio Los Pinos I have worked in various roles, I was a teacher , area head, section director and now I am the father of a student, since my daughter Gabriela entered high school, a stage in which all the dynamics of student development begin.<br></br>In a globalized world and with expectations of social change; It is necessary that we, as educators, teachers and trainers, be updated at the level of training and cultural capital, which is why in 2018 I finished my master's degree in Education with Emphasis on the Quality of Education, at the Externado University of Colombia."
+        "name-col-text": "Alexandra Sarmiento Gutiérrez",
+        "job-col-text": "Coordinadora de Preescolar",
+        "details-col-text": "coordinacionpreescolar@gimnasiolospinos.edu.co"
       },
       "row-5": {
-        "name-col-text": "Diego Alberto Mojica Eugenio",
-        "job-col-text": "Fourth section director",
-        "details-col-text": "I was born in Málaga Santander, in a family where God, family and values are the formative basis of the person. I live inspired and motivated by Juan Diego, my beautiful 7-year-old son.<br></br>I consider it an honor to lead the fourth section of the Los Pinos Gymnasium, which includes the ninth, tenth and eleventh grades. This is the last stage in school, in which many of the learnings for life are synthesized and our students are shown as an example for the little ones. In this section we strengthen the autonomy of young people, without leaving aside the fundamental role of the family and their environment, to together achieve a projection towards university life."
+        "name-col-text": "Gloria Inés Prada Ramírez",
+        "job-col-text": "Coordinadora PAI",
+        "details-col-text": "coordinacionpai@gimnasiolospinos.edu.co"
       },
       "row-6": {
-        "name-col-text": "Patricia González",
-        "job-col-text": "PEP coordinator",
-        "details-col-text": "I am Patricia González Coordinator of the Primary School Program (PEP) at Gimnasio Los Pinos, and for 15 years I have been fortunate to work in what I am most passionate about, education.<br></br>I am convinced that this is the appropriate stage to “Cultivate the Potential” of children and young people, also to transform and build knowledge.<br></br>Gimnasio los Pinos found in the IB International Baccalaureate the best curriculum to develop in its children all the skills necessary to perform and become well-rounded, inquiring and open-minded people.<br></br>Together with the Gimnapina Community, since last year I have led the authorization process of the IB Primary School Program, which has been an interesting challenge that has allowed me to continue growing and learning.<br></br>I have a degree in Modern Languages from the Pontificia Universidad Javeriana, with studies in Translation from the same university. Likewise, I have a master's degree in Psychopedagogy with a specialty in Intervention in Early Childhood and Primary Education from the University of Barcelona. This academic profile has confirmed my love for an inclusive and transformative education in a demanding society."
+        "name-col-text": "Andrés Felipe Palomino",
+        "job-col-text": "Coordinador IB",
+        "details-col-text": "dirseccion4@gimnasiolospinos.edu.co"
       },
       "row-7": {
-        "name-col-text": "Gladys Arenas Molina",
-        "job-col-text": "Head of social area",
-        "details-col-text": "I was born in Bogotá, D.C. in a family of educators. I live inspired and motivated by my son Francisco Javier and my dear husband.<br></br>It is a source of pride for me to direct the Social Area of Gimnasio los Pinos, which includes the Primary School Program (PEP) and Baccalaureate from sixth to eleventh grade, in the subjects: Philosophy, Social, Ethics-Chair for Peace and Emphasis on Humanities.<br></br>I intend to bring our Gimnapinos closer to social scientific knowledge, the development of critical reflective thinking and the strengthening of citizen competencies.<br></br>As for my academic training, I have a degree in Social and Economic Sciences; Master in Education with emphasis on research; specializations in Educational Administration and Management; Pedagogy and University Teaching; 2 years of Doctorate studies at the Autonomous University of Aguascalientes (Mexico); Teaching experience in Higher Education for more than 10 years and in school classrooms for more than 20 years. Collaborator in the COLCIENCIAS Research line. I have participated in international, national, regional and local conferences, forums, colloquiums, seminars, presentations, conferences and round tables; I am a certified auditor of the ISO 9001:2015 standard; jury - advisor for undergraduate and graduate work; Primary Years Program (PEP) mentor."
+        "name-col-text": "Bibiana Fajardo Circado",
+        "job-col-text": "Jefe del área de adquisición de lenguas",
+        "details-col-text": "jefatura_ingles@gimnasiolospinos.edu.co"
       },
       "row-8": {
-        "name-col-text": "Yuli Andrea Rodríguez ",
-        "job-col-text": "Head of mathematics area",
-        "details-col-text": "I was born in Bogotá, I have great personal values and a deep desire to learn, teach and research, as well as to contribute to the development of our students, in terms of skills and learning of mathematics. I have more than 10 years of experience in different teaching roles and currently lead the processes in the mathematics area at Gimnasio los Pinos.<br></br>My fundamental objective is to lead processes where the interest of students is favored and a varied range of work situations is promoted, making use of various resources that allow verification of the results obtained and an adequate conceptualization.<br></br>I have a degree in mathematics, a specialist in Educational Legislation and Constitutional Procedures, author of analytical geometry texts, with knowledge in design, administration and assembly of virtual learning courses in Moodle, knowledge and management of programs in mathematics and interactive geometry. I have participated in different meetings such as: The meeting of Geometry and its applications, the Ibero-American Congress of Cabri and the international Matecompu event in Cuba."
+        "name-col-text": "Hamiz Jussef Vega Dávila",
+        "job-col-text": "Jefa del área de matemáticas",
+        "details-col-text": "jefatura_matematicas@gimnasiolospinos.edu.co"
       },
       "row-9": {
-        "name-col-text": "Andrés David Pérez Barrera",
-        "job-col-text": "Head of spanish area",
-        "details-col-text": "I was born in the city of Bogotá, in an organized family made up of a mother and father who trained me in values and gave me the possibility of achieving the best education.<br></br>I have completed studies in various fields, such as literature, pedagogy, English, business entrepreneurship and some International Baccalaureate workshops. I currently have ten years of experience working in schools in the city of Bogotá.<br></br>It is a source of pride for me to serve as head of the language area at Gimnasio Los Pinos. I consider it to be one of the most important areas of knowledge, because through it communication skills, text creation skills are developed and, above all, the way of understanding the world is strengthened from contact with the soul and expression.<br></br>In addition to being passionate about teamwork, I enjoy writing, reading and creating texts. That is why I am part of the school newspaper, where I have the opportunity to work with the entire community in the development of GLPost. This project allows our students to stand out in a globalized community in the future for their talent as journalists, chroniclers, photographers, poets or even writers of literature sagas."
+        "name-col-text": "Jessica Johana Díaz Morales",
+        "job-col-text": "Jefe del área de lengua y literatura",
+        "details-col-text": "jefatura_espanol@gimnasiolospinos.edu.co"
       },
       "row-10": {
-        "name-col-text": "Alexander Gerena",
-        "job-col-text": "Head of arts",
-        "details-col-text": "I was born in Bogotá, I have been a music lover since an early age, I firmly believe that art is a powerful tool to transform lives in a positive way.<br></br>The practice and learning of an artistic discipline has a formative capacity and also impacts the detection and enhancement of talents, and also strengthens the development of skills in the social, emotional and cognitive fields.<br></br>Directing the artistic expression area of Gimnasio los Pinos is a task that fills me with pride, given that there are few schools in Latin America that have a musical conservatory, made up of 12 highly qualified teachers.<br></br>Regarding my training, I am a musician and sound engineer, with a master's degree in Art Market and a master's degree in Cultural Management. I have 15 years of experience in music teaching and in artistic events from production. My 10 years of experience at the Gimnasio los Pinos conservatory has allowed me to work as a teacher, sound engineer and area manager. This inspires me to consolidate and strengthen existing processes, hand in hand with the design and development of high-quality projects. impact for the Gimnasio los Pinos community."
+        "name-col-text": "Wilder Alfredo Alarcón Montes",
+        "job-col-text": "Jefe del área de artes y música",
+        "details-col-text": "jefatura_artes@gimnasiolospinos.edu.co"
       },
       "row-11": {
-        "name-col-text": "Oscar Julián Rubio Pérez",
-        "job-col-text": "Head of technology and informatics",
-        "details-col-text": "I was born in Guaduas Cundinamarca, in a family made up of a father and mother, who focused on instilling in me values such as love, respect and empathy towards others. From that, my love for my teaching profession was born.<br></br>Since my work as head of the technology area at Gimnasio Los Pinos, I have built a curriculum with national and international standards, focused on developing computational thinking skills, technological design and information management, which is aimed at our students.<br></br>Regarding my academic training, I have a Bachelor's degree in Electronics with a Specialization in Industrial Instrumentation and a Master's degree in E-learning and social learning networks.<br></br>I have experience in the management of information and communication technologies, in pedagogical support processes and curricular strengthening in science and technology. I am a certified auditor of the ISO 9001:2015 standard. I have taken refresher courses in the IB, MYP and PYP teaching model. I have advanced use of office tools, software programming, knowledge in the design and administration of virtual learning environments."
+        "name-col-text": "Katty Zorayda Díaz Gómez",
+        "job-col-text": "Jefe del área de ciencias y tecnología",
+        "details-col-text": "jefatura_ciencias@gimnasiolospinos.edu.co"
       },
       "row-12": {
-        "name-col-text": "Bibiana Fajardo Circado",
-        "job-col-text": "Head of foreign languages",
-        "details-col-text": "My hometown is Bogotá, as a Bogotá native I have had the opportunity to get to know and enjoy the city understanding that because it is the capital we have the opportunity to share with different points of view and cultures.<br></br>I am in charge of directing the English Department of the institution where over the years we have been obtaining academic triumphs that allow our graduates to have a university life with excellent foundations in the language and academic results that allow them, according to their interests, to obtain scholarships abroad, having the ease of applying to Universities with the option of homologating English in their careers.<br></br>I studied Modern Languages and I have had the experience of living in an English-speaking country, having the opportunity to continue my professional growth at Long Island University with a professorship in cultural studies, on the other hand, at Century College (Minnesota) deepening in language learning. Participation in Congresses such as TESOL give us the opportunity to strengthen our practices and be at the forefront of teaching English as a second language. Certified auditor of the ISO 9001:2015 standard. At school I have had the opportunity to work as a teacher in primary and secondary grades and now as area head.<br></br>The greatest gratification in our lives occurs when we meet a student/alumni and they remember your work, that is where we analyze that this work goes beyond time, it is a mark for life."
+        "name-col-text": "Giovanny Ruiz Mateus",
+        "job-col-text": "Jefa del área de individuos y sociedades",
+        "details-col-text": "jefatura_sociales@gimnasiolospinos.edu.co"
       },
       "row-13": {
-        "name-col-text": "Fabián Orlando Bogotá Riveros",
-        "job-col-text": "Head of science",
-        "details-col-text": "Born in Bogotá, I consider myself an entrepreneur and researcher in the field of didactics and the teaching of mathematics and science, with high professional values and a desire for continuous learning.<br></br>I have 10 years of experience in the educational community in different fields of teaching, I want to lead processes that link students to identify the phenomenology of everything that surrounds us, take care of the environment and develop with students the interest and passion for science.<br></br>I have a degree in Mathematics, with a specialization in university teaching and a Master's degree in the teaching of exact and natural sciences, I have developed research projects in science and mathematics teaching using astronomy, entrepreneurship and everyday life situations as a scientific medium, I am also a professor and manage research projects in higher education institutions. I currently lead the processes in the area of science and environmental education at Gimnasio los Pinos."
+        "name-col-text": "Manuel Infante Patarroyo ",
+        "job-col-text": "Jefe del área de educación física y deportes",
+        "details-col-text": "jefatura_deportes@gimnasiolospinos.edu.co"
       }
     },
     "open-modal-btn-text": "See details",
@@ -373,11 +373,16 @@
       "pep-button-text": "Primary school program - PEP",
       "pai-button-text": "Intermediate years program - PAI",
       "pd-button-text": "Diploma program - PD"
+    },
+    "section-6": {
+      "title": "IB Mission statement",
+      "description": "The International Baccalaureate aims to develop inquiring, knowledgeable and caring young people who help to create a better and more peaceful world through intercultural understanding and respect. To this end the organization works with schools, governments, and international organizations to develop challenging programmes of international education and rigorous assessment. These programmes encourage students across the world to become active, compassionate, and lifelong learners who understand that other people, with their differences, can also be right."
     }
   },
   "admissions-page": {
     "section-1": {
       "title": "Admission process",
+      "enable-form-button-text": "Apply",
       "form": {
         "legal-responsible-name-field": {
           "label": "Legal responsible name",

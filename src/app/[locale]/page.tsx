@@ -4,12 +4,20 @@ import { FC } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
+  faCalendarAlt,
   faCheckToSlot,
-  faComputer,
+  faEarth,
   faFileSignature,
   faHandshake,
+  faPhotoFilm,
 } from '@fortawesome/free-solid-svg-icons';
-import { linkClassroom, linkMatricula } from '@/constants/links';
+import {
+  linkCalendario,
+  linkClassroom,
+  linkExtracurriculares,
+  linkGLPMUN,
+  linkMatricula,
+} from '@/constants/links';
 import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScroll';
 import BannerSlideshow from '@/components/BannerSlideshow/BannerSlideshow';
 import NewsCarousel from '@/components/NewsCarousel/NewsCarousel';
@@ -129,33 +137,46 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             </div>
           </Link>
           <Link
-            href='#strategic-partners-section'
+            href='/admissions#our-campus-section'
             className='flex flex-col justify-center items-center gap-2'
           >
             <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faHandshake} />
+              <FontAwesomeIcon icon={faPhotoFilm} />
               <span className='w-full text-center text-sm font-bold'>
-                {t('section-2.navbar.strategic-allies-link-text').toUpperCase()}
+                {t('section-2.navbar.gallery-link-text').toUpperCase()}
               </span>
             </div>
           </Link>
           <Link
-            href='#'
+            href={`${linkCalendario}`}
+            target='_blank'
             className='flex flex-col justify-center items-center gap-2'
           >
             <div className={`${section2btnClasses}`}>
-              <FontAwesomeIcon icon={faHandshake} />
+              <FontAwesomeIcon icon={faCalendarAlt} />
               <span className='w-full text-center text-sm font-bold'>
                 {t('section-2.navbar.calendar-link-text').toUpperCase()}
+              </span>
+            </div>
+          </Link>
+          <Link
+            href={`${linkGLPMUN}`}
+            target='_blank'
+            className='flex flex-col justify-center items-center gap-2'
+          >
+            <div className={`${section2btnClasses}`}>
+              <FontAwesomeIcon icon={faEarth} />
+              <span className='w-full text-center text-sm font-bold'>
+                GLPMUN
               </span>
             </div>
           </Link>
         </nav>
       </section>
       <div className='flex flex-col item'>
-        <section className='px-[20px] lg:px-[200px] flex flex-row flex-wrap-reverse sm:flex-nowrap justify-between items-center gap-10'>
+        <section className='px-[20px] flex flex-row flex-wrap-reverse sm:flex-nowrap justify-evenly items-center gap-10 border-b-2 border-dark-green-100'>
           <Image
-            className='w-[500px]'
+            className='w-[500px] self-end'
             src='/transparentStudents.png'
             alt='Students'
             width={900}
@@ -185,7 +206,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
           </p>
           <nav className='w-full z-[10] flex flex-row flex-wrap justify-center gap-10 items-center'>
             <Link
-              href='/'
+              href={linkExtracurriculares}
               type='button'
               className={`${normalBtnClasses}`}
             >

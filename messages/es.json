@@ -45,7 +45,7 @@
     "classroom-button-text": "Classroom",
     "admissions-button-text": "Admisiones",
     "tuition-button-text": "Matrícula",
-    "temporal-button-text": "Calendario Académico"
+    "temporal-button-text": "Calendario"
   },
   "home-page": {
     "section-1": {
@@ -59,7 +59,7 @@
         "classroom-link-text": "Classroom",
         "admissions-link-text": "Admisiones",
         "tuition-link-text": "Matrículas y pagos",
-        "strategic-allies-link-text": "Aliados estratégicos",
+        "gallery-link-text": "Galería",
         "calendar-link-text": "Calendario escolar"
       }
     },
@@ -133,7 +133,7 @@
       "bilingualism-collapse": {
         "title": "Bilingüismo",
         "list": {
-          "item-1-text": "Somos una escuela bilingüe, certificada por pruebas internacionales.",
+          "item-1-text": "Somos un colegio bilingüe internacional",
           "item-2-text": "Somos un centro preparatorio y examinador de Cambridge.",
           "item-3-text": "Realizamos evaluaciones en los grados 3 y 8. Certificación oficial en los grados 5 y 11.",
           "item-4-text": "Los estudiantes de grado 11 realizan el examen académico oficial IELTS con resultados en bandas B2 y C1.",
@@ -373,11 +373,16 @@
       "pep-button-text": "Programa Escuela Primaria - PEP",
       "pai-button-text": "Programa Años Intermedios - PAI",
       "pd-button-text": "Programa Diploma - PD"
+    },
+    "section-6": {
+      "title": "Declaración de principios del IB",
+      "description": "El Bachillerato Internacional tiene como meta formar jóvenes solidarios, informados y ávidos de conocimiento, capaces de contribuir a crear un mundo mejor y más pacífico, en el marco del entendimiento mutuo y el respeto intercultural. En pos de este objetivo, la organización colabora con establecimientos escolares, gobiernos y organizaciones internacionales para crear y desarrollar programas de educación internacional exigentes y métodos de evaluación rigurosos. Estos programas alientan a estudiantes del mundo entero a adoptar una actitud activa de aprendizaje durante toda su vida, a ser compasivos y a entender que otras personas, con sus diferencias, también pueden estar en lo cierto."
     }
   },
   "admissions-page": {
     "section-1": {
       "title": "Proceso de admisión",
+      "enable-form-button-text": "Aplicar",
       "form": {
         "legal-responsible-name-field": {
           "label": "Nombre del responsable legal",

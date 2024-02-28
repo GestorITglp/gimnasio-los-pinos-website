@@ -47,7 +47,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
         <h2 className={`${h2Classes} text-white`}>{t('title')}</h2>
         <p className={`${pClasses} text-white`}>{t('description')}</p>
       </section>
-      <section className={`${sectionClasses}`}>
+      <section className={`${sectionClasses} border-b-2 border-dark-green-100`}>
         <div className={`${colorfulLayerClasses} bg-transparent`} />
         <h2 className={`${h2Classes}`}>{t('section-1.title')}</h2>
         <div className='flex flex-row flex-wrap sm:flex-nowrap justify-between items-center gap-10'>

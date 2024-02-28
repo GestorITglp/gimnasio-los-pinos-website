@@ -86,13 +86,13 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
   return (
     <main className='flex flex-col justify-center items-center gap-[50px]'>
       <section
-        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-10 sm:gap-10 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
+        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-2 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
         />
         <h1
-          className={`text-2xl sm:text-5xl font-bold text-center z-[10] text-white`}
+          className={`text-2xl sm:text-5xl font-bold text-center z-[10] text-white mb-4`}
         >
           {t('section-1.title')}
         </h1>
@@ -102,16 +102,17 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
           successMessage={t('section-1.form.success-message-text')}
           errorMessage={t('section-1.form.error-message-text')}
           closeAlertBtnText={t('section-1.form.close-alert-button-text')}
+          enableFormBtnText={t('section-1.enable-form-button-text')}
         />
-        <div className='w-full self-center flex flex-row flex-wrap justify-evenly items-center gap-10 sm:gap-10'>
+        <div className='w-full self-center flex flex-row flex-wrap justify-end items-center gap-10 sm:gap-10'>
           <Link
-            className={`p-4 w-[150px] h-[150px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-lg drop-shadow-lg self-end`}
+            className={`p-4 w-[150px] h-[150px] flex justify-center items-center ${h3Classes} text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 transition-all rounded-lg drop-shadow-lg`}
             href={linkUtilesEscolares}
             target='_blank'
           >
             {t('section-1.supply-list-section.title')}
           </Link>
-          <div className='p-4 w-[250px] h-[250px] flex flex-col justify-center items-center gap-2 z-[10] bg-dark-green-100 hover:bg-white hover:text-dark-green-100 transition-all rounded-lg drop-shadow-lg text-white text-center'>
+          <div className='p-4 flex flex-col justify-center items-center gap-0 z-[10] bg-dark-green-100 hover:bg-white hover:text-dark-green-100 transition-all rounded-lg drop-shadow-lg text-white text-center'>
             <h3 className={`${h3Classes} transition-all`}>
               {t('section-1.forms-section.title')}
             </h3>
@@ -146,7 +147,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
             </ul>
           </div>
           <Link
-            className={`p-4 w-[150px] h-[150px] ${h3Classes} flex justify-center items-center text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 rounded-lg drop-shadow-lg self-start`}
+            className={`p-4 w-[150px] h-[150px] ${h3Classes} flex justify-center items-center text-dark-green-100 bg-white hover:text-white hover:bg-dark-green-100 rounded-lg drop-shadow-lg`}
             target='_blank'
             href='/uniforms.JPG'
           >

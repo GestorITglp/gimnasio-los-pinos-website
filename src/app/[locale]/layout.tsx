@@ -24,7 +24,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   linkClassroom,
-  linkDirectorio,
   linkExtracurriculares,
   linkFacebook,
   linkFuncionarios,
@@ -32,7 +31,7 @@ import {
   linkManualConvivencia,
   linkMatricula,
   linkSobreNosotros,
-  linkTemporal,
+  linkCalendario,
   linkTwitter,
   linkYoutube,
 } from '@/constants/links';
@@ -138,7 +137,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             </span>
           </Link>
           <Link
-            href={linkTemporal}
+            href={linkCalendario}
             target='_blank'
             className='flex flex-col gap-2 justify-center items-center p-2 bg-light-green/50 hover:bg-light-green/100 transition-all font-bold hover:text-lg text-black hover:text-white'
           >
@@ -396,16 +395,10 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               <Link href={linkSobreNosotros}>
                 {t('footer.mid-section.about-us-link-text')}
               </Link>
-              <Link
-                href={'/admissions#our-campus-section'}
-                target='_blank'
-              >
+              <Link href={'/admissions#our-campus-section'}>
                 {t('footer.mid-section.gallery-link-text')}
               </Link>
-              <Link
-                href={linkDirectorio}
-                target='_blank'
-              >
+              <Link href={'/academy'}>
                 {t('footer.mid-section.academy-directory-link-text')}
               </Link>
             </div>

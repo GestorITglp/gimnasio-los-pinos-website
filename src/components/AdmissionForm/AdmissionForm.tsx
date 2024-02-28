@@ -18,6 +18,7 @@ interface Props {
   successMessage: string;
   errorMessage: string;
   closeAlertBtnText: string;
+  enableFormBtnText: string;
 }
 
 const AdmissionForm: FC<Props> = ({
@@ -26,13 +27,15 @@ const AdmissionForm: FC<Props> = ({
   successMessage,
   errorMessage,
   closeAlertBtnText,
+  enableFormBtnText,
 }) => {
+  const [isFormVisible, setIsFormVisible] = useState<boolean>(false);
   const [responses, setResponses] = useState<Record<string, string>>({});
   const [message, setMessage] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const normalBtnClasses =
-    'w-full sm:w-full btn btn-md btn-square text-white bg-dark-green-100 hover:bg-dark-green-200 border-0';
+    'w-full sm:w-full btn btn-sm btn-square text-white bg-dark-green-100 hover:bg-dark-green-200 border-0';
   let alertColor = '#00C600';
   if (message === errorMessage) {
     alertColor = 'red';
@@ -85,99 +88,120 @@ const AdmissionForm: FC<Props> = ({
     setResponses({});
   };
 
-  return (
-    <form className='flex flex-col justify-center items-stretch gap-10 z-[49]'>
-      {fields.map((field) => {
-        const component =
-          field.componentType === 'input' ? (
-            <div
-              key={field.label}
-              className='flex flex-col items-start gap-2'
-            >
-              <label
-                htmlFor={field.label}
-                className='text-white font-bold'
-              >
-                {field.label}
-              </label>
-              <input
-                id={field.label}
-                type={field.dataType}
-                placeholder={field.placeholder}
-                className='input input-bordered w-full'
-                value={responses[field.id]}
-                onChange={(e) => handleChangeOnField(field.id, e.target.value)}
-              />
-            </div>
-          ) : (
-            <div className='flex flex-col items-start gap-2'>
-              <label
-                htmlFor={field.label}
-                className='text-white font-bold'
-              >
-                {field.label}
-              </label>
-              <select
-                className='select select-bordered w-full z-[1000]'
-                value={responses[field.id]}
-                onChange={(e) => handleChangeOnField(field.id, e.target.value)}
-              >
-                <option
-                  disabled
-                  selected
-                >
-                  {field.placeholder}
-                </option>
-                {field.options !== undefined &&
-                  field.options.map((opt) => {
-                    return <option key={opt}>{opt}</option>;
-                  })}
-              </select>
-            </div>
-          );
+  const handleClickOnEnableFormButton = () => {
+    setIsFormVisible(true);
+  };
 
-        return component;
-      })}
-      <button
-        type='button'
-        style={
-          isButtonDisabled
-            ? {
-                backgroundColor: 'grey',
-                opacity: 0.75,
-              }
-            : {}
-        }
-        disabled={isButtonDisabled}
-        className={`${normalBtnClasses} flex justify-center items-center transition-all`}
-        onClick={sendEmail}
-      >
-        {isLoading ? (
-          <span className='loading loading-spinner loading-md'></span>
-        ) : (
-          sendButtonText
-        )}
-      </button>
-      {message !== '' && (
-        <div
-          role='alert'
-          style={{
-            backgroundColor: alertColor,
-          }}
-          className='fixed left-auto sm:left-[20px] bottom-[20px] alert border-0 z-100 opacity-100 w-[270px]'
+  return (
+    <>
+      {!isFormVisible ? (
+        <button
+          type='button'
+          className='w-[280px] btn btn-md bg-dark-green-100 text-white hover:text-dark-green-100 hover:bg-white border-0 z-[1000] text-xl'
+          disabled={false}
+          onClick={handleClickOnEnableFormButton}
         >
-          <span className='text-white'>{message}</span>
-          <div>
-            <button
-              className='btn btn-sm font-bold'
-              onClick={handleClickOnCloseAlert}
+          {enableFormBtnText}
+        </button>
+      ) : (
+        <form className='flex flex-col justify-center items-stretch gap-2 z-[49]'>
+          {fields.map((field) => {
+            const component =
+              field.componentType === 'input' ? (
+                <div
+                  key={field.label}
+                  className='flex flex-col items-start gap-2'
+                >
+                  <label
+                    htmlFor={field.label}
+                    className='text-white font-bold'
+                  >
+                    {field.label}
+                  </label>
+                  <input
+                    id={field.label}
+                    type={field.dataType}
+                    placeholder={field.placeholder}
+                    className='input input-sm input-bordered w-full'
+                    value={responses[field.id]}
+                    onChange={(e) =>
+                      handleChangeOnField(field.id, e.target.value)
+                    }
+                  />
+                </div>
+              ) : (
+                <div className='flex flex-col items-start gap-2'>
+                  <label
+                    htmlFor={field.label}
+                    className='text-white font-bold'
+                  >
+                    {field.label}
+                  </label>
+                  <select
+                    className='select select-sm select-bordered w-full z-[1000]'
+                    value={responses[field.id]}
+                    onChange={(e) =>
+                      handleChangeOnField(field.id, e.target.value)
+                    }
+                  >
+                    <option
+                      disabled
+                      selected
+                    >
+                      {field.placeholder}
+                    </option>
+                    {field.options !== undefined &&
+                      field.options.map((opt) => {
+                        return <option key={opt}>{opt}</option>;
+                      })}
+                  </select>
+                </div>
+              );
+
+            return component;
+          })}
+          <button
+            type='button'
+            style={
+              isButtonDisabled
+                ? {
+                    backgroundColor: 'grey',
+                    opacity: 0.75,
+                  }
+                : {}
+            }
+            disabled={isButtonDisabled}
+            className={`${normalBtnClasses} flex justify-center items-center transition-all`}
+            onClick={sendEmail}
+          >
+            {isLoading ? (
+              <span className='loading loading-spinner loading-md'></span>
+            ) : (
+              sendButtonText
+            )}
+          </button>
+          {message !== '' && (
+            <div
+              role='alert'
+              style={{
+                backgroundColor: alertColor,
+              }}
+              className='fixed left-auto sm:left-[20px] bottom-[20px] alert border-0 z-100 opacity-100 w-[270px]'
             >
-              {closeAlertBtnText}
-            </button>
-          </div>
-        </div>
+              <span className='text-white'>{message}</span>
+              <div>
+                <button
+                  className='btn btn-sm font-bold'
+                  onClick={handleClickOnCloseAlert}
+                >
+                  {closeAlertBtnText}
+                </button>
+              </div>
+            </div>
+          )}
+        </form>
       )}
-    </form>
+    </>
   );
 };
 

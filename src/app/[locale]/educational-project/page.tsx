@@ -5,11 +5,13 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FC } from 'react';
 import {
+  faCalendarAlt,
   faFlask,
   faPaintBrush,
   faPerson,
   faSoccerBall,
 } from '@fortawesome/free-solid-svg-icons';
+import { linkCalendario } from '@/constants/links';
 
 interface Props {
   params: {
@@ -36,7 +38,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
   const section2iconContainersClasses =
     'flex flex-col items-center gap-2 z-[10] text-light-green';
   const accordionItemClasses =
-    'relative h-[0px] sm:h-auto sm:w-[0px] p-4 flex flex-col justify-evenly items-center gap-2 grow bg-cover bg-center transition-all sm:hover:h-auto hover:h-[500px] sm:hover:w-[500px] opacity-25 hover:opacity-100';
+    'relative h-[0px] sm:h-auto sm:w-[0px] p-4 flex flex-col justify-evenly items-center gap-2 grow bg-cover bg-center transition-all sm:hover:h-auto hover:h-[500px] sm:hover:w-[500px] opacity-75 hover:opacity-100';
   const greenishLayerClasses =
     'absolute top-0 left-0 w-full h-full bg-dark-green-100/75 hover:bg-dark-green-100/50 transition-all';
   return (
@@ -253,20 +255,21 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
           </div>
         </div>
       </section>
-      {/* <section className='flex flex-col items-center gap-10 mb-[50px]'>
+      <section className='flex flex-col items-center gap-10 mb-[50px]'>
         <h2 className={`${h2Classes}`}>{t('section-4.title')}</h2>
         <Link
-          href='/'
+          href={`${linkCalendario}`}
+          target='_blank'
           className='flex flex-col items-center gap-2'
         >
           <div className={`${section2btnClasses}`}>
-            <FontAwesomeIcon icon={faFile} />
+            <FontAwesomeIcon icon={faCalendarAlt} />
           </div>
           <span className='w-full text-center text-xl font-bold'>
             {t('section-4.see-more-link-text')}
           </span>
         </Link>
-      </section> */}
+      </section>
     </main>
   );
 };

@@ -53,6 +53,13 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         </ul>
       </section>
       <section
+        id='section-6'
+        className='px-[20px] lg:px-[200px] py-[50px] flex flex-col gap-4 justify-center items-center'
+      >
+        <h2 className={`${h2Classes}`}>{t('section-6.title')}</h2>
+        <p className={`${pClasses}`}>{t('section-6.description')}</p>
+      </section>
+      <section
         className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
       >
         <Image
