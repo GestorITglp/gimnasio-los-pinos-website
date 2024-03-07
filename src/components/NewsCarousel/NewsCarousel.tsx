@@ -25,10 +25,8 @@ const NewsCarousel: FC<Props> = ({}) => {
             className='carousel-item relative w-full flex justify-center items-stretch'
           >
             <div className='w-[90%] card lg:card-side shadow-xl bg-dark-green-100'>
-              <Image
+              <img
                 className='m-4 flex-grow flex-shrink h-auto sm:max-w-[30%] w-auto object-cover object-center rounded-[1rem]'
-                width={750}
-                height={750}
                 src={enabledNew.imagen}
                 alt={enabledNew.titulo}
               />
