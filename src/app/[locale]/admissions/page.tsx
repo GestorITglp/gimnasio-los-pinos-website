@@ -9,6 +9,7 @@ import {
   linkFormularioInscripcion,
   linkFormularioPreinscripcion,
   linkUtilesEscolares,
+  linkVideo,
 } from '@/constants/links';
 
 interface Props {
@@ -403,7 +404,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
         <div className='w-[50%] min-w-[300px] flex justify-center items-center z-[10] rounded-xl'>
           <iframe
             className='w-full aspect-video self-center rounded-xl shadow-2xl drop-shadow-2xl'
-            src='https://www.youtube.com/embed/3TicY5UfGag?si=3vEZd6bY_vocTvBi'
+            src={linkVideo}
             title='YouTube video player'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           ></iframe>

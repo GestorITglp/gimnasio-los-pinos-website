@@ -30,10 +30,10 @@ import {
   linkInstagram,
   linkManualConvivencia,
   linkMatricula,
-  linkSobreNosotros,
   linkCalendario,
   linkTwitter,
   linkYoutube,
+  linkDirectorio,
 } from '@/constants/links';
 
 const comfortaa = Comfortaa({
@@ -392,13 +392,13 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             />
             <hr className='w-full h-1 sm:hidden' />
             <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>
-              <Link href={linkSobreNosotros}>
+              <Link href={'/about-us'}>
                 {t('footer.mid-section.about-us-link-text')}
               </Link>
               <Link href={'/admissions#our-campus-section'}>
                 {t('footer.mid-section.gallery-link-text')}
               </Link>
-              <Link href={'/academy'}>
+              <Link href={linkDirectorio}>
                 {t('footer.mid-section.academy-directory-link-text')}
               </Link>
             </div>

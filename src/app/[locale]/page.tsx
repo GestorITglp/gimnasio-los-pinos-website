@@ -21,6 +21,7 @@ import {
 import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScroll';
 import BannerSlideshow from '@/components/BannerSlideshow/BannerSlideshow';
 import NewsCarousel from '@/components/NewsCarousel/NewsCarousel';
+import { galleryFolders } from '@/constants/galleryFolders';
 
 interface Props {
   params: {
@@ -137,7 +138,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             </div>
           </Link>
           <Link
-            href='/admissions#our-campus-section'
+            href='#gallery-section'
             className='flex flex-col justify-center items-center gap-2'
           >
             <div className={`${section2btnClasses}`}>
@@ -250,6 +251,38 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
       >
         <h2 className={`${h2Classes}`}>{t('news-section.title')}</h2>
         <NewsCarousel />
+      </section>
+      <section
+        id='gallery-section'
+        className='flex flex-col gap-10 px-[20px] lg:px-[200px] py-[50px]'
+      >
+        <h2 className={`${h2Classes}`}>{t('gallery-section.title')}</h2>
+        <div className='flex flex-row flex-wrap justify-center items-center gap-10'>
+          {galleryFolders
+            .filter((folder) => folder.habilitado)
+            .map((folder) => {
+              return (
+                <Link
+                  href={folder.link}
+                  target='_blank'
+                  className='flex flex-col items-center gap-2'
+                >
+                  <Image
+                    className='w-[200px] h-[200px] rounded-lg object-cover'
+                    src={folder.imagenDePreview || '/imagePlaceholder.svg'}
+                    alt={folder.nombre}
+                    width={400}
+                    height={400}
+                    quality={100}
+                    priority
+                  />
+                  <span className='w-full text-center text-xl font-bold'>
+                    {folder.nombre}
+                  </span>
+                </Link>
+              );
+            })}
+        </div>
       </section>
       <section className='relative min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-between items-center bg-[url("/homePageSection6.png")] bg-cover bg-center gap-4 sm:gap-10'>
         <div className={`${blackishLayerClasses} opacity-75`} />

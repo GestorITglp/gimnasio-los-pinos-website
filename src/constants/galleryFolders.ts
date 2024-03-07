@@ -1,0 +1,92 @@
+export const galleryFolders = [
+  {
+    habilitado: true,
+    imagenDePreview: '/folder1.jpg',
+    nombre: 'GLPMUN',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '/folder2.jpg',
+    nombre: 'Música',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '/folder3.jpg',
+    nombre: 'Primaria',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '/folder4.jpg',
+    nombre: 'Instalaciones',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 5',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 6',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 7',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 8',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 9',
+    link: '',
+  },
+  {
+    habilitado: true,
+    imagenDePreview: '',
+    nombre: 'Folder 10',
+    link: '',
+  },
+  {
+    habilitado: false,
+    imagenDePreview: '',
+    nombre: 'Folder 11',
+    link: '',
+  },
+  {
+    habilitado: false,
+    imagenDePreview: '',
+    nombre: 'Folder 12',
+    link: '',
+  },
+  {
+    habilitado: false,
+    imagenDePreview: '',
+    nombre: 'Folder 13',
+    link: '',
+  },
+  {
+    habilitado: false,
+    imagenDePreview: '',
+    nombre: 'Folder 14',
+    link: '',
+  },
+  {
+    habilitado: false,
+    imagenDePreview: '',
+    nombre: 'Folder 15',
+    link: '',
+  },
+];

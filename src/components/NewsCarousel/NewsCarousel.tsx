@@ -20,6 +20,7 @@ const NewsCarousel: FC<Props> = ({}) => {
       {enabledNews.map((enabledNew, i) => {
         return (
           <div
+            key={enabledNew.titulo}
             id={`slide${i}`}
             className='carousel-item relative w-full flex justify-center items-stretch'
           >
