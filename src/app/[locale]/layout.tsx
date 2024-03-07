@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { availableLocales } from '@/middleware';
 import Link from 'next/link';
-import Image from 'next/image';
 import CircleIconButton from '@/components/CircleIconButton/CircleIconButton';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter';
@@ -202,13 +201,10 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                     </label>
                   </div>
                   <Link href='/'>
-                    <Image
+                    <img
                       className='w-[200px]'
                       src='/classicLogo.png'
                       alt='Gimnasio los Pinos logo'
-                      width={200}
-                      height={200}
-                      quality={100}
                     />
                   </Link>
                   <div className='ml-auto hidden lg:block'>
@@ -382,13 +378,10 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             </Link>
           </section>
           <section className='min-h-[300px] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-center sm:justify-between items-center bg-dark-green-100 gap-10 text-center'>
-            <Image
+            <img
               className='w-[300px]'
               src='/logoOnAquamarine.png'
               alt='Gimnasio los Pinos logo'
-              width={400}
-              height={400}
-              quality={100}
             />
             <hr className='w-full h-1 sm:hidden' />
             <div className='flex flex-col flex-wrap gap-2 text-lg text-white'>

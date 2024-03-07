@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 interface Props {}
 
 const AboutUsPage: FC<Props> = ({}) => {
@@ -111,12 +110,10 @@ const AboutUsPage: FC<Props> = ({}) => {
         id='section-4'
         className={`flex flex-row flex-wrap-reverse justify-center items-center px-[20px] sm:pt-[50px] pt-[10px] border-b-2 border-dark-green-100`}
       >
-        <Image
+        <img
           className={`w-[450px] 2xl:w-[600px] self-start`}
           src='/transparentSchoolGirl.png'
           alt='Niña de primaria'
-          width={600}
-          height={600}
         />
         <div className='md:w-[700px] sm:pb-[50px] pb-[10px] flex flex-col gap-4'>
           <h2 className={`${h2Classes}`}>{t('section-4.title')}</h2>

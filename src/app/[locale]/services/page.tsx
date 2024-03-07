@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 import { FC } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -64,13 +63,10 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
               },
             })}
           </p>
-          <Image
+          <img
             className='min-w-auto sm:min-w-[400px] self-end'
             src='/servicesPageSection2.png'
             alt='Section 2'
-            width={800}
-            height={800}
-            quality={100}
           />
         </div>
       </section>
@@ -100,13 +96,10 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
           href={linkPagoTransporte}
           target='_blank'
         >
-          <Image
+          <img
             className='w-[400px] z-[10]'
             src='/integraturLogo.png'
             alt='Integratur logo'
-            width={400}
-            height={400}
-            quality={100}
           />
         </Link>
         <p className={`${pClasses} text-white`}>
@@ -229,13 +222,10 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
                 </div>
               }
               additionalContent={
-                <Image
+                <img
                   className='w-full rounded-lg'
                   src='/uniforms.JPG'
                   alt='Uniforms'
-                  width={1000}
-                  height={1000}
-                  quality={100}
                 />
               }
               closeBtnText={t('section-3.infirmary-modal.close-button-text')}

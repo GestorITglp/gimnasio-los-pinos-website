@@ -1,6 +1,5 @@
 import Collapse from '@/components/Collapse/Collapse';
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FC } from 'react';
@@ -45,13 +44,10 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
     <main className='flex flex-col gap-[50px]'>
       <section className='px-[20px] lg:px-[400px] py-[50px] flex flex-row justify-center items-center flex-wrap gap-4 sm:gap-10'>
         <h1 className={`sm:w-[300px] ${h2Classes}`}>{t('section-1.title')}</h1>
-        <Image
+        <img
           className='w-[500px]'
           src='/educationalProjectPageSection1.png'
           alt='Section 1'
-          width={500}
-          height={500}
-          quality={100}
         />
         <div className='w-[300px] flex flex-col gap-4 sm:gap-10'>
           <Collapse headerText={t('section-1.constructivism-collapse.title')}>

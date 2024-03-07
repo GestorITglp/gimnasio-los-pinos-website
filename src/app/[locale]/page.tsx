@@ -1,5 +1,4 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { FC } from 'react';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -8,7 +7,6 @@ import {
   faCheckToSlot,
   faEarth,
   faFileSignature,
-  faHandshake,
   faPhotoFilm,
 } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -94,17 +92,13 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             target='_blank'
             className=''
           >
-            <Image
+            <img
               style={{
                 filter: 'drop-shadow(0px 0px 10px #009780)',
               }}
               className='w-[350px] hover:w-[375px] transition-all'
               src='/classroomButtonOrg.png'
               alt='Classroom button'
-              width={700}
-              height={700}
-              quality={100}
-              priority
             />
             {/* <div className={`${section2btnClasses}`}>
               <FontAwesomeIcon icon={faComputer} />
@@ -176,13 +170,10 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
       </section>
       <div className='flex flex-col item'>
         <section className='px-[20px] flex flex-row flex-wrap-reverse sm:flex-nowrap justify-evenly items-center gap-10 border-b-2 border-dark-green-100'>
-          <Image
+          <img
             className='w-[500px] self-end'
             src='/transparentStudents.png'
             alt='Students'
-            width={900}
-            height={900}
-            quality={100}
           />
           <div className='w-[1000px] flex flex-col items-center sm:items-start gap-10'>
             <h2 className={`${h2Classes} text-center sm:text-start`}>
@@ -267,14 +258,10 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
                   target='_blank'
                   className='flex flex-col items-center gap-2'
                 >
-                  <Image
+                  <img
                     className='w-[200px] h-[200px] rounded-lg object-cover'
                     src={folder.imagenDePreview || '/imagePlaceholder.svg'}
                     alt={folder.nombre}
-                    width={400}
-                    height={400}
-                    quality={100}
-                    priority
                   />
                   <span className='w-full text-center text-xl font-bold'>
                     {folder.nombre}

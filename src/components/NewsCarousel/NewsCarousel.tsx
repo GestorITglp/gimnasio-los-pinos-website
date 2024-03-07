@@ -1,8 +1,7 @@
 'use client';
 
-import { FC, MouseEvent as ReactMouseEvent, createElement } from 'react';
+import { FC } from 'react';
 import { noticias } from '@/constants/news';
-import Image from 'next/image';
 
 interface Props {}
 

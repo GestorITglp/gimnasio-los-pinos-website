@@ -1,6 +1,5 @@
 import { useTranslations } from 'next-intl';
 import { FC } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { imagenPAI, imagenPD, imagenPEP } from '@/constants/images';
 
@@ -63,13 +62,10 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
       <section
         className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
       >
-        <Image
+        <img
           className='w-[500px] rounded-lg'
           src={'/jugando.jpg'}
           alt='Kids playing'
-          width={600}
-          height={600}
-          quality={100}
         />
         <p className={`w-[600px] ${pClasses}`}>
           {t.rich('section-2.text', {
@@ -91,13 +87,10 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
           <p className={`${pClasses}`}>{t('section-3.description')}</p>
         </div>
         <figure className='flex flex-col items-center gap-4'>
-          <Image
+          <img
             className='w-[500px]'
             src='/internationalBaccalaureatePageSection3.png'
             alt='Section 3'
-            width={600}
-            height={600}
-            quality={100}
           />
           <figcaption className='text-center'>
             {t.rich('section-3.image-fig-caption', {
