@@ -64,7 +64,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
       >
         <img
           className='w-[500px] rounded-lg'
-          src={'/jugando.jpg'}
+          src={'/carrousel1.jpg'}
           alt='Kids playing'
         />
         <p className={`w-[600px] ${pClasses}`}>
