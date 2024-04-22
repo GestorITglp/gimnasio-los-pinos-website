@@ -1,6 +1,6 @@
 export const noticias = [
   {
-    habilitada: true,
+    habilitada: false,
     titulo: 'Titulo de la noticia 1',
     descripcion:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.[SALTO]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.[SALTO]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.[SALTO]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.[SALTO]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.[SALTO]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.',
@@ -15,7 +15,7 @@ export const noticias = [
       'https://www.gimnasiosanangelo.edu.co/wp-content/uploads/2022/09/Delegado-sobresaliente-y-Mejores-consiliadores-GLPMUN.webp',
   },
   {
-    habilitada: true,
+    habilitada: false,
     titulo: 'Titulo de la noticia 3',
     descripcion:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.',
@@ -23,7 +23,7 @@ export const noticias = [
       'https://losmejorescolegios.com/wp-content/uploads/2023/10/18-2.png',
   },
   {
-    habilitada: true,
+    habilitada: false,
     titulo: 'Titulo de la noticia 4',
     descripcion:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.',
@@ -31,7 +31,7 @@ export const noticias = [
       'https://losmejorescolegios.com/wp-content/uploads/2020/05/Gimnasio-los-pinos-colegio-bogota-01.png',
   },
   {
-    habilitada: true,
+    habilitada: false,
     titulo: 'Titulo de la noticia 5',
     descripcion:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae quam nec lacus molestie feugiat sed vitae magna. Aliquam pretium interdum diam, in tincidunt sapien porttitor at. Donec sit amet.',
