@@ -9,7 +9,7 @@ export const linkCalendario = '/CALENDARIO ACADEMICO.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
 export const linkPagoTransporte = '';
-export const linkMenuRestaurante = '/minutajunio.pdf';
+export const linkMenuRestaurante = '/minutajulio.pdf';
 export const linkUtilesEscolares = '';
 export const linkFormularioPreinscripcion =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Inscripcionprcita2.aspx';
