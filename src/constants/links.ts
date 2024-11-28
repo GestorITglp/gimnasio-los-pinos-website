@@ -3,8 +3,7 @@
  */
 export const linkClassroom =
   'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
-export const linkMatricula =
-  'https://webapps-classroomliveweb.com:2443/pinos/2024/Login.aspx';
+export const linkMatricula = '';
 export const linkCalendario = '/CALENDARIO ACADEMICO.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';

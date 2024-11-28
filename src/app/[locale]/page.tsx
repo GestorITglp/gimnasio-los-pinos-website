@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCalendarAlt,
   faCheckToSlot,
+  faComputer,
   faEarth,
   faFileSignature,
   faPhotoFilm,
@@ -92,20 +93,20 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             target='_blank'
             className=''
           >
-            <img
+            {/* <img
               style={{
                 filter: 'drop-shadow(0px 0px 10px #009780)',
               }}
               className='w-[350px] hover:w-[375px] transition-all'
               src='/classroomButtonOrg.png'
               alt='Classroom button'
-            />
-            {/* <div className={`${section2btnClasses}`}>
+            /> */}
+            <div className={`${section2btnClasses}`}>
               <FontAwesomeIcon icon={faComputer} />
               <span className='w-full text-center text-sm font-bold'>
                 {t('section-2.navbar.classroom-link-text').toUpperCase()}
               </span>
-            </div> */}
+            </div>
           </Link>
           <Link
             href='/admissions'
@@ -142,7 +143,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
               </span>
             </div>
           </Link>
-          <Link
+          {/* <Link
             href={`${linkCalendario}`}
             target='_blank'
             className='flex flex-col justify-center items-center gap-2'
@@ -153,8 +154,8 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
                 {t('section-2.navbar.calendar-link-text').toUpperCase()}
               </span>
             </div>
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href={`${linkGLPMUN}`}
             target='_blank'
             className='flex flex-col justify-center items-center gap-2'
@@ -165,7 +166,7 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
                 GLPMUN
               </span>
             </div>
-          </Link>
+          </Link> */}
         </nav>
       </section>
       <div className='flex flex-col item'>

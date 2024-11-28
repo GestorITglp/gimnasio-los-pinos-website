@@ -135,7 +135,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
               {t('floating-buttons.tuition-button-text')}
             </span>
           </Link>
-          <Link
+          {/* <Link
             href={linkCalendario}
             target='_blank'
             className='flex flex-col gap-2 justify-center items-center p-2 bg-light-green/50 hover:bg-light-green/100 transition-all font-bold hover:text-lg text-black hover:text-white'
@@ -144,7 +144,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
             <span className='hidden sm:block'>
               {t('floating-buttons.temporal-button-text')}
             </span>
-          </Link>
+          </Link> */}
         </nav>
         <header className='w-full fixed top-0 left-0 z-[100000] shadow-classic-sm border-dark-green-100'>
           <div className='drawer z-[100]'>

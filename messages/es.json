@@ -42,9 +42,9 @@
     }
   },
   "floating-buttons": {
-    "classroom-button-text": "Classroom",
+    "classroom-button-text": "Consulta de boletines 2024",
     "admissions-button-text": "Admisiones",
-    "tuition-button-text": "Matrícula",
+    "tuition-button-text": "Matrículas 2025",
     "temporal-button-text": "Calendario"
   },
   "home-page": {
@@ -56,9 +56,9 @@
       "title": "Bienvenido al Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
-        "classroom-link-text": "Classroom",
+        "classroom-link-text": "Consulta de boletines 2024",
         "admissions-link-text": "Admisiones",
-        "tuition-link-text": "Matrículas y pagos",
+        "tuition-link-text": "Matrículas 2025",
         "gallery-link-text": "Galería",
         "calendar-link-text": "Calendario escolar"
       }
