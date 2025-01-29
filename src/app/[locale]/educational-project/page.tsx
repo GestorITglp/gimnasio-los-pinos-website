@@ -93,7 +93,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
               ) as string
             }
           </Collapse>
-          <Collapse
+          {/* <Collapse
             headerText={t('section-1.achievement-program-collapse.title')}
           >
             <ul className='list-disc p-4'>
@@ -122,7 +122,7 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
                 }
               </li>
             </ul>
-          </Collapse>
+          </Collapse> */}
         </div>
       </section>
       <section className='relative px-[20px] py-[50px] lg:px-[200px] min-h-[50vh] flex flex-col gap-10 justify-center items-center bg-[url("/talentos.jpg")] bg-cover bg-center'>

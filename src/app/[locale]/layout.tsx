@@ -404,12 +404,6 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                 {t('footer.mid-section.extracurricular-link-text')}
               </Link>
               <Link
-                href={linkClassroom}
-                target='_blank'
-              >
-                {t('footer.mid-section.classroom-link-text')}
-              </Link>
-              <Link
                 href={linkManualConvivencia}
                 target='_blank'
               >

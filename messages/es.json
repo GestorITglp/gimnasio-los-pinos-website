@@ -42,7 +42,7 @@
     }
   },
   "floating-buttons": {
-    "classroom-button-text": "Consulta de boletines 2024",
+    "classroom-button-text": "Plataforma Classroom",
     "admissions-button-text": "Admisiones",
     "tuition-button-text": "Matrículas 2025",
     "temporal-button-text": "Calendario"
@@ -56,7 +56,7 @@
       "title": "Bienvenido al Gimnasio los Pinos",
       "description": "Educamos a los futuros transformadores de nuestra sociedad y nuestro mundo, como personas apasionadas, proactivas, talentosas y felices, protagonistas en la construcción de su propio conocimiento.",
       "navbar": {
-        "classroom-link-text": "Consulta de boletines 2024",
+        "classroom-link-text": "Plataforma Classroom",
         "admissions-link-text": "Admisiones",
         "tuition-link-text": "Matrículas 2025",
         "gallery-link-text": "Galería",
@@ -231,13 +231,13 @@
         "details-col-text": "coordinacionpreescolar@gimnasiolospinos.edu.co"
       },
       "row-5": {
-        "name-col-text": "Gloria Inés Prada Ramírez",
-        "job-col-text": "Coordinadora PAI",
+        "name-col-text": "Juan Carlos Villamizar Cabrera",
+        "job-col-text": "Coordinador PAI",
         "details-col-text": "coordinacionpai@gimnasiolospinos.edu.co"
       },
       "row-6": {
-        "name-col-text": "Andrés Felipe Palomino",
-        "job-col-text": "Coordinador IB",
+        "name-col-text": "Gloria Inés Prada Ramírez",
+        "job-col-text": "Coordinadora DP",
         "details-col-text": "dirseccion4@gimnasiolospinos.edu.co"
       },
       "row-7": {
@@ -261,12 +261,12 @@
         "details-col-text": "jefatura_artes@gimnasiolospinos.edu.co"
       },
       "row-11": {
-        "name-col-text": "Katty Zorayda Díaz Gómez",
+        "name-col-text": "Edison Arvey Alfonso Niño",
         "job-col-text": "Jefe del área de ciencias y tecnología",
         "details-col-text": "jefatura_ciencias@gimnasiolospinos.edu.co"
       },
       "row-12": {
-        "name-col-text": "Giovanny Ruiz Mateus",
+        "name-col-text": "Lina Marcela talero Díaz",
         "job-col-text": "Jefa del área de individuos y sociedades",
         "details-col-text": "jefatura_sociales@gimnasiolospinos.edu.co"
       },
