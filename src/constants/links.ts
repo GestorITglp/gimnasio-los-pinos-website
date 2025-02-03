@@ -4,11 +4,11 @@
 export const linkClassroom =
   'https://webapps2-classroomliveweb.com:2443/pinos/2025/Login.aspx';
 export const linkMatricula = 'https://webapps2-classroomliveweb.com:2443/pinos/2025/Login.aspx';
-export const linkCalendario = '/CALENDARIO ACADEMICO.pdf';
+export const linkCalendario = '/calendarioinstitucionalglp2025.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
 export const linkPagoTransporte = '';
-export const linkMenuRestaurante = '/minutaenero2025.pdf';
+export const linkMenuRestaurante = '/minutafebrero2025.pdf';
 export const linkUtilesEscolares = '';
 export const linkFormularioPreinscripcion =
   'https://webapps2-classroomliveweb.com:2443/pinos/2025/Inscripcionprcita2.aspx';
