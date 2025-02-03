@@ -4,7 +4,7 @@
 export const linkClassroom =
   'https://webapps2-classroomliveweb.com:2443/pinos/2025/Login.aspx';
 export const linkMatricula = 'https://webapps2-classroomliveweb.com:2443/pinos/2025/Login.aspx';
-export const linkCalendario = '/calendarioacademicoglp2025.pdf';
+export const linkCalendario = '/calendarioacademicoglp-2025.pdf';
 export const linkExtracurriculares = '/extracurriculares.pdf';
 export const linkManualConvivencia = '/convivencia.pdf';
 export const linkPagoTransporte = '';
