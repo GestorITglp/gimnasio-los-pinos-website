@@ -15,7 +15,7 @@ export const linkFormularioPreinscripcion =
 export const linkFormularioInscripcion = '';
 export const linkCompraFormulario = '';
 export const linkFuncionarios =
-  'http://45.163.28.92:8080/KioscoDesignerRHN-war/?grupo=GrupoEmpresarial1';
+  'http://45.163.29.172:8080/KioscoDesignerRHN-war/?grupo=GrupoEmpresarial1';
 export const linkInstagram = 'https://www.instagram.com/glpinos.oficial/?hl=es';
 export const linkFacebook =
   'https://www.facebook.com/PinosOficial/?locale=es_LA';
