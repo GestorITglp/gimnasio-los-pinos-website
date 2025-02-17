@@ -146,7 +146,7 @@
       },
       "international-baccalaureate-collapse": {
         "title": "Bachillerato Internacional",
-        "description": "<meaningful>El Programa de los Años Primarios (PYP)</meaningful> se implementa desde el jardín de infancia hasta el grado 5."
+        "description": "Somos un Colegio del Bachillerato internacional,  <meaningful>que actualmente tiene aprobado los programas PYP. MYP y DP.</meaningful>"
       },
       "achievement-program-collapse": {
         "title": "Programa de logros",
@@ -198,7 +198,7 @@
       }
     },
     "section-4": {
-      "title": "Horario institucional",
+      "title": "Calendario Académico",
       "see-more-link-text": "Ver más"
     }
   },
@@ -207,9 +207,14 @@
     "table": {
       "head-row": {
         "name-col-text": "Nombre",
-        "job-col-text": "Cargo",
+        "role-col-text": "Cargo",
+        "area-col-text": "Area",
+        "type-col-text": "Tipo",
         "details-col-text": "Contacto"
       },
+      "separator-1-text": "Directivos",
+      "separator-2-text": "Equipo Académico",
+      "separator-3-text": "Equipo Administrativo y Financiero",
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
         "job-col-text": "Rector",
@@ -274,6 +279,526 @@
         "name-col-text": "Manuel Infante Patarroyo ",
         "job-col-text": "Jefe del área de educación física y deportes",
         "details-col-text": "jefatura_deportes@gimnasiolospinos.edu.co"
+      },
+      "row-14": {
+        "name-col-text": "BERTHA ETELVINA RIVEROS PATIÑO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "beriverosp@gimnasiolospinos.edu.co"
+      },
+      "row-15": {
+        "name-col-text": "DIRLEY ALEJANDRA BOLAÑOS GUZMAN",
+        "job-col-text": "DOCENTE MÚSICA",
+        "details-col-text": "dabolanosg@gimnasiolospinos.edu.co"
+      },
+      "row-16": {
+        "name-col-text": "ESLENDY BALLEN MURCIA",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "eballenm@gimnasiolospinos.edu.co"
+      },
+      "row-17": {
+        "name-col-text": "FERNANDO ALBERTO SILVA MORENO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "fasilvam@gimnasiolospinos.edu.co"
+      },
+      "row-18": {
+        "name-col-text": "GERARDO CHITIVA CADENA",
+        "job-col-text": "DOCENTE MÚSICA",
+        "details-col-text": "gccadena@gimnasiolospinos.edu.co"
+      },
+      "row-19": {
+        "name-col-text": "JUAN PABLO OROZCO URREGO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "jporozcou@gimnasiolospinos.edu.co"
+      },
+      "row-20": {
+        "name-col-text": "LAURA CAROLINA NINAHUALPA CIFUENTES",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "lninahualpa@gimnasiolospinos.edu.co"
+      },
+      "row-21": {
+        "name-col-text": "NATASHA DANIELA GOMEZ DURAN",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "ndgomezd@gimnasiolospinos.edu.co"
+      },
+      "row-22": {
+        "name-col-text": "KAREN LIZET MURILLO BEJARANO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "klmurillob@gimnasiolospinos.edu.co"
+      },
+      "row-23": {
+        "name-col-text": "PAULA ALEJANDRA TAPIAS ROMAN",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "patapiasr@gimnasiolospinos.edu.co"
+      },
+      "row-24": {
+        "name-col-text": "MARIA JOSÉ LEÓN CARDONA",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "mjleonc@gimnasiolospinos.edu.co"
+      },
+      "row-25": {
+        "name-col-text": "AIXA LORENA AYALA VELASCO",
+        "job-col-text": "ENTRENADOR VOLEIBOL",
+        "details-col-text": "alayalav@gimnasiolospinos.edu.co"
+      },
+      "row-26": {
+        "name-col-text": "ANGELO NEIRA ACOSTA",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "aneiraa@gimnasiolospinos.edu.co"
+      },
+      "row-27": {
+        "name-col-text": "AUGUSTO CESAR MURILLO GARRIDO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "acmurillog@gimnasiolospinos.edu.co"
+      },
+      "row-28": {
+        "name-col-text": "JOHAN STYD RODRIGUEZ MORENO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "jsrodriguezm@gimnasiolospinos.edu.co"
+      },
+      "row-29": {
+        "name-col-text": "SERGIO DAVID CASAS LASSO",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "sdcasas@gimnasiolospinos.edu.co"
+      },
+      "row-30": {
+        "name-col-text": "CARLOS DAVID OSPINA DIAZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "cdospinad@gimnasiolospinos.edu.co"
+      },
+      "row-31": {
+        "name-col-text": "EDITH NATALIA CHAVEZ MORALES",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "Enchavezm@gimnasiolospinos.edu.co"
+      },
+      "row-32": {
+        "name-col-text": "ERIKA LILIANA ANZOLA MORENO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "elanzolam@gimnasiolospinos.edu.co"
+      },
+      "row-33": {
+        "name-col-text": "MAURO ANDRES GOMEZ CASTILLO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "magomezc@gimnasiolospinos.edu.co"
+      },
+      "row-34": {
+        "name-col-text": "JUAN DIEGO SILVA SICHACA",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "jdsilvas@gimnasiolospinos.edu.co"
+      },
+      "row-35": {
+        "name-col-text": "NEYLA YANETH OQUENDO SARMIENTO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "nyoquendos@gimnasiolospinos.edu.co"
+      },
+      "row-36": {
+        "name-col-text": "SANDRA MILENA MARTINEZ TORRES",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "smartinezt@gimnasiolospinos.edu.co"
+      },
+      "row-37": {
+        "name-col-text": "WENDY JOHANNA MUÑOZ ANAYA",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "wjmunoza@gimnasiolospinos.edu.co"
+      },
+      "row-38": {
+        "name-col-text": "ANGIE LORENA LIBERATO SANCHEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "alliberatos@gimnasiolospinos.edu.co"
+      },
+      "row-39": {
+        "name-col-text": "DANIEL ENRIQUE PRECIADO BELLO",
+        "job-col-text": "DOCENTE DE INGLÉS",
+        "details-col-text": "depreciadob@gimnasiolospinos.edu.co"
+      },
+      "row-40": {
+        "name-col-text": "JAIRO ANDRES RUIZ CRISTANCHO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "jaruizc@gimnasiolospinos.edu.co"
+      },
+      "row-41": {
+        "name-col-text": "JENNY PATRICIA VELASQUEZ RUIZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "jpvelasquez@gimnasiolospinos.edu.co"
+      },
+      "row-42": {
+        "name-col-text": "JULIAN ANDRES RONCANCIO JIMENEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "jaroncancioj@gimnasiolospinos.edu.co"
+      },
+      "row-43": {
+        "name-col-text": "LUISA FERNANDA ANDRADE RAMIREZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "lfandrader@gimnasiolospinos.edu.co"
+      },
+      "row-44": {
+        "name-col-text": "MARIA CAMILA MORALES RAMIREZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "mcmoralesr@gimnasiolospinos.edu.co"
+      },
+      "row-45": {
+        "name-col-text": "MAYRA ALEJANDRA SUAREZ GOMEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "masuarezg@gimnasiolospinos.edu.co"
+      },
+      "row-46": {
+        "name-col-text": "SARA MARIA TIUSO CORREDOR",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "smtiusoc@gimnasiolospinos.edu.co"
+      },
+      "row-47": {
+        "name-col-text": "ANDRES FELIPE BOLIVAR ORDUY",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "afbolivaro@gimnasiolospinos.edu.co"
+      },
+      "row-48": {
+        "name-col-text": "DANIELA VARGAS GIL",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "dvargasg@gimnasiolospinos.edu.co"
+      },
+      "row-49": {
+        "name-col-text": "LAURA CAROLINA ALONSO OSORIO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "lcalonsoo@gimnasiolospinos.edu.co"
+      },
+      "row-50": {
+        "name-col-text": "LAURA JINETH MONTAÑA PAEZ",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "ljmontanap@gimnasiolospinos.edu.co"
+      },
+      "row-51": {
+        "name-col-text": "LEIDY LIZETH OJEDA OLAYA",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "llojedao@gimnasiolospinos.edu.co"
+      },
+      "row-52": {
+        "name-col-text": "OSCAR EDUARDO SOTO ALMARIO",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "oesotoa@gimnasiolospinos.edu.co"
+      },
+      "row-53": {
+        "name-col-text": "ANDREA EDITH MARTINEZ SANCHEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "aemartinezs@gimnasiolospinos.edu.co"
+      },
+      "row-54": {
+        "name-col-text": "ERIKSON RODRIGUEZ ORTIZ",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "erodriguezo@gimnasiolospinos.edu.co"
+      },
+      "row-55": {
+        "name-col-text": "HAROLD GIOVANNI ARREDONDO GARCIA",
+        "job-col-text": "DOCENTE MATEMATICAS",
+        "details-col-text": "hgarredondog@gimnasiolospinos.edu.co"
+      },
+      "row-56": {
+        "name-col-text": "JULI CATALINA MENDOZA MONROY",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "jcmendoza@gimnasiolospinos.edu.co"
+      },
+      "row-57": {
+        "name-col-text": "LUISA FERNANDA MORA RUIZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "lfmorar@gimnasiolospinos.edu.co"
+      },
+      "row-58": {
+        "name-col-text": "MIGUEL ESTEBAN CACERES BELTRAN",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "No disponible"
+      },
+      "row-59": {
+        "name-col-text": "RUBEN DARIO QUICENO ABAUNZA",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "rdquicenoa@gimnasiolospinos.edu.co"
+      },
+      "row-60": {
+        "name-col-text": "YVONNE LINNETH BERMUDEZ MUÑOZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "ylbermudezm@gimnasiolospinos.edu.co"
+      },
+      "row-61": {
+        "name-col-text": "MARIA ALEJANDRA BALLESTEROS CESPEDES",
+        "job-col-text": "AUXILIAR DE PREESCOLAR",
+        "details-col-text": "maballesterosc@gimnasiolospinos.edu.co"
+      },
+      "row-62": {
+        "name-col-text": "LADY MARCELA GARZON MARTINEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "lmgarzonm@gimnasiolospinos.edu.co"
+      },
+      "row-63": {
+        "name-col-text": "DANIEL FELIPE SANTOS GIL",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "dfsantosg@gimnasiolospinos.edu.co"
+      },
+      "row-64": {
+        "name-col-text": "LAURA JULIANA NEIRA RODRIGUEZ",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "ljneirar@gimnasiolospinos.edu.co"
+      },
+      "row-65": {
+        "name-col-text": "JUAN DAVID RUIZ",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "jdruiz@gimnasiolospinos.edu.co"
+      },
+      "row-66": {
+        "name-col-text": "LESLY DANIELA GONZALEZ CALDERON",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "ldgonzalezc@gimnasiolospinos.edu.co"
+      },
+      "row-67": {
+        "name-col-text": "MARIA PAULA GUEVARA CORTES",
+        "job-col-text": "DOCENTE ACOMPAÑANTE",
+        "details-col-text": "mpguevarac@gimnasiolospinos.edu.co"
+      },
+      "row-68": {
+        "name-col-text": "HILDA STELLA MORA NAVAS",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "hsmoran@gimnasiolospinos.edu.co"
+      },
+      "row-69": {
+        "name-col-text": "SANTIAGO MEDINA CHACON",
+        "job-col-text": "DOCENTE COACOMPAÑANTE",
+        "details-col-text": "smedinac@gimnasiolospinos.edu.co"
+      },
+      "row-70": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-71": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-72": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-73": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-74": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-75": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-76": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-77": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-78": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-79": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-80": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-81": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-82": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-83": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-84": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-85": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-86": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-87": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-88": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-89": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-90": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-91": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-92": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-93": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-94": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-95": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-96": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-97": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-98": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-99": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-100": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-101": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-102": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-103": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-104": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-105": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-106": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-108": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-109": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-110": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-111": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-112": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-113": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-114": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-115": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-116": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-117": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
+      },
+      "row-118": {
+        "name-col-text": "",
+        "job-col-text": "",
+        "details-col-text": ""
       }
     },
     "open-modal-btn-text": "Ver contacto",
@@ -375,7 +900,12 @@
       "description": "Formamos ciudadanos del mundo, preparados bajo un modelo educativo sólido que garantiza la excelencia educativa internacional.",
       "pep-button-text": "Programa Escuela Primaria - PEP",
       "pai-button-text": "Programa Años Intermedios - PAI",
-      "pd-button-text": "Programa Diploma - PD"
+      "pd-button-text": "Programa Diploma - PD",
+      "ib-button-text": "Continuo del IB",
+      "pep-description-text": "El Programa de Escuela Primaria (PEP) está diseñado para estudiantes de 3 a 12 años y tiene como objetivo el desarrollo integral de los niños en áreas clave como el pensamiento crítico, la creatividad y el aprendizaje emocional y social. Este programa fomenta la curiosidad natural de los estudiantes, promoviendo una educación centrada en el estudiante, que integra contenidos académicos con el desarrollo de habilidades de investigación, resolución de problemas y trabajo colaborativo. La Exposición Final del Programa de Escuela Primaria (PEP) constituye una de las experiencias más significativas al cierre de este ciclo educativo. Esta actividad es el resultado de un proceso de investigación profunda y autónoma que los estudiantes llevan a cabo en el transcurso de su último año, dentro del marco del enfoque de indagación que caracteriza al PEP. Durante la Exposición, los alumnos presentan un tema o pregunta que han explorado, demostrando su capacidad para investigar, analizar, reflexionar y comunicar sus hallazgos de manera clara y coherente. Este proceso no solo refleja los conocimientos adquiridos en diversas áreas del currículo, sino también el desarrollo de habilidades de pensamiento crítico, resolución de problemas y trabajo en equipo. La Exposición Final permite que los estudiantes integren los aprendizajes de todo el programa, mientras desarrollan una mayor confianza en su capacidad para tomar la iniciativa en su propio aprendizaje y compartirlo con otros, cerrando así su recorrido por la educación primaria con una valiosa muestra de su crecimiento académico y personal.",
+      "pai-description-text": "En el Programa de Años Intermedios (PAI), que abarca de los 11 a los 14 años, se refuerzan los conocimientos adquiridos y se enfoca en el desarrollo de habilidades de investigación, reflexión y comunicación. Los estudiantes son desafiados a explorar temas desde una perspectiva global, mientras continúan fortaleciendo su independencia en el aprendizaje y desarrollan una comprensión más profunda de los conceptos clave. El Proyecto Personal es el componente culminante del Programa de Años Intermedios (PAI), diseñado para estudiantes de 14 a 16 años, que les permite explorar un área de su interés de forma autónoma y significativa. Este proyecto tiene como objetivo que los estudiantes se enfrenten a un reto real, tomando la responsabilidad de la planificación, investigación y ejecución de una propuesta que puede abordar un tema académico, social, artístico o comunitario. A lo largo del proceso, los estudiantes desarrollan habilidades clave como la gestión del tiempo, la toma de decisiones, la resolución de problemas, y la reflexión crítica sobre su propio aprendizaje y su impacto en el entorno. El Proyecto Personal también fomenta la creatividad y la curiosidad, al mismo tiempo que refuerza la conexión entre los conocimientos adquiridos durante el programa y su aplicación en contextos prácticos. Al final, los estudiantes presentan su proyecto a la comunidad escolar, compartiendo su proceso y resultados, lo que no solo marca el cierre del PAI, sino que también constituye una experiencia enriquecedora que prepara a los jóvenes para los desafíos de la educación superior y la vida profesional.",
+      "pd-description-text": "Programa de Diploma (PD) está orientado a los estudiantes de 15 a 18 años y se caracteriza por una formación académica rigurosa, que prepara a los jóvenes para los retos del mundo universitario y profesional. A través de asignaturas en áreas como ciencias, matemáticas, humanidades y lenguas, junto con la profundización en la investigación independiente y el desarrollo de habilidades de liderazgo y responsabilidad social, el DP ofrece una preparación completa para la educación superior y la vida adulta. Dentro del Programa Diploma (DP), las asignaturas troncales son componentes fundamentales que integran y enriquecen el aprendizaje de los estudiantes en sus dos últimos años de educación secundaria. Entre estas, se encuentran Teoría del Conocimiento (TOK), Creatividad, Actividad y Servicio (CAS), y la Monografía, que funcionan como proyectos de cierre del programa y consolidan la formación integral del alumno.  Teoría del Conocimiento (TOK) es una asignatura que invita a los estudiantes a reflexionar sobre cómo conocemos lo que sabemos, desafiando sus percepciones y la manera en que adquieren y aplican el conocimiento en diversas disciplinas. En Creatividad, Actividad y Servicio (CAS), los estudiantes deben participar en actividades que fomenten su desarrollo personal, social y emocional, a través de la realización de proyectos creativos, actividades físicas y servicios comunitarios. Este componente busca que los jóvenes no solo se enfoquen en los aspectos académicos, sino también en su crecimiento como individuos responsables y activos en su comunidad. Finalmente, la Monografía es un proyecto de investigación independiente en el que los estudiantes abordan un tema de su interés en profundidad, demostrando sus habilidades de investigación, análisis crítico y escritura académica. Este trabajo culminante permite a los estudiantes integrar todos los aprendizajes adquiridos a lo largo del programa, a la vez que refuerza su capacidad para realizar investigaciones de alta calidad. Juntos, TOK, CAS y la Monografía constituyen pilares fundamentales que preparan a los estudiantes para los retos del futuro académico y profesional, al tiempo que fomentan un enfoque holístico de la educación.",
+      "ib-description-text": "El continuo de los programas del Bachillerato Internacional (PEP, PAI y Diploma) se fundamenta en un enfoque integral y progresivo del aprendizaje, que acompaña a los estudiantes desde la educación primaria hasta la secundaria superior, asegurando una transición coherente y un desarrollo académico y personal consistente. El enfoque global, el pensamiento crítico y las habilidades de investigación adquiridas a lo largo de estos programas permiten a los estudiantes del Diploma abordar desafíos más profundos y prepararse para estudios universitarios y la vida profesional. Así, cada programa se construye sobre el anterior, asegurando que los estudiantes tengan una preparación completa y progresiva que favorezca su desarrollo cognitivo, social y ético a lo largo de su educación."
     },
     "section-6": {
       "title": "Declaración de principios del IB",

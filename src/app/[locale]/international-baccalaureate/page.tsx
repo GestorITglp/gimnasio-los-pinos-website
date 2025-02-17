@@ -2,7 +2,10 @@ import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import Link from 'next/link';
 import { imagenPAI, imagenPD, imagenPEP } from '@/constants/images';
-
+import Modal from '@/components/Modal/Modal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserNurse } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 interface Props {
   params: {
     locale: string;
@@ -157,36 +160,99 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
       </section>
       <section
         id='section-5'
-        className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col gap-4 justify-center items-center bg-no-repeat bg-[url("/modelo.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'
+        className='w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col gap-4 justify-center items-center bg-no-repeat bg-[url("/modelo.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'
       >
-        <div className={`${blackishLayerClasses} opacity-25`} />
+        {/* <div className={`${blackishLayerClasses} opacity-25`} /> */}
         <h2 className='text-2xl sm:text-[50px] z-[10] font-bold text-white leading-none text-center sm:text-start'>
           {t('section-3.title')}
         </h2>
         <p className={`${pClasses} text-white z-[100]`}>
           {t('section-3.description')}
         </p>
-        <Link
-          className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
-          target='_blank'
-          href={imagenPEP}
-        >
-          {t('section-5.pep-button-text')}
-        </Link>
-        <Link
-          className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
-          target='_blank'
-          href={imagenPAI}
-        >
-          {t('section-5.pai-button-text')}
-        </Link>
-        <Link
-          className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'
-          target='_blank'
-          href={imagenPD}
-        >
-          {t('section-5.pd-button-text')}
-        </Link>
+        <Modal
+          title={''}
+          labelContent={
+            <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
+              {t('section-5.pep-button-text')}
+            </div>
+          }
+          additionalContent={
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <Image
+                className='w-[200px]'
+                src='/PEPimage.png'
+                alt='PEP'
+                width={400}
+                height={400}
+              />
+              <p>{t('section-5.pep-description-text')}</p>
+            </div>
+          }
+          closeBtnText={'Este es el boton para cerrar'}
+        />
+        <Modal
+          title={''}
+          labelContent={
+            <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
+              {t('section-5.pai-button-text')}
+            </div>
+          }
+          additionalContent={
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <Image
+                className='w-[200px]'
+                src='/PAIimage.png'
+                alt='PEP'
+                width={400}
+                height={400}
+              />
+              <p>{t('section-5.pai-description-text')}</p>
+            </div>
+          }
+          closeBtnText={'Este es el boton para cerrar'}
+        />
+        <Modal
+          title={''}
+          labelContent={
+            <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
+              {t('section-5.pd-button-text')}
+            </div>
+          }
+          additionalContent={
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <Image
+                className='w-[200px]'
+                src='/DPimage.png'
+                alt='PEP'
+                width={400}
+                height={400}
+              />
+              <p>{t('section-5.pd-description-text')}</p>
+            </div>
+          }
+          closeBtnText={'Este es el boton para cerrar'}
+        />
+        <Modal
+          title={''}
+          labelContent={
+            <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
+              {t('section-5.ib-button-text')}
+            </div>
+          }
+          additionalContent={
+            <div className='flex flex-col justify-center items-center gap-2'>
+              <Image
+                className='w-[200px]'
+                src='/IBimage.png'
+                alt='PEP'
+                width={400}
+                height={400}
+              />
+              <p>{t('section-5.ib-description-text')}</p>
+            </div>
+          }
+          closeBtnText={'Este es el boton para cerrar'}
+        />
       </section>
     </main>
   );

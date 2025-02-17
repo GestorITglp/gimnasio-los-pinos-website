@@ -146,7 +146,7 @@
       },
       "international-baccalaureate-collapse": {
         "title": "Baccalauréat international",
-        "description": "<meaningful>Le Programme d'années primaires (PYP)</meaningful> est mis en œuvre de la maternelle à la 5e année."
+        "description": "Nous sommes une école du baccalauréat international <meaningful>qui a actuellement approuvé les programmes du PYP. PEI et DP.</meaningful>"
       },
       "achievement-program-collapse": {
         "title": "Programme de réussite",
@@ -207,9 +207,14 @@
     "table": {
       "head-row": {
         "name-col-text": "Nom",
-        "job-col-text": "Fonction",
-        "details-col-text": "Détails"
+        "role-col-text": "Emploi",
+        "area-col-text": "Espace",
+        "type-col-text": "Type",
+        "details-col-text": "Contact"
       },
+      "separator-1-text": "Directives",
+      "separator-2-text": "Academic Team",
+      "separator-3-text": "Management and Finance Team",
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
         "job-col-text": "Rector",
@@ -375,7 +380,12 @@
       "description": "Nous formons des citoyens du monde, préparés selon un modèle éducatif solide qui garantit l'excellence éducative internationale.",
       "pep-button-text": "Programme d'école primaire - PEP",
       "pai-button-text": "Programme d'éducation intermédiaire - PAI",
-      "pd-button-text": "Programme du diplôme - PD"
+      "pd-button-text": "Programme du diplôme - PD",
+      "ib-button-text": "IB continuum",
+      "pep-description-text": "Primary school program - PEP",
+      "pai-description-text": "Intermediate years program - PAI",
+      "pd-description-text": "Diploma program - PD",
+      "ib-description-text": "The continuum of the International Baccalaureate programs (PYP, MYP, and DP) is based on a holistic and progressive approach to learning that supports students from primary education through upper secondary, ensuring a coherent transition and consistent academic and personal development. The global perspective, critical thinking, and research skills acquired throughout these programs enable DP students to tackle deeper challenges and prepare for university studies and professional life. In this way, each program builds upon the previous one, ensuring that students receive comprehensive and progressive preparation that fosters their cognitive, social, and ethical development throughout their education."
     },
     "section-6": {
       "title": "Déclaration de principes de l'IB",

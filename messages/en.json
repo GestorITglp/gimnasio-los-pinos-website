@@ -146,7 +146,7 @@
       },
       "international-baccalaureate-collapse": {
         "title": "International baccalaureate",
-        "description": "<meaningful>The Primary Years Programme (PYP)</meaningful> is implemented from Kindergarten to grade 5."
+        "description": "We are an International Baccalaureate School, which  <meaningful>currently has approved the PYP, MYP and DP programs.</meaningful>"
       },
       "achievement-program-collapse": {
         "title": "Achievement program",
@@ -207,9 +207,13 @@
     "table": {
       "head-row": {
         "name-col-text": "Name",
-        "job-col-text": "Job",
-        "details-col-text": "Details"
+        "area-col-text": "Area",
+        "type-col-text": "Type",
+        "details-col-text": "Contact"
       },
+      "separator-1-text": "Directives",
+      "separator-2-text": "Academic Team",
+      "separator-3-text": "Management and Finance Team",
       "row-1": {
         "name-col-text": "Carlos Alberto Pájaro Díaz",
         "job-col-text": "Rector",
@@ -375,7 +379,12 @@
       "description": "We train world citizens, prepared under a strong educational model that guarantees international educational excellence",
       "pep-button-text": "Primary school program - PEP",
       "pai-button-text": "Intermediate years program - PAI",
-      "pd-button-text": "Diploma program - PD"
+      "pd-button-text": "Diploma program - PD",
+      "ib-button-text": "IB continuum",
+      "pep-description-text": "The Primary Years Programme (PYP) is designed for students aged 3 to 12 and aims at the comprehensive development of children in key areas such as critical thinking, creativity, and emotional and social learning. This program fosters the students' natural curiosity, promoting a student-centered education that integrates academic content with the development of research skills, problem-solving, and collaborative work. The Final Exhibition of the Primary Years Programme (PYP) is one of the most significant experiences at the end of this educational cycle. This activity is the result of a process of in-depth and autonomous research that students carry out during their final year, within the framework of the inquiry-based approach that characterizes the PYP. During the Exhibition, students present a topic or question they have explored, demonstrating their ability to research, analyze, reflect, and communicate their findings in a clear and coherent manner. This process not only reflects the knowledge acquired in various areas of the curriculum but also the development of critical thinking, problem-solving, and teamwork skills. The Final Exhibition allows students to integrate the learning from the entire program while building greater confidence in their ability to take initiative in their own learning and share it with others, thus closing their journey through primary education with a valuable demonstration of their academic and personal growth.",
+      "pai-description-text": "In the Middle Years Programme (MYP), which spans from ages 11 to 14, the knowledge acquired is reinforced, and the focus is placed on the development of research, reflection, and communication skills. Students are challenged to explore topics from a global perspective while continuing to strengthen their independence in learning and developing a deeper understanding of key concepts. The Personal Project is the culminating component of the Middle Years Programme (MYP), designed for students aged 14 to 16, which allows them to explore an area of interest autonomously and meaningfully. This project aims to confront students with a real challenge, taking responsibility for the planning, research, and execution of a proposal that may address an academic, social, artistic, or community-related issue. Throughout the process, students develop key skills such as time management, decision-making, problem-solving, and critical reflection on their own learning and its impact on the environment. The Personal Project also fosters creativity and curiosity, while reinforcing the connection between the knowledge acquired during the program and its application in practical contexts. In the end, students present their project to the school community, sharing their process and results, which not only marks the closure of the MYP but also provides an enriching experience that prepares young people for the challenges of higher education and professional life.",
+      "pd-description-text": "The Diploma Programme (DP) is aimed at students aged 15 to 18 years old and is characterized by rigorous academic training that prepares young people for the challenges of university and professional life. Through subjects in areas such as sciences, mathematics, humanities, and languages, alongside a focus on independent research and the development of leadership and social responsibility skills, the DP provides comprehensive preparation for higher education and adulthood. Within the Diploma Programme (DP), the core components are fundamental elements that integrate and enrich students learning in their final two years of secondary education. These include Theory of Knowledge (TOK), Creativity, Activity, and Service (CAS), and the Monograph, which serve as the culminating projects of the programme and consolidate the student's holistic development. Theory of Knowledge (TOK) is a subject that invites students to reflect on how we know what we know, challenging their perceptions and the ways in which they acquire and apply knowledge across various disciplines. In Creativity, Activity, and Service (CAS), students must engage in activities that promote their personal, social, and emotional development through creative projects, physical activities, and community service. This component encourages young people to focus not only on academic aspects but also on their growth as responsible and active individuals in their community. Finally, the Monograph, is an independent research project in which students explore a topic of personal interest in depth, demonstrating their research, critical analysis, and academic writing skills. This culminating project allows students to integrate all the learning acquire throughout the programme while strengthening their ability to conduct high-quality research.  Together, TOK, CAS, and the Monograph form key pillars that prepare students for the challenges of future academic and professional pursuits, while promoting a holistic approach to education.",
+      "ib-description-text": "The continuum of the International Baccalaureate programs (PYP, MYP, and DP) is based on a holistic and progressive approach to learning that supports students from primary education through upper secondary, ensuring a coherent transition and consistent academic and personal development. The global perspective, critical thinking, and research skills acquired throughout these programs enable DP students to tackle deeper challenges and prepare for university studies and professional life. In this way, each program builds upon the previous one, ensuring that students receive comprehensive and progressive preparation that fosters their cognitive, social, and ethical development throughout their education."
     },
     "section-6": {
       "title": "IB Mission statement",
