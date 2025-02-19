@@ -11,6 +11,7 @@ import {
   linkUtilesEscolares,
   linkVideo,
 } from '@/constants/links';
+import { carouselMedia } from '@/constants/carouselMedia';
 
 interface Props {
   params: {
@@ -87,7 +88,7 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
   return (
     <main className='flex flex-col justify-center items-center gap-[50px]'>
       <section
-        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-2 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/admissionsPageSection1.jpg")]`}
+        className={`py-[50px] relative w-full px-[20px] sm:px-[200px] flex flex-col justify-center items-center sm:items-start gap-2 min-h-[50vh] bg-cover bg-right-top bg-no-repeat bg-[url("/PROCESO%20DE%20ADMISION.jpg")] bg-[position:-200%_35%]`}
       >
         <div
           className={`absolute top-0 left-0 w-full h-full opacity-50 bg-black`}
@@ -412,125 +413,60 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
       </section>
       <section
         id='our-campus-section'
-        className={`flex flex-col h-[50vh] mb-[50px] gap-10`}
+        className={`flex flex-col h-[80vh] mb-[50px] gap-10`}
       >
         <h2 className={h2Classes}>{t('section-5.title')}</h2>
         <div className='carousel w-full'>
-          <div
-            id='slide1'
-            className='carousel-item relative w-full'
-          >
-            <img
-              src='/carrousel1.jpg'
-              className='w-full object-contain'
-            />
-            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
-              <a
-                href='#slide4'
-                className='btn btn-circle'
+          {carouselMedia.map((media, index) => {
+            const prevSlide =
+              index === 0 ? carouselMedia.length - 1 : index - 1;
+            const nextSlide =
+              index === carouselMedia.length - 1 ? 0 : index + 1;
+
+            return (
+              <div
+                key={index}
+                id={`slide${index + 1}`}
+                className='carousel-item relative w-full'
               >
-                ❮
-              </a>
-              <a
-                href='#slide2'
-                className='btn btn-circle'
-              >
-                ❯
-              </a>
-            </div>
-          </div>
-          <div
-            id='slide2'
-            className='carousel-item relative w-full'
-          >
-            <img
-              src='/carrousel2.jpg'
-              className='w-full object-contain'
-            />
-            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
-              <a
-                href='#slide1'
-                className='btn btn-circle'
-              >
-                ❮
-              </a>
-              <a
-                href='#slide3'
-                className='btn btn-circle'
-              >
-                ❯
-              </a>
-            </div>
-          </div>
-          <div
-            id='slide3'
-            className='carousel-item relative w-full'
-          >
-            <img
-              src='/carrousel3.jpg'
-              className='w-full object-contain'
-            />
-            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
-              <a
-                href='#slide2'
-                className='btn btn-circle'
-              >
-                ❮
-              </a>
-              <a
-                href='#slide4'
-                className='btn btn-circle'
-              >
-                ❯
-              </a>
-            </div>
-          </div>
-          <div
-            id='slide4'
-            className='carousel-item relative w-full'
-          >
-            <img
-              src='/carrousel4.jpg'
-              className='w-full object-contain'
-            />
-            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
-              <a
-                href='#slide3'
-                className='btn btn-circle'
-              >
-                ❮
-              </a>
-              <a
-                href='#slide5'
-                className='btn btn-circle'
-              >
-                ❯
-              </a>
-            </div>
-          </div>
-          <div
-            id='slide5'
-            className='carousel-item relative w-full'
-          >
-            <img
-              src='/carrousel5.jpg'
-              className='w-full object-contain'
-            />
-            <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
-              <a
-                href='#slide4'
-                className='btn btn-circle'
-              >
-                ❮
-              </a>
-              <a
-                href='#slide1'
-                className='btn btn-circle'
-              >
-                ❯
-              </a>
-            </div>
-          </div>
+                {/* Render image or video based on the type */}
+                {media.type === 'image' ? (
+                  <img
+                    src={media.src}
+                    className='w-full object-contain'
+                    alt={`Slide ${index + 1}`}
+                  />
+                ) : (
+                  <video
+                    src={media.src}
+                    className='w-full object-contain'
+                    controls // Add controls for video playback
+                    autoPlay={index === 0} // Autoplay the first video
+                    loop // Loop the video
+                    muted // Mute the video (required for autoplay in some browsers)
+                  >
+                    Your browser does not support the video tag.
+                  </video>
+                )}
+
+                {/* Navigation buttons */}
+                <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
+                  <a
+                    href={`#slide${prevSlide + 1}`}
+                    className='btn btn-circle'
+                  >
+                    ❮
+                  </a>
+                  <a
+                    href={`#slide${nextSlide + 1}`}
+                    className='btn btn-circle'
+                  >
+                    ❯
+                  </a>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
     </main>

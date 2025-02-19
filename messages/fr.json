@@ -3,7 +3,7 @@
     "navbar": {
       "home-page-link-text": "Accueil",
       "educational-project-page-link-text": "Projet éducatif",
-      "academy-page-link-text": "Académie",
+      "contacts-page-link-text": "Contacts",
       "services-page-link-text": "Services",
       "international-baccalaureate-page-link-text": "Baccalauréat international",
       "admissions-page-link-text": "Admissions",
@@ -202,7 +202,7 @@
       "see-more-link-text": "Voir plus"
     }
   },
-  "academy-page": {
+  "contacts-page": {
     "title": "Répertoire académique",
     "table": {
       "head-row": {

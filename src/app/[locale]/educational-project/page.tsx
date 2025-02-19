@@ -45,8 +45,8 @@ const EducationalProjectPage: FC<Props> = ({ params: { locale } }) => {
       <section className='px-[20px] lg:px-[400px] py-[50px] flex flex-row justify-center items-center flex-wrap gap-4 sm:gap-10'>
         <h1 className={`sm:w-[300px] ${h2Classes}`}>{t('section-1.title')}</h1>
         <img
-          className='w-[500px]'
-          src='/educationalProjectPageSection1.png'
+          className='w-[500px] rounded-full'
+          src='/PROYECTO%20EDUCATIVO.jpg'
           alt='Section 1'
         />
         <div className='w-[300px] flex flex-col gap-4 sm:gap-10'>

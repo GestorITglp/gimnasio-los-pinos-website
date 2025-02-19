@@ -33,7 +33,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         style={{
           alignItems: 'flex-start',
         }}
-        className={`py-[50px] ${sectionClasses} items-start bg-[url("/internationalBaccalaureatePageSection1.jpg")] bg-center`}
+        className={`py-[50px] ${sectionClasses} items-start bg-[url("/BACHILLERAO%20INTERNACIONAL.jpg")] bg-center`}
       >
         <div className={`${colorfulLayerClasses}`} />
         <h2 className={`${h2Classes} text-start w-auto sm:w-[50%] text-white`}>
@@ -62,28 +62,108 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         <h2 className={`${h2Classes}`}>{t('section-6.title')}</h2>
         <p className={`${pClasses}`}>{t('section-6.description')}</p>
       </section>
+      <section className='flex flex-row flex-wrap gap-5 justify-center items-center'>
+        <Link href='#pepSection'>
+          <Image
+            className='w-[150px] border rounded-lg p-2 glass'
+            src='/PEPimage.png'
+            alt='PEP'
+            width={400}
+            height={400}
+          />
+        </Link>
+        <Link href='#paiSection'>
+          <Image
+            className='w-[150px] border rounded-lg p-2 glass'
+            src='/PAIimage.png'
+            alt='PAI'
+            width={400}
+            height={400}
+          />
+        </Link>
+        <Link href='#dpSection'>
+          <Image
+            className='w-[150px] border rounded-lg p-2 glass'
+            src='/DPimage.png'
+            alt='DP'
+            width={400}
+            height={400}
+          />
+        </Link>
+        <Link href='#ibSection'>
+          <Image
+            className='w-[150px] border rounded-lg p-2 glass'
+            src='/IBimage.png'
+            alt='IB'
+            width={400}
+            height={400}
+          />
+        </Link>
+      </section>
       <section
+        id='pepSection'
         className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
       >
-        <img
-          className='w-[500px] rounded-lg'
-          src={'/carrousel1.jpg'}
-          alt='Kids playing'
+        <Image
+          className='w-[200px]'
+          src='/PEPimage.png'
+          alt='PEP'
+          width={400}
+          height={400}
         />
         <p className={`w-[600px] ${pClasses}`}>
-          {t.rich('section-2.text', {
-            br: (text) => {
-              return (
-                <>
-                  <br />
-                  <br />
-                  {text}
-                </>
-              );
-            },
-          })}
+          {t('section-5.pep-description-text')}
         </p>
       </section>
+      <div className='divider' />
+      <section
+        id='paiSection'
+        className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
+      >
+        <Image
+          className='w-[200px]'
+          src='/PAIimage.png'
+          alt='PAI'
+          width={400}
+          height={400}
+        />
+        <p className={`w-[600px] ${pClasses}`}>
+          {t('section-5.pai-description-text')}
+        </p>
+      </section>
+      <div className='divider' />
+      <section
+        id='dpSection'
+        className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
+      >
+        <Image
+          className='w-[200px]'
+          src='/DPimage.png'
+          alt='DP'
+          width={400}
+          height={400}
+        />
+        <p className={`w-[600px] ${pClasses}`}>
+          {t('section-5.pd-description-text')}
+        </p>
+      </section>
+      <div className='divider' />
+      <section
+        id='ibSection'
+        className={`min-h-[50vh] px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center gap-10`}
+      >
+        <Image
+          className='w-[200px]'
+          src='/IBimage.png'
+          alt='IB'
+          width={400}
+          height={400}
+        />
+        <p className={`w-[600px] ${pClasses}`}>
+          {t('section-5.ib-description-text')}
+        </p>
+      </section>
+      <div className='divider' />
       <section className='px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center mb-[50px] gap-10'>
         <div className='flex flex-col gap-10 w-[600px]'>
           <h2 className={`${h2Classes}`}>{t('section-3.title')}</h2>
@@ -92,7 +172,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         <figure className='flex flex-col items-center gap-4'>
           <img
             className='w-[500px]'
-            src='/internationalBaccalaureatePageSection3.png'
+            src='/internationalBacNew.jpeg'
             alt='Section 3'
           />
           <figcaption className='text-center'>
@@ -115,7 +195,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         id='section-4'
         className='px-[200px] flex flex-col items-center gap-10'
       >
-        <ul className='flex flex-row gap-10 justify-center items-center flex-wrap'>
+        {/* <ul className='flex flex-row gap-10 justify-center items-center flex-wrap'>
           <li className='relative w-[280px] h-[280px] bg-red-500 flex-1 rounded-lg flex justify-center items-center text-center p-4 text-lg font-bold text-white basis-[280px] min-w-[280px] max-w-[280px] bg-[url("/carrousel1.jpg")] bg-cover bg-center'>
             <div
               className={`absolute top-0 left-0 w-full h-full bg-dark-green-200 opacity-80 rounded-lg`}
@@ -148,7 +228,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
               {t('section-4.list.list-item-4-text')}
             </span>
           </li>
-        </ul>
+        </ul> */}
         <Link
           href='https://www.ibo.org/es/'
           target='_blank'
@@ -169,7 +249,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
         <p className={`${pClasses} text-white z-[100]`}>
           {t('section-3.description')}
         </p>
-        <Modal
+        {/* <Modal
           title={''}
           labelContent={
             <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
@@ -252,7 +332,7 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
             </div>
           }
           closeBtnText={'Este es el boton para cerrar'}
-        />
+        /> */}
       </section>
     </main>
   );

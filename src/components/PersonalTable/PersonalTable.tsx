@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import Papa from 'papaparse';
 import { Personal } from '@/model/Personal';
 import { useTranslations } from 'next-intl';
@@ -31,7 +31,7 @@ const PersonalTable = () => {
             const parsedData = result.data.map((row: any) => ({
               name: row['NOMBRE']?.trim() || '',
               role: row['NOMBRE DEL CARGO']?.trim() || '',
-              type: row['TIPO']?.trim() || '',
+              type: row['GRUPO']?.trim() || '',
               area: row['AREA']?.trim() || '',
               email: row['CORREO']?.trim() || '',
             })) as Personal[];
@@ -48,115 +48,126 @@ const PersonalTable = () => {
   }, []);
 
   return (
-    <div className='w-full flex flex-col justify-center items-center gap-[50px]'>
-      <div className='flex flex-row justify-center items-center gap-5'>
-        Ver por tipo:
-        {typesWithoutRepetition.map((type) => {
-          return (
-            <Link
-              className='btn btn-xs btn-neutral btn-outline'
-              href={`#${type}`}
-            >
-              {type.toUpperCase()}
-            </Link>
-          );
-        })}
-      </div>
-      {data.length > 0 ? (
-        <div className='w-full overflow-x-auto'>
-          <table className='table'>
-            {/* head */}
-            <thead>
-              <tr>
-                <th>{t('table.head-row.name-col-text')}</th>
-                <th>{t('table.head-row.role-col-text')}</th>
-                <th>{t('table.head-row.area-col-text')}</th>
-                <th>{t('table.head-row.type-col-text')}</th>
-                <th>{t('table.head-row.details-col-text')}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {typesWithoutRepetition.map((type) => {
-                return (
-                  <>
-                    <tr>
-                      <th
-                        id={type}
-                        className='bg-base-200'
-                        colSpan={5}
-                      >
-                        {type}
-                      </th>
-                    </tr>
-                    {data
-                      .filter((obj) => {
-                        return obj.type.toLowerCase() === type.toLowerCase();
-                      })
-                      .sort((a, b) => a.name.localeCompare(b.name))
-                      .map((obj) => {
-                        return (
-                          <tr>
-                            <td>
-                              <div className='flex items-center gap-3'>
-                                <div className='avatar'>
-                                  <div className='mask mask-squircle w-12 h-12'>
-                                    <img
-                                      src='/academyPageTableUser.webp'
-                                      alt='CP'
-                                    />
-                                  </div>
-                                </div>
-                                <div>
-                                  <div className='font-bold'>
-                                    {obj.name.toUpperCase() || 'N/A'}
-                                  </div>
-                                </div>
-                              </div>
-                            </td>
-                            <td>
-                              <span className={jobBadgeClasses}>
-                                {obj.role.toUpperCase() || 'N/A'}
-                              </span>
-                            </td>
-                            <td>
-                              <span>{obj.area.toUpperCase() || 'N/A'}</span>
-                            </td>
-                            <td>
-                              <span>{obj.type.toUpperCase() || 'N/A'}</span>
-                            </td>
-                            <th>
-                              <Modal
-                                image='/academyPageTableUser.webp'
-                                title={obj.name.toUpperCase()}
-                                subtitle={obj.role.toUpperCase()}
-                                description={obj.email}
-                                openBtnText={t('open-modal-btn-text')}
-                                closeBtnText={t('close-modal-btn-text')}
-                              />
-                            </th>
-                          </tr>
-                        );
-                      })}
-                  </>
-                );
-              })}
-            </tbody>
-            {/* footer */}
-            <thead>
-              <tr>
-                <th>{t('table.head-row.name-col-text')}</th>
-                <th>{t('table.head-row.role-col-text')}</th>
-                <th>{t('table.head-row.area-col-text')}</th>
-                <th>{t('table.head-row.type-col-text')}</th>
-                <th>{t('table.head-row.details-col-text')}</th>
-              </tr>
-            </thead>
-          </table>
+    <>
+      <div className='w-full flex flex-col justify-center items-center gap-[50px]'>
+        <div className='flex flex-row justify-center items-center gap-5'>
+          Ver por tipo:
+          {typesWithoutRepetition.map((type) => {
+            return (
+              <Link
+                className='btn btn-xs btn-neutral btn-outline'
+                href={`#${type}`}
+              >
+                {type.toUpperCase()}
+              </Link>
+            );
+          })}
         </div>
-      ) : (
-        <p>Loading data...</p>
-      )}
-    </div>
+        {data.length > 0 ? (
+          <div className='w-full overflow-x-auto'>
+            <table className='table'>
+              {/* head */}
+              <thead>
+                <tr>
+                  <th>{t('table.head-row.name-col-text')}</th>
+                  <th>{t('table.head-row.role-col-text')}</th>
+                  <th>{t('table.head-row.area-col-text')}</th>
+                  <th>{t('table.head-row.type-col-text')}</th>
+                  <th>{t('table.head-row.details-col-text')}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {typesWithoutRepetition.map((type) => {
+                  return (
+                    <Fragment key={type}>
+                      <tr>
+                        <th
+                          id={type}
+                          className='bg-base-200'
+                          colSpan={5}
+                        >
+                          {type}
+                        </th>
+                      </tr>
+                      {data
+                        .filter((obj) => {
+                          return obj.type.toLowerCase() === type.toLowerCase();
+                        })
+                        .sort((a, b) => a.name.localeCompare(b.name))
+                        .map((obj) => {
+                          return (
+                            <tr key={`${type}-${obj.name}`}>
+                              <td>
+                                <div className='flex items-center gap-3'>
+                                  <div className='avatar'>
+                                    <div className='mask mask-squircle w-12 h-12'>
+                                      <img
+                                        src='/academyPageTableUser.webp'
+                                        alt='CP'
+                                      />
+                                    </div>
+                                  </div>
+                                  <div>
+                                    <div className='font-bold'>
+                                      {obj.name.toUpperCase() || 'N/A'}
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <span className={jobBadgeClasses}>
+                                  {obj.role.toUpperCase() || 'N/A'}
+                                </span>
+                              </td>
+                              <td>
+                                <span>{obj.area.toUpperCase() || 'N/A'}</span>
+                              </td>
+                              <td>
+                                <span>{obj.type.toUpperCase() || 'N/A'}</span>
+                              </td>
+                              <th>
+                                <Modal
+                                  image='/academyPageTableUser.webp'
+                                  title={obj.name.toUpperCase()}
+                                  subtitle={obj.role.toUpperCase()}
+                                  description={obj.email}
+                                  openBtnText={t('open-modal-btn-text')}
+                                  closeBtnText={t('close-modal-btn-text')}
+                                />
+                              </th>
+                            </tr>
+                          );
+                        })}
+                    </Fragment>
+                  );
+                })}
+              </tbody>
+              {/* footer */}
+              <thead>
+                <tr>
+                  <th>{t('table.head-row.name-col-text')}</th>
+                  <th>{t('table.head-row.role-col-text')}</th>
+                  <th>{t('table.head-row.area-col-text')}</th>
+                  <th>{t('table.head-row.type-col-text')}</th>
+                  <th>{t('table.head-row.details-col-text')}</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        ) : (
+          <p>Loading data...</p>
+        )}
+      </div>
+      <button
+        type='button'
+        className='btn btn-circle btn-accent bg-light-green fixed left-[10px] bottom-[10px] border-4 border-black text-2xl text-black'
+        onClick={() => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}
+      >
+        ↑
+      </button>
+    </>
   );
 };
 

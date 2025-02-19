@@ -65,7 +65,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
           </p>
           <img
             className='min-w-auto sm:min-w-[400px] self-end'
-            src='/servicesPageSection2.png'
+            src='/PSICOLOGIA.jpg'
             alt='Section 2'
           />
         </div>
@@ -224,7 +224,7 @@ const ServicesPage: FC<Props> = ({ params: { locale } }) => {
               additionalContent={
                 <img
                   className='w-full rounded-lg'
-                  src='/uniforms.JPG'
+                  src='/uniformes.jpeg'
                   alt='Uniforms'
                 />
               }

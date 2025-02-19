@@ -17,7 +17,7 @@ const AboutUsPage: FC<Props> = ({}) => {
     <main className='flex flex-col gap-[50px]'>
       <section
         id='section-1'
-        className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/educationalProjectPageAccordion1.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'
+        className='relative w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row justify-center items-center bg-no-repeat bg-[url("/SOBRE%20NOSOTROS.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'
       >
         <div className={`${blackishLayerClasses} opacity-50`} />
         <h1 className='text-2xl sm:text-[50px] z-[10] font-bold text-white leading-none text-center sm:text-start'>

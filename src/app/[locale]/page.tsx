@@ -272,6 +272,28 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             })}
         </div>
       </section>
+      {/* <div className='flex flex-row gap-10 justify-center items-center flex-wrap'>
+        <video
+          src={'/video1.mp4'}
+          className='w-full max-w-[500px] object-contain'
+          controls // Add controls for video playback
+          loop // Loop the video
+          muted // Mute the video (required for autoplay in some browsers)
+          poster='/PROYECTO EDUCATIVO.jpg'
+        >
+          Your browser does not support the video tag.
+        </video>
+        <video
+          src={'/video2.mp4'}
+          className='w-full max-w-[500px] object-contain'
+          controls // Add controls for video playback
+          loop // Loop the video
+          muted // Mute the video (required for autoplay in some browsers)
+          poster='/PROYECTO EDUCATIVO.jpg'
+        >
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
       <section className='relative min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-between items-center bg-[url("/homePageSection6.png")] bg-cover bg-center gap-4 sm:gap-10'>
         <div className={`${blackishLayerClasses} opacity-75`} />
         <div className='z-[10] flex flex-col items-start gap-4 sm:gap-10 text-white'>

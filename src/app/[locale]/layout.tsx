@@ -230,10 +230,10 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                       </li>
                       <li>
                         <Link
-                          href='/academy'
+                          href='/contacts'
                           className={`${linkClasses}`}
                         >
-                          {t('header.navbar.academy-page-link-text')}
+                          {t('header.navbar.contacts-page-link-text')}
                         </Link>
                       </li>
                       <li>
@@ -331,7 +331,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                     href='/academy'
                     className={`${linkClasses}`}
                   >
-                    {t('header.navbar.academy-page-link-text')}
+                    {t('header.navbar.contacts-page-link-text')}
                   </a>
                 </li>
                 <li>
