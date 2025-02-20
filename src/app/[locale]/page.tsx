@@ -172,8 +172,8 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
       <div className='flex flex-col item'>
         <section className='px-[20px] flex flex-row flex-wrap-reverse sm:flex-nowrap justify-evenly items-center gap-10 border-b-2 border-dark-green-100'>
           <img
-            className='w-[500px] self-end'
-            src='/transparentStudents.png'
+            className='w-[400px] self-end'
+            src='/EN%20EL%20GLP%20DESARROLLAMOS%20TU%20POTENCIAL.jpg'
             alt='Students'
           />
           <div className='w-[1000px] flex flex-col items-center sm:items-start gap-10'>
@@ -272,28 +272,26 @@ const HomePage: FC<Props> = ({ params: { locale } }) => {
             })}
         </div>
       </section>
-      {/* <div className='flex flex-row gap-10 justify-center items-center flex-wrap'>
-        <video
-          src={'/video1.mp4'}
-          className='w-full max-w-[500px] object-contain'
-          controls // Add controls for video playback
-          loop // Loop the video
-          muted // Mute the video (required for autoplay in some browsers)
-          poster='/PROYECTO EDUCATIVO.jpg'
-        >
-          Your browser does not support the video tag.
-        </video>
-        <video
-          src={'/video2.mp4'}
-          className='w-full max-w-[500px] object-contain'
-          controls // Add controls for video playback
-          loop // Loop the video
-          muted // Mute the video (required for autoplay in some browsers)
-          poster='/PROYECTO EDUCATIVO.jpg'
-        >
-          Your browser does not support the video tag.
-        </video>
-      </div> */}
+      <div className='flex flex-row gap-10 justify-center items-center flex-wrap'>
+        <div className='w-[500px] aspect-video'>
+          <iframe
+            src={`https://www.youtube.com/embed/z2bfydWT08g?autoplay=0&controls=1&mute=0`}
+            className='w-full h-full'
+            title={`YouTube Video `}
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+          ></iframe>
+        </div>
+        <div className='w-[500px] aspect-video'>
+          <iframe
+            src={`https://www.youtube.com/embed/ZuLdyHzYg0w?autoplay=0&controls=1&mute=0`}
+            className='w-full h-full'
+            title={`YouTube Video `}
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+          ></iframe>
+        </div>
+      </div>
       <section className='relative min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-row flex-wrap justify-between items-center bg-[url("/homePageSection6.png")] bg-cover bg-center gap-4 sm:gap-10'>
         <div className={`${blackishLayerClasses} opacity-75`} />
         <div className='z-[10] flex flex-col items-start gap-4 sm:gap-10 text-white'>

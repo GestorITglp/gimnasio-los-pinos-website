@@ -55,12 +55,40 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
           <li>{t('section-1.list.item-10-text')}</li>
         </ul>
       </section>
-      <section
-        id='section-6'
-        className='px-[20px] lg:px-[200px] py-[50px] flex flex-col gap-4 justify-center items-center'
-      >
-        <h2 className={`${h2Classes}`}>{t('section-6.title')}</h2>
-        <p className={`${pClasses}`}>{t('section-6.description')}</p>
+      <section className='px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center mb-[50px] gap-10'>
+        <div className='flex flex-col justify-center items-center gap-10 w-[600px]'>
+          <h2 className={`${h2Classes}`}>{t('section-6.title')}</h2>
+          <p className={`${pClasses}`}>{t('section-6.description')}</p>
+          <Link
+            href='https://www.ibo.org/es/'
+            target='_blank'
+            type='button'
+            className={`${normalBtnClasses}`}
+          >
+            {t('section-4.button-text')}
+          </Link>
+        </div>
+        <figure className='flex flex-col items-center gap-4'>
+          <img
+            className='w-[500px]'
+            src='/internationalBacNew.jpeg'
+            alt='Section 3'
+          />
+          <figcaption className='text-center'>
+            {t.rich('section-3.image-fig-caption', {
+              link: (text) => {
+                return (
+                  <Link
+                    href='/'
+                    className='text-light-green underline font-bold'
+                  >
+                    {text}
+                  </Link>
+                );
+              },
+            })}
+          </figcaption>
+        </figure>
       </section>
       <section className='flex flex-row flex-wrap gap-5 justify-center items-center'>
         <Link href='#pepSection'>
@@ -163,39 +191,11 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
           {t('section-5.ib-description-text')}
         </p>
       </section>
-      <div className='divider' />
-      <section className='px-[20px] sm:px-[200px] flex flex-row flex-wrap sm:flex-nowrap justify-evenly items-center mb-[50px] gap-10'>
-        <div className='flex flex-col gap-10 w-[600px]'>
-          <h2 className={`${h2Classes}`}>{t('section-3.title')}</h2>
-          <p className={`${pClasses}`}>{t('section-3.description')}</p>
-        </div>
-        <figure className='flex flex-col items-center gap-4'>
-          <img
-            className='w-[500px]'
-            src='/internationalBacNew.jpeg'
-            alt='Section 3'
-          />
-          <figcaption className='text-center'>
-            {t.rich('section-3.image-fig-caption', {
-              link: (text) => {
-                return (
-                  <Link
-                    href='/'
-                    className='text-light-green underline font-bold'
-                  >
-                    {text}
-                  </Link>
-                );
-              },
-            })}
-          </figcaption>
-        </figure>
-      </section>
-      <section
+      {/* <section
         id='section-4'
         className='px-[200px] flex flex-col items-center gap-10'
       >
-        {/* <ul className='flex flex-row gap-10 justify-center items-center flex-wrap'>
+        <ul className='flex flex-row gap-10 justify-center items-center flex-wrap'>
           <li className='relative w-[280px] h-[280px] bg-red-500 flex-1 rounded-lg flex justify-center items-center text-center p-4 text-lg font-bold text-white basis-[280px] min-w-[280px] max-w-[280px] bg-[url("/carrousel1.jpg")] bg-cover bg-center'>
             <div
               className={`absolute top-0 left-0 w-full h-full bg-dark-green-200 opacity-80 rounded-lg`}
@@ -228,28 +228,20 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
               {t('section-4.list.list-item-4-text')}
             </span>
           </li>
-        </ul> */}
-        <Link
-          href='https://www.ibo.org/es/'
-          target='_blank'
-          type='button'
-          className={`${normalBtnClasses}`}
-        >
-          {t('section-4.button-text')}
-        </Link>
-      </section>
-      <section
+        </ul>
+      </section> */}
+      {/* <section
         id='section-5'
         className='w-full min-h-[50vh] px-[20px] lg:px-[200px] py-[50px] flex flex-col gap-4 justify-center items-center bg-no-repeat bg-[url("/modelo.jpg")] bg-center sm:bg-[position:-200%_40%] bg-cover'
       >
-        {/* <div className={`${blackishLayerClasses} opacity-25`} /> */}
+        <div className={`${blackishLayerClasses} opacity-25`} />
         <h2 className='text-2xl sm:text-[50px] z-[10] font-bold text-white leading-none text-center sm:text-start'>
           {t('section-3.title')}
         </h2>
         <p className={`${pClasses} text-white z-[100]`}>
           {t('section-3.description')}
         </p>
-        {/* <Modal
+        <Modal
           title={''}
           labelContent={
             <div className='w-full sm:w-fit p-4 btn btn-lg btn-square text-white bg-transparent border-2 border-white hover:bg-white hover:text-black hover:border-white z-[1000]'>
@@ -332,8 +324,8 @@ const InternationalBaccalaureatePage: FC<Props> = ({}) => {
             </div>
           }
           closeBtnText={'Este es el boton para cerrar'}
-        /> */}
-      </section>
+        />
+      </section> */}
     </main>
   );
 };

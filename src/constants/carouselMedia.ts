@@ -20,10 +20,10 @@ export const carouselMedia = [
   { type: 'image', src: '/enfasis ciencias aplicadas.jpg' },
   {
     type: 'video',
-    src: 'https://corgimpin-my.sharepoint.com/personal/comercial_gimnasiolospinos_edu_co/_layouts/15/stream.aspx?id=%2Fpersonal%2Fcomercial%5Fgimnasiolospinos%5Fedu%5Fco%2FDocuments%2FDatos%20adjuntos%2F1920x1080%5F2%20%281%29%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea387b95c%2D5674%2D425d%2Dad35%2D949cc636a132',
+    videoId: 'z2bfydWT08g',
   },
   {
     type: 'video',
-    src: 'https://corgimpin-my.sharepoint.com/personal/comercial_gimnasiolospinos_edu_co/_layouts/15/stream.aspx?id=%2Fpersonal%2Fcomercial%5Fgimnasiolospinos%5Fedu%5Fco%2FDocuments%2FDatos%20adjuntos%2FGLP%5F25%5FENE%5FREDES%5FBIENVENIDA%5F1920X1080%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb624ca0b%2D7424%2D4c00%2Dac2f%2Dd2b982c19931',
+    videoId: 'ZuLdyHzYg0w',
   },
 ];

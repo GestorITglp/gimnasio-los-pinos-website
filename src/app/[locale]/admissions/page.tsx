@@ -437,16 +437,15 @@ const AdmissionsPage: FC<Props> = ({ params: { locale } }) => {
                     alt={`Slide ${index + 1}`}
                   />
                 ) : (
-                  <video
-                    src={media.src}
-                    className='w-full object-contain'
-                    controls // Add controls for video playback
-                    autoPlay={index === 0} // Autoplay the first video
-                    loop // Loop the video
-                    muted // Mute the video (required for autoplay in some browsers)
-                  >
-                    Your browser does not support the video tag.
-                  </video>
+                  <div className='w-full aspect-video'>
+                    <iframe
+                      src={`https://www.youtube.com/embed/${media.videoId}?autoplay=0&controls=1&mute=0`}
+                      className='w-full h-full'
+                      title={`YouTube Video ${index + 1}`}
+                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                      allowFullScreen
+                    ></iframe>
+                  </div>
                 )}
 
                 {/* Navigation buttons */}
