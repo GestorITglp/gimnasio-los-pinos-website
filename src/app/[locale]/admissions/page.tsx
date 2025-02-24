@@ -12,6 +12,52 @@ import {
   linkVideo,
 } from '@/constants/links';
 import { carouselMedia } from '@/constants/carouselMedia';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Admisiones - GLP',
+  description:
+    'Encuentra toda la información necesaria para el proceso de admisión en el Gimnasio los Pinos. Descubre los requisitos, formularios de preinscripción e inscripción, lista de útiles escolares y detalles sobre los uniformes. ¡Te guiamos paso a paso para que formes parte de nuestra comunidad educativa!',
+  keywords: [
+    'admisiones colegio',
+    'proceso de admisión',
+    'formulario de preinscripción',
+    'formulario de inscripción',
+    'compra de formulario',
+    'lista de útiles escolares',
+    'uniformes escolares',
+    'requisitos de admisión',
+    'colegio bogotá',
+    'colegio usaquén',
+    'colegio bilingüe',
+    'colegio IB',
+    'colegio internacional',
+    'colegios en bogotá',
+    'colegios en colombia',
+    'admisión estudiantes nuevos',
+    'colegio trilingüe',
+    'educación de calidad',
+    'colegios privados bogotá',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co/admissions',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Admisiones - GLP',
+    description:
+      'Descubre el proceso de admisión del Gimnasio los Pinos. Encuentra formularios de preinscripción e inscripción, lista de útiles escolares, requisitos y detalles sobre uniformes. ¡Únete a nuestra comunidad educativa!',
+  },
+};
 
 interface Props {
   params: {

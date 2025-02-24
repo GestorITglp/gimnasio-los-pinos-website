@@ -6,6 +6,53 @@ import Modal from '@/components/Modal/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserNurse } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Bachillerato Internacional - GLP',
+  description:
+    'El Gimnasio los Pinos es un colegio IB que ofrece los programas del Bachillerato Internacional: Primary Years Programme (PYP), Middle Years Programme (MYP) y Diploma Programme (DP). Formamos profesionales investigativos, informados, pensadores, comunicadores, íntegros, de mentalidad abierta, solidarios, audaces, equilibrados y reflexivos.',
+  keywords: [
+    'bachillerato internacional',
+    'colegio IB',
+    'Primary Years Programme',
+    'PYP',
+    'Middle Years Programme',
+    'MYP',
+    'Diploma Programme',
+    'DP',
+    'educación internacional',
+    'colegio bilingüe bogotá',
+    'formación integral',
+    'colegios IB en bogotá',
+    'colegios IB en colombia',
+    'beneficios del IB',
+    'educación de calidad',
+    'colegios con bachillerato internacional',
+    'perfil de la comunidad IB',
+    'colegios en usaquén',
+    'colegios en bogotá',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co/international-baccalaureate',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Bachillerato Internacional - GLP',
+    description:
+      'Descubre los programas del Bachillerato Internacional en el Gimnasio los Pinos: PYP, MYP y DP. Formamos estudiantes investigativos, informados, pensadores, comunicadores, íntegros y de mentalidad abierta, preparándolos para ser líderes globales.',
+  },
+};
+
 interface Props {
   params: {
     locale: string;

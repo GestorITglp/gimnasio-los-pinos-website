@@ -14,6 +14,49 @@ import {
   linkMenuRestaurante,
   linkPagoTransporte,
 } from '@/constants/links';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Servicios - GLP',
+  description:
+    'En el Gimnasio los Pinos ofrecemos una variedad de servicios integrales para apoyar el desarrollo académico y personal de nuestros estudiantes. Incluimos servicios de psicología, transporte escolar seguro y eficiente, restaurante con opciones saludables, biblioteca bien equipada, uniformes, y atención de enfermería.',
+  keywords: [
+    'servicios escolares',
+    'psicología escolar',
+    'transporte escolar',
+    'rutas escolares',
+    'restaurante escolar',
+    'biblioteca escolar',
+    'uniformes escolares',
+    'enfermería escolar',
+    'colegio bilingüe bogotá',
+    'educación integral',
+    'servicios estudiantiles',
+    'colegios en usaquén',
+    'colegios en bogotá',
+    'apoyo estudiantil',
+    'seguridad escolar',
+    'salud escolar',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co/services',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Servicios - GLP',
+    description:
+      'Descubre los servicios integrales del Gimnasio los Pinos, diseñados para apoyar el desarrollo académico y personal de nuestros estudiantes. Incluye psicología, transporte, restaurante, biblioteca, uniformes y enfermería.',
+  },
+};
 
 interface Props {
   params: {

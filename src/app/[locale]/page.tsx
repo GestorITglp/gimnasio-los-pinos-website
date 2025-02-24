@@ -21,6 +21,50 @@ import InfiniteLogoScroll from '@/components/InfiniteLogoScroll/InfiniteLogoScro
 import BannerSlideshow from '@/components/BannerSlideshow/BannerSlideshow';
 import NewsCarousel from '@/components/NewsCarousel/NewsCarousel';
 import { galleryFolders } from '@/constants/galleryFolders';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Gimnasio los Pinos',
+  description:
+    'En el Gimnasio los Pinos llevamos a cabo un proceso de formación integral para que sus hijos puedan llegar a ser los mejores profesionales del país. Todo esto gracias a nuestro Bachillerato Internacional.',
+  keywords: [
+    'colegio',
+    'primaria',
+    'secundaria',
+    'bachillerato',
+    'bachillerato internacional',
+    'educación',
+    'colegios bogotá',
+    'colegios colombia',
+    'bogotá',
+    'school',
+    'colegios usaquén',
+    'español',
+    'inglés',
+    'francés',
+    'colegios bilingues',
+    'colegios trilingues',
+    'colegios ib',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Gimnasio los Pinos',
+    description:
+      'En el Gimnasio los Pinos llevamos a cabo un proceso de formación integral para que sus hijos puedan llegar a ser los mejores profesionales del país. Todo esto gracias a nuestro Bachillerato Internacional.',
+  },
+};
 
 interface Props {
   params: {

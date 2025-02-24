@@ -1,5 +1,53 @@
 import { FC } from 'react';
 import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Nosotros - GLP',
+  description:
+    'Conoce más sobre el Gimnasio los Pinos: nuestra misión, visión, política de calidad, historia y valores. Somos una institución comprometida con la formación integral de nuestros estudiantes, basada en excelencia académica, principios éticos y un enfoque en el desarrollo humano.',
+  keywords: [
+    'nosotros',
+    'misión colegio',
+    'visión colegio',
+    'política de calidad',
+    'historia del colegio',
+    'valores del colegio',
+    'colegio bilingüe',
+    'colegio IB',
+    'colegio internacional',
+    'colegio bogotá',
+    'colegio usaquén',
+    'educación integral',
+    'excelencia académica',
+    'formación ética',
+    'desarrollo humano',
+    'colegios en bogotá',
+    'colegios en colombia',
+    'colegios privados',
+    'colegios con valores',
+    'colegios con calidad educativa',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co/about-us',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Nosotros - Gimnasio los Pinos',
+    description:
+      'Descubre la misión, visión, política de calidad, historia y valores del Gimnasio los Pinos. Una institución dedicada a la formación integral y la excelencia académica.',
+  },
+};
+
 interface Props {}
 
 const AboutUsPage: FC<Props> = ({}) => {

@@ -11,6 +11,52 @@ import {
   faSoccerBall,
 } from '@fortawesome/free-solid-svg-icons';
 import { linkCalendario } from '@/constants/links';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Proyecto Educativo - Gimnasio los Pinos',
+  description:
+    'El Gimnasio los Pinos ofrece un Proyecto Educativo único con énfasis en el desarrollo de talentos: deportes, arte, humanidades y ciencia aplicada. Además, contamos con un amplio programa de actividades extracurriculares y un calendario académico diseñado para fomentar el crecimiento integral de nuestros estudiantes.',
+  keywords: [
+    'proyecto educativo',
+    'desarrollo de talentos',
+    'énfasis en deportes',
+    'énfasis en arte',
+    'énfasis en humanidades',
+    'énfasis en ciencia aplicada',
+    'actividades extracurriculares',
+    'calendario académico',
+    'colegio integral',
+    'educación personalizada',
+    'colegios en bogotá',
+    'colegios en usaquén',
+    'formación deportiva',
+    'formación artística',
+    'formación científica',
+    'colegios con actividades extracurriculares',
+    'colegios con enfoque en talentos',
+    'educación diversificada',
+    'colegios en colombia',
+  ],
+  generator: 'Next.js',
+  applicationName: 'Gimnasio los Pinos',
+  creator: 'Daniel Ricardo Ramírez Molina',
+  twitter: {
+    card: 'summary_large_image',
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+  },
+  openGraph: {
+    images:
+      'https://play-lh.googleusercontent.com/_cOJFTCP05a2gam4rSXrB7bnqg4V2QLfUgywW8XZVFtIkN8Wvh8C2rkH-UHR6OKxxok',
+    url: 'https://gimnasiolospinos.edu.co/educational-project',
+    type: 'website',
+    siteName: 'Gimnasio los Pinos',
+    title: 'Proyecto Educativo - GLP',
+    description:
+      'Descubre nuestro Proyecto Educativo con énfasis en deportes, arte, humanidades y ciencia aplicada. Ofrecemos actividades extracurriculares y un calendario académico diseñado para el desarrollo integral de nuestros estudiantes.',
+  },
+};
 
 interface Props {
   params: {
