@@ -332,7 +332,7 @@ const RootLayout: FC<Props> = ({ children, params: { locale } }) => {
                 </li>
                 <li>
                   <a
-                    href='/academy'
+                    href='/contacts'
                     className={`${linkClasses}`}
                   >
                     {t('header.navbar.contacts-page-link-text')}
